@@ -215,7 +215,7 @@ const sections = [
             },
             {
                 title: "Struts",
-                img: "https://www.chetu.com/img/on-demand-developers/java/struts/description-images/struts-logo.png",
+                img: "https://www.chetu.com/img/on-demand-developers/java/struts/content-images/struts-logo.png",
                 layout: {
                     bg: "indigo d-2",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -240,7 +240,7 @@ const sections = [
             },
             {
                 title: "jQuery",
-                img: "https://i.dlpng.com/static/png/480649_preview.png",
+                img: "https://creativo-websolutions.com/my_files/2020/04/iconfinder_jquery_3069646.png",
                 layout: {
                     bg: "blue l-2",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -257,7 +257,7 @@ const sections = [
             },
             {
                 title: "NodeJS",
-                img: "https://sdtimes.com/wp-description/uploads/2018/04/1_tfZa4vsI6UusJYt_fzvGnQ.png",
+                img: "https://cdn.iconscout.com/icon/free/png-512/node-js-1174925.png",
                 layout: {
                     bg: "green d-4",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",  
@@ -313,33 +313,57 @@ const sections = [
                 },
             },
             {
-                title: "LoremPicsum",
-                img: "http://simpleicon.com/wp-description/uploads/camera.png",
+                title: "LoremIpsum",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png",
+                isSwippable: true,
+                invertImgColors: true,
                 layout: {
-                    bg: "pink l-2",
+                    bg: "pink d-3",
                     size: "col-s-12 col-m-12 col-l-8 col-xl-8",
-                    darkTxt: true,
-                }
-            },
-            {
-                title: "ResumeBuilder",
-                img: "https://img.icons8.com/ios/452/open-resume.png",
-                layout: {                
-                    bg: "green",
-                    size: "col-s-12 col-m-12 col-l-6 col-xl-6",
-                    darkTxt: true, 
-                }
+                },
+                back: {
+                    description: "Una red social estilo Instagram creada con React"
+                },
+                button: {
+                    label: "Ver LoremIpsum",
+                    path: "https://sebastianvelo.github.io/loremipsum",
+                },
             },
             {
                 title: "PixelArt",
                 img: "https://image.flaticon.com/icons/png/512/98/98755.png",
+                isSwippable: true,
                 darkTxt: true,                
                 layout: {            
                     bg: "white",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
                     darkTxt: true, 
-                }
-            }
+                },
+                back: {
+                    description: "¡Una aplicación web para hacer pixel art!"
+                },
+                button: {
+                    label: "Ver PixelArt",
+                    path: "https://sebastianvelo.github.io/pixel-art",
+                },
+            },
+            {
+                title: "ResumeCreator",
+                img: "https://img.icons8.com/ios/452/open-resume.png",
+                isSwippable: true,
+                invertImgColors: true,
+                layout: {                
+                    bg: "green d-3",
+                    size: "col-s-12 col-m-12 col-l-6 col-xl-6",
+                },
+                back: {
+                    description: "En resumecreator podrás crear de manera sencilla tu CV."
+                },
+                button: {
+                    label: "Ver ResumeCreator",
+                    path: "https://resumecreator.github.io/cvbuilder/#/",
+                },
+            },
         ]
     },
     {
@@ -392,10 +416,10 @@ const sections = [
             },
             {
                 title: "CodePen",
-                img: "https://blog.codepen.io/wp-description/uploads/2012/06/Button-Fill-Black-Large.png",
+                img: "https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png",
                 isSwippable: true,
                 layout: {
-                    bg: "white d-1",
+                    bg: "white d-2",
                     size: "col-s-6 col-m-6 col-l-4 col-xl-4",
                     darkTxt: true,
                 },
@@ -403,42 +427,38 @@ const sections = [
                     description: "@sebastianvelo",
                 },
                 button: {
-                    label: "Ir a GitHub",
-                    path: "https://github.com/sebastianvelo",
+                    label: "Ir a CodePen",
+                    path: "https://codepen.io/sebastianvelo/",
                 }
             },
             {
                 title: "LinkedIn",
-                img: "http://assets.stickpng.com/images/58e91afdeb97430e81906504.png",
+                img: "https://arquitecturaxaviercliment.files.wordpress.com/2016/02/linkedin_logo_initials.png",
                 isSwippable: true,
                 layout: {
-                    bg: "lightblue",
+                    bg: "lightblue l-2",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
                     darkTxt: true,
                 },
                 back: {
-                    description: "@sebastianvelo",
+                    description: "/sebastian-velo",
                 },
                 button: {
-                    label: "Ir a GitHub",
-                    path: "https://github.com/sebastianvelo",
+                    label: "Ir a LinkedIn",
+                    path: "https://www.linkedin.com/in/sebastian-velo/",
                 }
             },
             {
                 title: "E-Mail",
                 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microsoft_Outlook_2013_logo.svg/1200px-Microsoft_Outlook_2013_logo.svg.png",                isSwippable: true,
                 layout: {
-                    bg: "blue",
+                    bg: "blue l-2",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
                     darkTxt: true,
                 },
                 back: {
-                    description: "@sebastianvelo",
+                    description: "sebastian_velo@hotmail.com",
                 },
-                button: {
-                    label: "Ir a GitHub",
-                    path: "https://github.com/sebastianvelo",
-                }
             },
         ]
     }
