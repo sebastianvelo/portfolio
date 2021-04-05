@@ -13,7 +13,7 @@ const sections = [
     },
     {
         title: "Mi experiencia",
-        img: "https://cdn1.iconfinder.com/data/icons/lmooth-business-and-office-line/32/Office_Bag_business_work_job_-512.png",
+        img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
         isSwippable: true,
         invertImgColors: true,
         layout: {
@@ -30,7 +30,7 @@ const sections = [
         children: [
             {
                 title: "Mi experiencia",
-                img: "https://cdn1.iconfinder.com/data/icons/lmooth-business-and-office-line/32/Office_Bag_business_work_job_-512.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
                 isSwippable: true,
                 invertImgColors: true,
                 layout: {
@@ -44,7 +44,7 @@ const sections = [
             },
             {
                 title: "Mercado Libre",
-                img: "https://www.mercadolibre.com.ar/brandprotection/enforcement/images?src=meli-logo.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/meli.png?raw=true",
                 isSwippable: true,
                 layout: {
                     bg: "yellow d-1",
@@ -61,7 +61,7 @@ const sections = [
             },
             {
                 title: "ICBC",
-                img: "https://seeklogo.com/images/I/ICBC-logo-71BB1FD4EA-seeklogo.com.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
                 isSwippable: true,
                 layout: {
                     bg: "white",
@@ -78,7 +78,7 @@ const sections = [
             },
             {
                 title: "Banco Galicia",
-                img: "https://lecermob.com/wp-description/uploads/2020/07/banco-galicia.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/galicia.png?raw=true",
                 layout: {
                     bg: "darkorange",
                     size: "col-s-12 col-m-12 col-l-4 col-xl-4",
@@ -90,7 +90,7 @@ const sections = [
             },
             {
                 title: "ICBC",
-                img: "https://seeklogo.com/images/I/ICBC-logo-71BB1FD4EA-seeklogo.com.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
                 isSwippable: true,
                 layout: {
                     bg: "white",
@@ -109,7 +109,7 @@ const sections = [
     },
     {
         title: "Mi formación",
-        img: "https://i.pinimg.com/originals/3e/e7/87/3ee78760d85467a2819be0d1ae677655.png",
+        img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
         isSwippable: true,
         invertImgColors: true,
         layout: {
@@ -126,7 +126,7 @@ const sections = [
         children: [
             {
                 title: "Mi formación",
-                img: "https://i.pinimg.com/originals/3e/e7/87/3ee78760d85467a2819be0d1ae677655.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
                 isSwippable: true,
                 invertImgColors: true,
                 layout: {
@@ -140,7 +140,7 @@ const sections = [
             },
             {
                 title: "Técnico en Informática",
-                img: "https://www.tecnica7.edu.ar/imagenes/logo-eest7.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/jh.png?raw=true",
                 layout: {
                     bg: "blue l-2",
                     size: "col-s-12 col-m-12 col-l-8 col-xl-8",
@@ -148,7 +148,7 @@ const sections = [
             },
             {
                 title: "Dip. en Des. de Videojuegos",
-                img: "https://i.pinimg.com/originals/71/82/38/7182382fd0d3ee360af668f862365f8e.gif",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/utn.gif?raw=true",
                 layout: {
                     bg: "white d-2",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
@@ -157,7 +157,7 @@ const sections = [
             },
             {
                 title: "Desarrollador Java",
-                img: "https://www.exo.com.ar/2en1/img/EXO.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/exo.png?raw=true",
                 layout: {
                     bg: "red l-2",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
@@ -168,7 +168,7 @@ const sections = [
     },
     {
         title: "Mis skills",
-        img: "https://static.thenounproject.com/png/2473268-200.png",
+        img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
         isSwippable: true,
         invertImgColors: true,
         layout: {
@@ -185,7 +185,7 @@ const sections = [
         children: [
             {
                 title: "Mis skills",
-                img: "https://static.thenounproject.com/png/2473268-200.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
                 isSwippable: true,
                 invertImgColors: true,
                 layout: {
@@ -199,7 +199,7 @@ const sections = [
             },
             {
                 title: "Java",
-                img: "https://image.flaticon.com/icons/png/512/226/226777.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/java.png?raw=true",
                 layout: {
                     bg: "lightblue d-3",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -207,7 +207,7 @@ const sections = [
             },
             {
                 title: "Spring",
-                img: "https://4.bp.blogspot.com/-Wu0VFZBMbhw/VlgexscHoII/AAAAAAAACMI/qNNAmSPbyGo/s1600/photo.jpg",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/spring.png?raw=true",
                 layout: {
                     bg: "green d-3",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -215,7 +215,7 @@ const sections = [
             },
             {
                 title: "Struts",
-                img: "https://www.chetu.com/img/on-demand-developers/java/struts/content-images/struts-logo.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/struts.png?raw=true",
                 layout: {
                     bg: "indigo d-2",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -223,7 +223,7 @@ const sections = [
             },
             {
                 title: "GIT",
-                img: "https://image.flaticon.com/icons/png/512/25/25231.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/git.png?raw=true",
                 layout: {
                     bg: "pink d-2",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -231,7 +231,7 @@ const sections = [
             },
             {
                 title: "JavaScript",
-                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/js.png?raw=true",
                 layout: {
                     bg: "yellow d-1",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -240,16 +240,16 @@ const sections = [
             },
             {
                 title: "jQuery",
-                img: "https://creativo-websolutions.com/my_files/2020/04/iconfinder_jquery_3069646.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/jquery.png?raw=true",
                 layout: {
                     bg: "blue l-2",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
-                    darkTxt: true, 
+                    darkTxt: true,
                 }
             },
             {
                 title: "React",
-                img: "https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/react.png?raw=true",
                 layout: {
                     bg: "lightblue d-4",
                     size: "col-s-6 col-m-6 col-l-2 col-xl-2",
@@ -257,33 +257,33 @@ const sections = [
             },
             {
                 title: "NodeJS",
-                img: "https://cdn.iconscout.com/icon/free/png-512/node-js-1174925.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/nodejs.png?raw=true",
                 layout: {
                     bg: "green d-4",
-                    size: "col-s-6 col-m-6 col-l-2 col-xl-2",  
+                    size: "col-s-6 col-m-6 col-l-2 col-xl-2",
                 }
             },
             {
                 title: "Bootstrap",
-                img: "https://www.troopsf.com/file/bootstrap-logo.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/bootstrap.png?raw=true",
                 layout: {
                     bg: "indigo d-4",
-                    size: "col-s-6 col-m-6 col-l-2 col-xl-2", 
+                    size: "col-s-6 col-m-6 col-l-2 col-xl-2",
                 }
             },
             {
                 title: "SASS",
-                img: "https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/sass.png?raw=true",
                 layout: {
                     bg: "pink d-4",
-                    size: "col-s-6 col-m-6 col-l-2 col-xl-2",  
+                    size: "col-s-6 col-m-6 col-l-2 col-xl-2",
                 }
             },
         ]
     },
     {
         title: "Mis proyectos",
-        img: "https://img.icons8.com/ios/452/rocket--v1.png",
+        img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
         isSwippable: true,
         invertImgColors: true,
         layout: {
@@ -300,7 +300,7 @@ const sections = [
         children: [
             {
                 title: "Mis proyectos",
-                img: "https://img.icons8.com/ios/452/rocket--v1.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
                 isSwippable: true,
                 invertImgColors: true,
                 layout: {
@@ -314,7 +314,7 @@ const sections = [
             },
             {
                 title: "LoremIpsum",
-                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/loremipsum.png?raw=true",
                 isSwippable: true,
                 invertImgColors: true,
                 layout: {
@@ -331,13 +331,13 @@ const sections = [
             },
             {
                 title: "PixelArt",
-                img: "https://image.flaticon.com/icons/png/512/98/98755.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/pixelart.png?raw=true",
                 isSwippable: true,
-                darkTxt: true,                
-                layout: {            
+                darkTxt: true,
+                layout: {
                     bg: "white",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
-                    darkTxt: true, 
+                    darkTxt: true,
                 },
                 back: {
                     description: "¡Una aplicación web para hacer pixel art!"
@@ -349,10 +349,10 @@ const sections = [
             },
             {
                 title: "ResumeCreator",
-                img: "https://img.icons8.com/ios/452/open-resume.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/resumecreator.png?raw=true",
                 isSwippable: true,
                 invertImgColors: true,
-                layout: {                
+                layout: {
                     bg: "green d-3",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
                 },
@@ -368,7 +368,7 @@ const sections = [
     },
     {
         title: "Contacto",
-        img: "https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png",
+        img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",
         isSwippable: true,
         invertImgColors: true,
         layout: {
@@ -385,7 +385,7 @@ const sections = [
         children: [
             {
                 title: "Contacto",
-                img: "https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",
                 isSwippable: true,
                 invertImgColors: true,
                 layout: {
@@ -399,7 +399,7 @@ const sections = [
             },
             {
                 title: "GitHub",
-                img: "https://image.flaticon.com/icons/png/512/25/25231.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/github.png?raw=true",
                 isSwippable: true,
                 layout: {
                     bg: "white",
@@ -416,7 +416,7 @@ const sections = [
             },
             {
                 title: "CodePen",
-                img: "https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/codepen.png?raw=true",
                 isSwippable: true,
                 layout: {
                     bg: "white d-2",
@@ -433,7 +433,7 @@ const sections = [
             },
             {
                 title: "LinkedIn",
-                img: "https://arquitecturaxaviercliment.files.wordpress.com/2016/02/linkedin_logo_initials.png",
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/linkedin.png?raw=true",
                 isSwippable: true,
                 layout: {
                     bg: "lightblue l-2",
@@ -450,7 +450,8 @@ const sections = [
             },
             {
                 title: "E-Mail",
-                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microsoft_Outlook_2013_logo.svg/1200px-Microsoft_Outlook_2013_logo.svg.png",                isSwippable: true,
+                img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/email.png?raw=true",
+                isSwippable: true,
                 layout: {
                     bg: "blue l-2",
                     size: "col-s-12 col-m-12 col-l-6 col-xl-6",
