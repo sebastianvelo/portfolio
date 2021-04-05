@@ -1,0 +1,43 @@
+@import "./color-variables";
+
+@mixin lightenSettings($hexa, $i: 0, $property: background-color) {
+    background-color: lighten($hexa, $i * 7) !important;
+}
+
+@mixin darkenSettings($hexa, $i: 0, $property: background-color) {
+    background-color: darken($hexa, $i * 7) !important;
+}
+
+@each $name, $hexa in $colors {
+    .#{$name} {
+        @include lightenSettings($hexa: $hexa);
+    }
+    .txt-#{$name} {
+        color: $hexa;
+    }
+    .txt-#{$name} * {
+        color: $hexa !important;
+    }
+    @for $i from 1 through $lightens {
+        .#{$name}.l-#{$i} {
+            @include lightenSettings($hexa: $hexa, $i: $i);
+        }
+        .txt-#{$name}-l-#{$i} {
+            color: lighten($hexa, $i * 7);
+        }
+        .txt-#{$name}-l-#{$i} * {
+            color: lighten($hexa, $i * 7) !important;
+        }
+    }
+    @for $i from 1 through $darkens {
+        .#{$name}.d-#{$i} {
+            @include darkenSettings($hexa: $hexa, $i: $i);
+        }
+        .txt-#{$name}-d-#{$i} {
+            color: darken($hexa, $i * 7);
+        }
+        .txt-#{$name}-d-#{$i} * {
+            color: darken($hexa, $i * 7) !important;
+        }
+    }
+}

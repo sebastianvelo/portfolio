@@ -1,0 +1,17 @@
+.main-header {
+    position: relative;
+    .main-header--title {
+        margin: 0;
+        padding: $padding-primary;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        cursor: pointer;
+    }
+    .main-header--nav {
+        padding: $padding-primary;
+        right: 0;
+        top: 0 - ($padding-primary / 2);
+        position: absolute;
+    }
+}

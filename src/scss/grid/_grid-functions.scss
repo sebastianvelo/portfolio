@@ -1,0 +1,9 @@
+@function col($screen, $i) {
+    @return ".col" + map-get($screen, "name") + $i;
+}
+@function offset($screen, $i) {
+    @return ".offset" + map-get($screen, "name") + $i;
+}
+@function hidden($screen) {
+    @return ".hidden" + map-get($screen, "name");
+}

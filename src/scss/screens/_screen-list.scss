@@ -1,0 +1,26 @@
+$s: (
+    "name": "-s-",
+    "min-width": 0px,
+    "max-width": 767px,
+);
+$m: (
+    "name": "-m-",
+    "min-width": map-get($s, "max-width") + 1px,
+    "max-width": 1007px,
+);
+$l: (
+    "name": "-l-",
+    "min-width": map-get($m, "max-width") + 1px,
+    "max-width": 1299px,
+);
+$xl: (
+    "name": "-xl-",
+    "min-width": map-get($l, "max-width") + 1px,
+    "max-width": 3000px,
+);
+$a: (
+    "name": "-a-",
+    "min-width": map-get($s, "min-width"),
+    "max-width": map-get($xl, "max-width"),
+);
+$screens: $s, $m, $l, $xl, $a;

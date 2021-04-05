@@ -1,0 +1,18 @@
+nav {
+    color: $dark;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: block;
+        li {
+            padding: $padding-primary;
+            display: inline-block;
+            font-weight: bold;
+            &:hover {
+                cursor: pointer;
+                background-color: rgba($color: #000000, $alpha: 0.1);
+            }
+        }
+    }
+}

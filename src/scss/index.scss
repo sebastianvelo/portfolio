@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import "./variables";
+@import "./misc-styles";
+@import "./screens/screens";
+@import "./colors/colors";
+@import "./grid/grid";
+
+@import "./components/typography";
+@import "./components/header";
+@import "./components/nav";
+@import "./components/sidenav";
+@import "./components/hamburger";
+@import "./components/card";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#App {
+    min-height: 100vh;
+}
+

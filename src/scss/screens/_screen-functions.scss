@@ -1,0 +1,4 @@
+@function breakpoint($screen) {
+    @return "only screen and (min-width: " + map-get($screen, "min-width") + ") and (max-width: " +
+        map-get($screen, "max-width") + ")";
+}

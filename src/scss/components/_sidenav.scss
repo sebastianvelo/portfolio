@@ -1,0 +1,28 @@
+$radius: 20px;
+
+.sidenav {
+    list-style-type: none;
+    padding: 0 0 $radius 0;
+    margin: 0;
+    border-bottom-right-radius: $radius;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: -100%;
+    transition: 0.4s;
+    background-color: inherit;
+    &.active {
+        left: 0;
+    }
+    &.half {
+        width: 50%;
+    }
+    li {
+        padding: $padding-primary;
+        width: calc(100% - 32px);
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
