@@ -51,7 +51,7 @@
                 padding: $padding-primary;
                 margin: $margin-primary * 1;
                 font-weight: normal;
-                font-size: 40px;
+                font-size: 30px;
                 text-align: center;
                 letter-spacing: 5px;
                 transition: 1s $transition-style;
@@ -73,7 +73,7 @@
             }
             &:hover &--img {
                 top: 5%;
-                transform: scale(1.5);
+                transform: scale(1.1);
             }
 
             &--title {
@@ -92,11 +92,11 @@
                 }
             }
             &:hover &--title {
-                transform: translateY(-100%);
+                transform: translateY(-50%);
                 border-bottom: 5px solid rgba(255, 255, 255, 0.8);
                 &--letter {
                     color: rgba(255, 255, 255, 1);
-                    transform: translateY(-25%);
+                    transform: translateY(-30%);
                     font-size: 30px;
                 }
             }
