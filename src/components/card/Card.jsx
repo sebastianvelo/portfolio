@@ -10,7 +10,9 @@ class Card extends Component {
     }
 
     toggleStatus() {
-        let status = this.state.status === "" && this.props.section?.isSwippable ? "active" : "";
+        if (!this.props.section?.isSwippable)
+            return;
+        let status = this.state.status === "" ? "active" : "";
         this.setState({ status: status });
     }
 
@@ -39,7 +41,7 @@ export default Card;
 function Title(section, side) {
     return (
         <div className={`card-wrapper--${side}--title ${section.layout?.darkTxt ? "invert" : ""}`}>
-             {Letters(section?.title, "title", side)}
+            {Letters(section?.title, "title", side)}
         </div>
     );
 }
@@ -55,10 +57,10 @@ function Img(section, side) {
 
 function Description(section, side) {
     return (section[side]?.description ?
-            <h1 className={`card-wrapper--${side}--description ${section.layout?.darkTxt ? "invert" : ""}`}>
-                {section[side].description}
-            </h1> :
-            ""
+        <h1 className={`card-wrapper--${side}--description ${section.layout?.darkTxt ? "invert" : ""}`}>
+            {section[side].description}
+        </h1> :
+        ""
     )
 }
 
@@ -71,10 +73,9 @@ function Button(section, side) {
 }
 
 function Letters(txt, sector, side) {
-    return (
-        txt.split("")
-            .map(
-                (letter, i) => <span className={`card-wrapper--${side}--${sector}--letter`} style={{ transitionDelay: `${i * 30}ms` }}>{letter}</span>
-            )
-    )
+    return (txt.split("").map((letter, i) =>
+        <span className={`card-wrapper--${side}--${sector}--letter`} style={{ transitionDelay: `${i * 30}ms` }}>
+            {letter}
+        </span>
+    ))
 }
