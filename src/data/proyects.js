@@ -30,7 +30,7 @@ const proyects = {
             },
         },
         {
-            title: "LoremIpsum",
+            title: "SocialNetwork",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/loremipsum.png?raw=true",
             isSwippable: true,
             invertImgColors: true,
@@ -42,8 +42,8 @@ const proyects = {
                 description: "Una red social estilo Instagram creada con React"
             },
             button: {
-                label: "Ver LoremIpsum",
-                path: "https://sebastianvelo.github.io/loremipsum",
+                label: "Ver SocialNetwork",
+                path: "https://sebastianvelo.github.io/social-network/#/",
             },
         },
         {
