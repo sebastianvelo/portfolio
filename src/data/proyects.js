@@ -59,7 +59,7 @@ const proyects = {
             },
             button: {
                 label: "Ver Prode",
-                path: "https://cprode-arg.web.app/home",
+                path: "https://cprode-arg.web.app/login",
             },
         },
         {
