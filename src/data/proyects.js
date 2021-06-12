@@ -36,7 +36,7 @@ const proyects = {
             invertImgColors: true,
             layout: {
                 bg: "pink d-3",
-                size: "col-s-12 col-m-12 col-l-8 col-xl-8",
+                size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             back: {
                 description: "Una red social estilo Instagram creada con React"
@@ -44,6 +44,22 @@ const proyects = {
             button: {
                 label: "Ver SocialNetwork",
                 path: "https://sebastianvelo.github.io/social-network/#/",
+            },
+        },
+        {
+            title: "Prode",
+            img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/prode.png?raw=true",
+            isSwippable: true,
+            layout: {
+                bg: "blue d-3",
+                size: "col-s-12 col-m-12 col-l-4 col-xl-4",
+            },
+            back: {
+                description: "¡Una app web hecha con Svelte y Firebase para cargar predicciones de partidos!"
+            },
+            button: {
+                label: "Ver Prode",
+                path: "https://cprode-arg.web.app/home",
             },
         },
         {
