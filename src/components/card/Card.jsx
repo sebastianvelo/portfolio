@@ -68,7 +68,7 @@ function Button(section, side) {
     if (!section?.button)
         return "";
     if (section.button.path?.startsWith("http"))
-        return (<a href={section.button.path} className={`card-wrapper--${side}--button`} target="_blank"> {Letters(section.button.label, "button", side)}</a>);
+        return (<a href={section.button.path} className={`card-wrapper--${side}--button`} rel="noreferrer" target="_blank"> {Letters(section.button.label, "button", side)}</a>);
     return (<Link to={{ pathname: section.button.path }} className={`card-wrapper--${side}--button`}> {Letters(section.button.label, "button", side)}</Link>);
 }
 
