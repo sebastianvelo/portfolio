@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import { Route } from "react-router-dom";
-
 import CardsContainer from './components/cardscontainer/CardsContainer';
-
 import sections from './data/sections';
-
-
+ 
 class App extends Component {
   constructor(props) {
     super(props);

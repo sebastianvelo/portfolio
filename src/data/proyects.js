@@ -47,19 +47,20 @@ const proyects = {
             },
         },
         {
-            title: "Prode",
-            img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/prode.png?raw=true",
+            title: "Chat",
+            img: "https://www.iconninja.com/files/949/440/966/net-messenger-msn-online-group-web-chat-icon.svg",
             isSwippable: true,
+            invertImgColors: true,
             layout: {
                 bg: "blue d-3",
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             back: {
-                description: "¡Una app web hecha con Svelte y Firebase para cargar predicciones de partidos!"
+                description: "¡Esta pagina simula ser un MSN en Windows XP! "
             },
             button: {
-                label: "Ver Prode",
-                path: "https://cprode-arg.web.app/login",
+                label: "Ver Chat",
+                path: "https://chat-msn.web.app/",
             },
         },
         {
