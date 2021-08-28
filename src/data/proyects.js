@@ -30,6 +30,24 @@ const proyects = {
             },
         },
         {
+            title: "IFDb",
+            img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/ifdb.png?raw=true",
+            isSwippable: true,
+            darkTxt: true,
+            layout: {
+                bg: "yellow l-1",
+                size: "col-s-12 col-m-12 col-l-4 col-xl-4",
+                darkTxt: true,
+            },
+            back: {
+                description: "¡Esta aplicación web hecha con TypeScript y Tailwind sirve para explorar series, peliculas y actores!"
+            },
+            button: {
+                label: "Ver IFDb",
+                path: "https://internetfilmdb.web.app/#/movie",
+            },
+        },
+        {
             title: "SocialNetwork",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/loremipsum.png?raw=true",
             isSwippable: true,
@@ -70,7 +88,7 @@ const proyects = {
             darkTxt: true,
             layout: {
                 bg: "white",
-                size: "col-s-12 col-m-12 col-l-6 col-xl-6",
+                size: "col-s-12 col-m-12 col-l-4 col-xl-4",
                 darkTxt: true,
             },
             back: {
@@ -88,7 +106,7 @@ const proyects = {
             invertImgColors: true,
             layout: {
                 bg: "green d-3",
-                size: "col-s-12 col-m-12 col-l-6 col-xl-6",
+                size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             back: {
                 description: "En resumecreator podrás crear de manera sencilla tu CV."
