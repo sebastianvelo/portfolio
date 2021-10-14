@@ -3076,7 +3076,7 @@ nav ul li:hover {
   padding: 16px;
   margin: 32px;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 1.3rem;
   text-align: center;
   -webkit-transition: 0.3s cubic-bezier(0.7, -0.5, 0.2, 1.5);
   transition: 0.3s cubic-bezier(0.7, -0.5, 0.2, 1.5);

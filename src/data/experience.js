@@ -1,5 +1,5 @@
 const experience =     {
-    title: "Mi experiencia",
+    title: "Experience",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
     isSwippable: true,
     invertImgColors: true,
@@ -8,15 +8,15 @@ const experience =     {
         size: "col-s-12 col-m-12 col-l-4 col-xl-4",
     },
     back: {
-        description: "Actualmente soy Desarrollador Ssr. en Mercado Libre Argentina.",
+        description: "I'm currently working as a Software Engineer at MercadoLibre.",
     },
     button: {
-        label: "Ver más",
+        label: "See more",
         path: "/experience",
     },
     children: [
         {
-            title: "Mi experiencia",
+            title: "Experience",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
             isSwippable: true,
             invertImgColors: true,
@@ -25,12 +25,12 @@ const experience =     {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             button: {
-                label: "Volver",
+                label: "Go back",
                 path: "/",
             },
         },
         {
-            title: "Mercado Libre",
+            title: "Software Engineer",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/meli.png?raw=true",
             isSwippable: true,
             layout: {
@@ -39,15 +39,15 @@ const experience =     {
                 darkTxt: true,
             },
             back: {
-                description: "Nuevos desarrollos del Vendor Central de Mercado Libre Argentina.",
+                description: "I'm currently working as a Software Engineer at MercadoLibre, developing both back-end and front-end.",
             },
             button: {
-                label: "Ver más",
+                label: "Go back",
                 path: "/experience",
             },
         },
         {
-            title: "ICBC",
+            title: "Software Developer",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
             isSwippable: true,
             layout: {
@@ -56,27 +56,23 @@ const experience =     {
                 darkTxt: true,
             },
             back: {
-                description: "Análisis, mantenimiento y nuevos desarrollos del homebanking corporativo.",
+                description: `I was in the ICBC's Corporate Home banking team, developing projects from beginning to end and mentor junior developers on the team.`,
             },
             button: {
-                label: "Ver más",
+                label: "Go back",
                 path: "/experience",
             },
         },
         {
-            title: "Banco Galicia",
+            title: "Software Developer",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/galicia.png?raw=true",
             layout: {
                 bg: "darkorange",
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
-            button: {
-                label: "Ver más",
-                path: "/experience",
-            },
         },
         {
-            title: "ICBC",
+            title: "Jr. Software Developer",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
             isSwippable: true,
             layout: {
@@ -85,10 +81,10 @@ const experience =     {
                 darkTxt: true,
             },
             back: {
-                description: "Mantenimiento del homebanking corporativo.",
+                description: "In my first professional experience, I worked developing software for ICBC's Corporate Home banking with Java 6, JSP and Struts.",
             },
             button: {
-                label: "Ver más",
+                label: "Go back",
                 path: "/experience",
             },
         }

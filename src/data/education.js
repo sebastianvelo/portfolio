@@ -1,5 +1,5 @@
 const education = {
-    title: "Mi formación",
+    title: "Education",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
     isSwippable: true,
     invertImgColors: true,
@@ -8,15 +8,15 @@ const education = {
         size: "col-s-12 col-m-12 col-l-4 col-xl-4",
     },
     back: {
-        description: "Soy Técnico en Informática y he realizado distintos cursos.",
+        description: "I'm Programming Technician and I have taken some courses.",
     },
     button: {
-        label: "Ver más",
+        label: "See more",
         path: "/education",
     },
     children: [
         {
-            title: "Mi formación",
+            title: "Education",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
             isSwippable: true,
             invertImgColors: true,
@@ -25,12 +25,12 @@ const education = {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             button: {
-                label: "Volver",
+                label: "Go back",
                 path: "/",
             },
         },
         {
-            title: "Técnico en Informática",
+            title: "Programming Technician",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/jh.png?raw=true",
             layout: {
                 bg: "blue l-2",
@@ -38,7 +38,7 @@ const education = {
             }
         },
         {
-            title: "Dip. en Des. de Videojuegos",
+            title: "Unity Game Development course",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/utn.gif?raw=true",
             layout: {
                 bg: "white d-2",
@@ -47,7 +47,7 @@ const education = {
             }
         },
         {
-            title: "Desarrollador Java",
+            title: "Advanced Programming in Java",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/exo.png?raw=true",
             layout: {
                 bg: "red l-2",

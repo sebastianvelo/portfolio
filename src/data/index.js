@@ -1,8 +1,8 @@
 const index =     {
-    title: "Inicio",
+    title: "Home",
     isSwippable: false,
     front: {
-        description: "Portfolio de Sebastian Velo",
+        description: "Sebastian Velo",
     },
     layout: {
         bg: "yellow",

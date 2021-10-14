@@ -1,5 +1,5 @@
 const skills = {
-    title: "Mis skills",
+    title: "Skills",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
     isSwippable: true,
     invertImgColors: true,
@@ -8,15 +8,15 @@ const skills = {
         size: "col-s-12 col-m-12 col-l-4 col-xl-4",
     },
     back: {
-        description: "Java y ReactJS son mis principales skills.",
+        description: "Java and ReactJS are my main skills.",
     },
     button: {
-        label: "Ver más",
+        label: "See more",
         path: "/skills",
     },
     children: [
         {
-            title: "Mis skills",
+            title: "Skills",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
             isSwippable: true,
             invertImgColors: true,
@@ -25,7 +25,7 @@ const skills = {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             button: {
-                label: "Volver",
+                label: "Go back",
                 path: "/",
             },
         },

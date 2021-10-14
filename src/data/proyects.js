@@ -1,5 +1,5 @@
 const proyects = {
-    title: "Mis proyectos",
+    title: "Projects",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
     isSwippable: true,
     invertImgColors: true,
@@ -8,15 +8,15 @@ const proyects = {
         size: "col-s-12 col-m-12 col-l-4 col-xl-4",
     },
     back: {
-        description: "Podrás ver en detalle mis proyectos dando click en 'Ver más'.",
+        description: "I have developed personal projects in React and Svelte.",
     },
     button: {
-        label: "Ver más",
+        label: "See more",
         path: "/proyects",
     },
     children: [
         {
-            title: "Mis proyectos",
+            title: "Projects",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
             isSwippable: true,
             invertImgColors: true,
@@ -25,7 +25,7 @@ const proyects = {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             button: {
-                label: "Volver",
+                label: "Go back",
                 path: "/",
             },
         },
@@ -40,10 +40,10 @@ const proyects = {
                 darkTxt: true,
             },
             back: {
-                description: "¡Esta aplicación web hecha con TypeScript y Tailwind sirve para explorar series, peliculas y actores!"
+                description: "This site is an IMDB clone, my second project with Typescript. It was hosted with Firebase."
             },
             button: {
-                label: "Ver IFDb",
+                label: "See IFDb",
                 path: "https://internetfilmdb.web.app/#/movie",
             },
         },
@@ -57,10 +57,10 @@ const proyects = {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             back: {
-                description: "Una red social estilo Instagram creada con React"
+                description: "This social network is an Instagram clone, made with React and ExpressJS, styled with SCSS and deployed with GitHub Pages."
             },
             button: {
-                label: "Ver SocialNetwork",
+                label: "See SocialNetwork",
                 path: "https://sebastianvelo.github.io/social-network/#/",
             },
         },
@@ -74,10 +74,10 @@ const proyects = {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             back: {
-                description: "¡Esta pagina simula ser un MSN en Windows XP! "
+                description: "This chat app was made with React and Typescript, styled with Tailwind and deployed with Firebase. It has a 00's style!"
             },
             button: {
-                label: "Ver Chat",
+                label: "See Chat",
                 path: "https://chat-msn.web.app/",
             },
         },
@@ -92,10 +92,10 @@ const proyects = {
                 darkTxt: true,
             },
             back: {
-                description: "¡Una aplicación web para hacer pixel art!"
+                description: "A pixel-art web application, created with React, pure CSS and deployed with GitHub Pages."
             },
             button: {
-                label: "Ver PixelArt",
+                label: "See PixelArt",
                 path: "https://sebastianvelo.github.io/pixel-art",
             },
         },
@@ -109,10 +109,10 @@ const proyects = {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             back: {
-                description: "En resumecreator podrás crear de manera sencilla tu CV."
+                description: "You can build your resume in a easy way."
             },
             button: {
-                label: "Ver ResumeCreator",
+                label: "See ResumeCreator",
                 path: "https://resumecreator.github.io/cvbuilder/#/",
             },
         },

@@ -1,5 +1,5 @@
 const contact = {
-    title: "Contacto",
+    title: "Contact",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",
     isSwippable: true,
     invertImgColors: true,
@@ -8,15 +8,15 @@ const contact = {
         size: "col-s-12 col-m-12 col-l-4 col-xl-4",
     },
     back: {
-        description: "¡Podés contactarme por LinkedIn, GitHub o CodePen!",
+        description: "You can contact me by Linkedin, E-mail or Github!",
     },
     button: {
-        label: "Ver más",
+        label: "See more",
         path: "/contact",
     },
     children: [
         {
-            title: "Contacto",
+            title: "Contact",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",
             isSwippable: true,
             invertImgColors: true,
@@ -25,7 +25,7 @@ const contact = {
                 size: "col-s-12 col-m-12 col-l-4 col-xl-4",
             },
             button: {
-                label: "Volver",
+                label: "Go back",
                 path: "/",
             },
         },
@@ -42,7 +42,7 @@ const contact = {
                 description: "@sebastianvelo",
             },
             button: {
-                label: "Ir a GitHub",
+                label: "Go to GitHub",
                 path: "https://github.com/sebastianvelo",
             }
         },
@@ -59,7 +59,7 @@ const contact = {
                 description: "@sebastianvelo",
             },
             button: {
-                label: "Ir a CodePen",
+                label: "Go to CodePen",
                 path: "https://codepen.io/sebastianvelo/",
             }
         },
@@ -76,7 +76,7 @@ const contact = {
                 description: "/sebastian-velo",
             },
             button: {
-                label: "Ir a LinkedIn",
+                label: "Go to LinkedIn",
                 path: "https://www.linkedin.com/in/sebastian-velo/",
             }
         },
