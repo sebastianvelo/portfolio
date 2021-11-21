@@ -1,4 +1,4 @@
-import TailwindStyle from "app/util/TailwindStyle";
+import TailwindStyle from "common/tailwind/TailwindStyle";
 import ColorProps from "./props/ColorProps";
 import RoundableProps from "./props/RoundeableProps";
 import SizeProps from "./props/SizeProps";

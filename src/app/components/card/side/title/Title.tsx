@@ -1,4 +1,4 @@
-import TailwindStyle from "app/util/TailwindStyle";
+import TailwindStyle from "common/tailwind/TailwindStyle";
 import { FunctionComponent } from "react";
 
 const letterStyle = (i: number) =>
@@ -19,7 +19,7 @@ const Title: FunctionComponent<TitleProps> = (props: TitleProps) => {
         props.children.split("").map((letter, i) => (
           <span
             className={letterStyle(i)}
-            style={{ transitionDelay: `${i * 30}ms` }}
+            style={{ transitionDelay: `${i * 50}ms` }}
           >
             {letter}
           </span>

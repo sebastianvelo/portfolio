@@ -7,7 +7,7 @@ export interface ViewProps {
 
 const View: FunctionComponent<ViewProps> = (props: ViewProps) => {
   return (
-    <div className="flex flex-col h-full lg:h-screen">
+    <div className="flex flex-col h-full">
       {props.rows?.map((row) => (
         <CardRow {...row} />
       ))}

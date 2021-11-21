@@ -19,6 +19,7 @@ module.exports = {
         'borderWidth': 'borderWidth',
         'letterSpacing': 'letterSpacing',
         'transform': 'transform',
+        'backgroundOpacity': 'backgroundOpacity',
       },
       colors: {
         primary: {
@@ -60,6 +61,15 @@ module.exports = {
           DEFAULT: colors.gray[900],
           light: colors.gray[800],
         },
+        orange: {
+          ...colors.orange
+        },
+        rose: {
+          ...colors.rose
+        },
+        sky: {
+          ...colors.sky
+        }
       },
       rotate: {
         '360': '360deg'
