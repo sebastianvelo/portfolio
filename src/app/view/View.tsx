@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import CardRow, { CardRowProps } from "../card-row/CardsRow";
+import CardRow, { CardRowProps } from "../components/card-row/CardsRow";
 
 export interface ViewProps {
   rows?: CardRowProps[];

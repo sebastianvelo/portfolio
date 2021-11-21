@@ -1,4 +1,4 @@
-import { ViewProps } from "app/components/view/View";
+import { ViewProps } from "app/view/View";
 
 interface Page extends ViewProps {
   route: string;

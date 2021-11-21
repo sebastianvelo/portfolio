@@ -1,5 +1,5 @@
 import { Route } from "react-router-dom";
-import View from "./components/view/View";
+import View from "./view/View";
 import Views from "../data/Views";
 
 const App = () => (
