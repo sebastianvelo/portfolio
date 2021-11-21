@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  .list-none {
+    list-style-type: none;
+  }
+  .list-none::-webkit-details-marker {
+    display: none;
+  }
+  .card {
+    -webkit-perspective: 100%;
+            perspective: 100%;
+  }
+  .card.active .card-wrapper {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  .card-wrapper {
+    -webkit-transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  .card--front, .card--back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .card--front {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  .card--back {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */
