@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .list-none {
+        list-style-type: none;
+    }
+    .list-none::-webkit-details-marker {
+        display: none;
+    }
+
+    .card {
+        perspective: 100%;
+        &.active &-wrapper {
+            transform: rotateY(-180deg);
+        }
+
+        &-wrapper {
+            transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transform-style: preserve-3d;
+        }
+
+        &--front,
+        &--back {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        &--front {
+            transform: rotateY(0deg);
+        }
+
+        &--back {
+            transform: rotateY(180deg);
+        }
+    }
+}
