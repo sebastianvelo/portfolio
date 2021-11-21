@@ -41,7 +41,7 @@ const socialNetwork = CardPropsBuilder.builder("socialnetwork")
     text: "This social network is an Instagram clone, made with React and ExpressJS, styled with SCSS and deployed with GitHub Pages.",
     action: {
       type: "anchor",
-      children: "See IFDb",
+      children: "See SocialNetwork",
       url: "https://internetfilmdb.web.app/#/movie",
     },
   });
