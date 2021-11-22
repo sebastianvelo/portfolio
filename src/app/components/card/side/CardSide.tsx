@@ -30,7 +30,7 @@ const CardSide = (props: CardSideProps) => {
     <div className={cardSideStyle(props)}>
       {props.img && (
         <img
-          className="w-24 transition-transform transform ease-in-out group-hover:scale-150 group-hover:rotate-360 duration-700"
+          className="w-24 transition-transform transform ease-in-out lg:group-hover:scale-150 group-hover:rotate-360 duration-700"
           src={props.img}
           alt={props.title}
         />

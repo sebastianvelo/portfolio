@@ -43,7 +43,9 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && firebase deploy",
     "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix"
+    "lint:fix": "eslint ./src --fix",
+    "predeploy": "npm run build",
+    "gh-deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

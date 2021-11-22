@@ -34,6 +34,7 @@ const icbc2 = CardPropsBuilder.builder("icbcssr")
     row: true,
   })
   .setBack({
+    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
     text: "I was in the ICBC's Corporate Home banking team, developing projects from beginning to end and mentor junior developers on the team.",
   });
 
@@ -41,6 +42,7 @@ const galicia = CardPropsBuilder.builder("galicia")
   .setClassName("bg-orange-600 text-white")
   .setFront({
     title: "Software Developer",
+    row: true,
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/galicia.png?raw=true",
   });
 
@@ -48,9 +50,11 @@ const icbc1 = CardPropsBuilder.builder("icbcjr")
   .setClassName("bg-gray-200")
   .setFront({
     title: "Jr. Software Developer",
+    row: true,
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
   })
   .setBack({
+    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
     text: "In my first professional experience, I worked developing software for ICBC's Corporate Home banking with Java 6, JSP and Struts.",
   });
 
