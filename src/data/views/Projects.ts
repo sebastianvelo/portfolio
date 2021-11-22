@@ -3,7 +3,8 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 
 const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-pink-700 text-white")
+  .setClassName("bg-pink-700 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Projects",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
@@ -31,7 +32,7 @@ const ifdb = CardPropsBuilder.builder("ifdb")
   });
 
 const socialNetwork = CardPropsBuilder.builder("socialnetwork")
-  .setClassName("bg-rose-500")
+  .setClassName("bg-pink-400")
   .setFront({
     title: "SocialNetwork",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects/loremipsum.png?raw=true",

@@ -3,7 +3,8 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 
 const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-blue-600 text-white")
+  .setClassName("bg-blue-600 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Education",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
@@ -23,7 +24,7 @@ const joseHernandez = CardPropsBuilder.builder("jh")
   });
 
 const utn = CardPropsBuilder.builder("utn")
-  .setClassName("bg-grey-400")
+  .setClassName("bg-gray-400")
   .setFront({
     text: "Unity Game Development course",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/utn.gif?raw=true",

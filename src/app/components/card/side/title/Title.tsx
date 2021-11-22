@@ -3,9 +3,9 @@ import { FunctionComponent } from "react";
 
 const letterStyle = (i: number) =>
   TailwindStyle.builder()
-    .add("text-3xl px-1 transform")
+    .add("text-4xl px-1 transform font-bold")
     .add("transition-all ease-in-out duration-300")
-    .add("group-hover:translate-y-10 group-hover:px-2")
+    .add("lg:group-hover:px-2")
     .get();
 
 interface TitleProps {
@@ -14,12 +14,12 @@ interface TitleProps {
 
 const Title: FunctionComponent<TitleProps> = (props: TitleProps) => {
   return (
-    <div>
+    <div className="text-center">
       {props.children &&
         props.children.split("").map((letter, i) => (
           <span
             className={letterStyle(i)}
-            style={{ transitionDelay: `${i * 50}ms` }}
+            style={{ transitionDelay: `${i * 30}ms` }}
           >
             {letter}
           </span>

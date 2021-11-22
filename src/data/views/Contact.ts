@@ -3,7 +3,8 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 
 const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-indigo-600 text-white")
+  .setClassName("bg-indigo-600 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Contact",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",

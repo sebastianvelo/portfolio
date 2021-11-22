@@ -8,6 +8,7 @@ class CardPropsBuilder implements CardProps {
   back?: CardSideProps;
   background?: Color;
   className?: string;
+  invertColors?: boolean;
 
   private constructor(id: string) {
     this.id = id;
@@ -36,6 +37,11 @@ class CardPropsBuilder implements CardProps {
     this.className = className;
     return this;
   };
+
+  toggleInvertColors = () => {
+    this.invertColors = !this.invertColors;
+    return this;
+  }
 }
 
 export default CardPropsBuilder;

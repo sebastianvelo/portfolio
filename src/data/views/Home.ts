@@ -10,7 +10,8 @@ const index = CardPropsBuilder.builder("index")
   });
 
 const experience = CardPropsBuilder.builder("experience")
-  .setClassName("bg-orange-600 text-white")
+  .setClassName("bg-orange-600 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Experience",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
@@ -26,7 +27,8 @@ const experience = CardPropsBuilder.builder("experience")
   });
 
 const education = CardPropsBuilder.builder("education")
-  .setClassName("bg-blue-600 text-white")
+  .setClassName("bg-blue-800 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Education",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
@@ -42,7 +44,8 @@ const education = CardPropsBuilder.builder("education")
   });
 
 const skills = CardPropsBuilder.builder("skills")
-  .setClassName("bg-rose-600 text-white")
+  .setClassName("bg-rose-600 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Skills",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
@@ -58,7 +61,8 @@ const skills = CardPropsBuilder.builder("skills")
   });
 
 const projects = CardPropsBuilder.builder("projects")
-  .setClassName("bg-pink-700 text-white")
+  .setClassName("bg-pink-700 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Projects",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
@@ -74,7 +78,8 @@ const projects = CardPropsBuilder.builder("projects")
   });
 
 const contact = CardPropsBuilder.builder("contact")
-  .setClassName("bg-indigo-600 text-white")
+  .setClassName("bg-indigo-800 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Contact",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",

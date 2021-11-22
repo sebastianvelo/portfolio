@@ -8,7 +8,8 @@ const Skills: Page = {
       cards: [
         {
           id: "skills",
-          className: "bg-rose-600 text-white",
+          className: "bg-rose-600 text-gray-200",
+          invertColors: true,
           front: {
             title: "Skills",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
@@ -33,7 +34,7 @@ const Skills: Page = {
         },
         {
           id: "typescript",
-          className: "bg-blue-600 text-white",
+          className: "bg-blue-600 text-gray-200",
           front: {
             title: "Typescript",
             img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png",
@@ -41,7 +42,7 @@ const Skills: Page = {
         },
         {
           id: "react",
-          className: "bg-sky-600 text-white",
+          className: "bg-sky-600 text-gray-200",
           front: {
             title: "React",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/react.png?raw=true",

@@ -16,26 +16,39 @@ const cardStyle = (props: CardProps, front: boolean) =>
     .add(props.className)
     .get();
 
+const cardWrapperStyle = "card-wrapper relative w-full h-full";
+
 export interface CardProps extends StyleableProps {
   id: string;
   front: CardSideProps;
   back?: CardSideProps;
   background?: Color;
+  invertColors?: boolean;
 }
 
 const Card = (props: CardProps) => {
-  const [front, toggle] = useState(true);
+  const [front, setFront] = useState(true);
+
+  const toggle = () => {
+    setFront(!front);
+  };
 
   return (
-    <div
-      className={cardStyle(props, !props.back || front)}
-      onClick={() => toggle(!front)}
-    >
-      <div className="card-wrapper relative w-full h-full">
-        <CardSide {...props.front} className={props.className} front />
-        <CardSide {...props.back} className={props.className} />
+    <article className={cardStyle(props, !props.back || front)} onClick={toggle}>
+      <div className={cardWrapperStyle}>
+        <CardSide
+          {...props.front}
+          className={props.className}
+          invertColors={props.invertColors}
+          front
+        />
+        <CardSide
+          {...props.back}
+          className={props.className}
+          invertColors={props.invertColors}
+        />
       </div>
-    </div>
+    </article>
   );
 };
 

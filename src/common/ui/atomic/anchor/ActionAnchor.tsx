@@ -1,4 +1,7 @@
-import { textColorStyle, textColorHoverableStyle } from "common/tailwind/CommonStyles";
+import {
+  textColorStyle,
+  textColorHoverableStyle,
+} from "common/tailwind/CommonStyles";
 import ColorProps from "common/tailwind/props/ColorProps";
 import ParentProps from "common/tailwind/props/ParentProps";
 import StyleableProps from "common/tailwind/props/StyleableProps";
@@ -22,7 +25,12 @@ export interface ActionAnchorProps
 const ActionAnchor: FunctionComponent<ActionAnchorProps> = (
   props: ActionAnchorProps
 ) => (
-  <a className={anchorStyle(props)} href={props.url} target="_blank">
+  <a
+    className={anchorStyle(props)}
+    href={props.url}
+    target="_blank"
+    rel="noreferrer"
+  >
     {props.children}
   </a>
 );

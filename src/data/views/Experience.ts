@@ -3,7 +3,8 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 
 const index = CardPropsBuilder.builder("experience")
-  .setClassName("bg-orange-600 text-white")
+  .setClassName("bg-orange-600 text-gray-200")
+  .toggleInvertColors()
   .setFront({
     title: "Experience",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
@@ -19,7 +20,7 @@ const mercadolibre = CardPropsBuilder.builder("mercadolibre")
   .setFront({
     title: "Software Engineer",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/meli.png?raw=true",
-    row: true,
+    text: "MercadoLibre"
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/meli.png?raw=true",
@@ -31,7 +32,7 @@ const icbc2 = CardPropsBuilder.builder("icbcssr")
   .setFront({
     title: "Software Developer",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
-    row: true,
+    text: "ICBC"
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
@@ -39,19 +40,19 @@ const icbc2 = CardPropsBuilder.builder("icbcssr")
   });
 
 const galicia = CardPropsBuilder.builder("galicia")
-  .setClassName("bg-orange-600 text-white")
+  .setClassName("bg-orange-600 text-gray-200")
   .setFront({
     title: "Software Developer",
-    row: true,
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/galicia.png?raw=true",
+    text: "Banco Galicia"
   });
 
 const icbc1 = CardPropsBuilder.builder("icbcjr")
   .setClassName("bg-gray-200")
   .setFront({
     title: "Jr. Software Developer",
-    row: true,
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
+    text: "ICBC"
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",

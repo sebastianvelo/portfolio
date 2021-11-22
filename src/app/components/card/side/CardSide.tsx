@@ -1,7 +1,9 @@
 import StyleableProps from "common/tailwind/props/StyleableProps";
 import TailwindStyle from "common/tailwind/TailwindStyle";
 import Action, { ActionProps } from "common/ui/components/action/Action";
+import Image from "./image/Image";
 import Title from "./title/Title";
+import Text from "./text/Text";
 
 const cardSideStyle = (props: CardSideProps) =>
   TailwindStyle.builder()
@@ -23,29 +25,20 @@ export interface CardSideProps extends StyleableProps {
   text?: string;
   action?: ActionProps;
   row?: boolean;
+  invertColors?: boolean;
 }
 
 const CardSide = (props: CardSideProps) => {
   return (
     <div className={cardSideStyle(props)}>
-      {props.img && (
-        <img
-          className="w-24 transition-transform transform ease-in-out lg:group-hover:scale-150 group-hover:rotate-360 duration-700"
-          src={props.img}
-          alt={props.title}
-        />
-      )}
+      <Image src={props.img} alt={props.title} invertColors={props.invertColors} />
       {props.title && <Title>{props.title}</Title>}
-      {props.text && (
-        <div className="text-center group">
-          <h2 className={"text-2xl"}>{props.text}</h2>
-        </div>
-      )}
+      {props.text && <Text text={props.text} />}
       {props.action && (
         <Action
           {...props.action}
           className={
-            "bg-black text-white bg-opacity-50 hover:bg-opacity-100 transition-all w-full text-center text-xl p-2 absolute bottom-0"
+            "bg-black text-gray-200 bg-opacity-50 hover:bg-opacity-100 transition-all w-full text-center text-xl p-2 absolute bottom-0"
           }
         />
       )}
