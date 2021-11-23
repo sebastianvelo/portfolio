@@ -13,7 +13,6 @@ const cardStyle = (props: CardProps, front: boolean) =>
     .addIf(hoverableStyle(), props.back)
     .addIf("bg-opacity-50", props.back)
     .addIf("active", !front)
-    .add(props.className)
     .get();
 
 const cardWrapperStyle = "card-wrapper relative w-full h-full";

@@ -43,7 +43,7 @@ const socialNetwork = CardPropsBuilder.builder("socialnetwork")
     action: {
       type: "anchor",
       children: "See SocialNetwork",
-      url: "https://internetfilmdb.web.app/#/movie",
+      url: "https://sebastianvelo.github.io/social-network/#/",
     },
   });
 

@@ -12,13 +12,13 @@
 
     @keyframes view-anim {
         from {
-            transform: rotateY(-180deg);
+            transform: rotateY(180deg);
         }
     }
 
     .view {
         background-color: rgba(0, 0, 0, 0.75);
-        animation: view-anim .4s linear;
+        animation: view-anim .5s linear;
     }
 
     .card {
