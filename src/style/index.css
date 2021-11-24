@@ -21,8 +21,8 @@
     }
   }
   .view {
-    -webkit-animation: view-anim .8s linear;
-            animation: view-anim .8s linear;
+    -webkit-animation: view-anim .6s linear;
+            animation: view-anim .6s linear;
   }
   .card {
     -webkit-perspective: 100%;
