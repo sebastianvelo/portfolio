@@ -24,7 +24,7 @@ const mercadolibre = CardPropsBuilder.builder("mercadolibre")
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/meli.png?raw=true",
-    text: "I'm currently working as a Software Engineer at MercadoLibre, developing both back-end and front-end.",
+    text: "I'm currently working as a Software Engineer at MercadoLibre, developing projects with Java and React.",
   });
 
 const icbc2 = CardPropsBuilder.builder("icbcssr")
@@ -36,7 +36,7 @@ const icbc2 = CardPropsBuilder.builder("icbcssr")
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
-    text: "I was in the ICBC's Corporate Home banking team, developing projects from beginning to end and mentor junior developers on the team.",
+    text: "I was in the ICBC's Corporate Home banking team, developing projects from beginning to end.",
   });
 
 const galicia = CardPropsBuilder.builder("galicia")

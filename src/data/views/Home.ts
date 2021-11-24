@@ -75,7 +75,7 @@ const projects = CardPropsBuilder.builder("projects")
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
-    text: "I have developed personal projects in React and Svelte.",
+    text: "I have developed personal projects in React and Typescript.",
     action: {
       type: "link",
       route: Route.PROJECTS,
