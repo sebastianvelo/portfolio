@@ -6,8 +6,8 @@ interface TextProps {
 
 const Text: FunctionComponent<TextProps> = (props: TextProps) => {
   return (
-    <div className="text-center">
-      <h2 className={"text-3xl"}>{props.text}</h2>
+    <div className="text-center px-2">
+      <h2 className={"text-xl md:text-3xl"}>{props.text}</h2>
     </div>
   );
 };

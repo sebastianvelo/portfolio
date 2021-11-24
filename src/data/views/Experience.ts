@@ -20,7 +20,7 @@ const mercadolibre = CardPropsBuilder.builder("mercadolibre")
   .setFront({
     title: "Software Engineer",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/meli.png?raw=true",
-    text: "MercadoLibre"
+    text: "MercadoLibre",
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/meli.png?raw=true",
@@ -32,7 +32,7 @@ const icbc2 = CardPropsBuilder.builder("icbcssr")
   .setFront({
     title: "Software Developer",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
-    text: "ICBC"
+    text: "ICBC",
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
@@ -44,7 +44,7 @@ const galicia = CardPropsBuilder.builder("galicia")
   .setFront({
     title: "Software Developer",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/galicia.png?raw=true",
-    text: "Banco Galicia"
+    text: "Banco Galicia",
   });
 
 const icbc1 = CardPropsBuilder.builder("icbcjr")
@@ -52,7 +52,7 @@ const icbc1 = CardPropsBuilder.builder("icbcjr")
   .setFront({
     title: "Jr. Software Developer",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",
-    text: "ICBC"
+    text: "ICBC",
   })
   .setBack({
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience/icbc.png?raw=true",

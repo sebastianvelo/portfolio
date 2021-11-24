@@ -21,9 +21,8 @@
     }
   }
   .view {
-    background-color: rgba(0, 0, 0, 0.75);
-    -webkit-animation: view-anim .5s linear;
-            animation: view-anim .5s linear;
+    -webkit-animation: view-anim .8s linear;
+            animation: view-anim .8s linear;
   }
   .card {
     -webkit-perspective: 100%;

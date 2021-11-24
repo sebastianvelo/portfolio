@@ -11,7 +11,6 @@ const cardStyle = (props: CardProps, front: boolean) =>
     .add("w-full h-full")
     .add(bgColorStyle({ color: props.background }))
     .addIf(hoverableStyle(), props.back)
-    .addIf("bg-opacity-50", props.back)
     .addIf("active", !front)
     .get();
 

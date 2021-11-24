@@ -24,6 +24,7 @@ export interface CardSideProps extends StyleableProps {
   title?: string;
   text?: string;
   action?: ActionProps;
+  paragraph?: string;
   row?: boolean;
   invertColors?: boolean;
 }
@@ -34,6 +35,7 @@ const CardSide = (props: CardSideProps) => {
       <Image src={props.img} alt={props.title} invertColors={props.invertColors} />
       {props.title && <Title>{props.title}</Title>}
       {props.text && <Text text={props.text} />}
+      {props.paragraph && <p className="text-justify lg:text-2xl px-6">{props.paragraph}</p>}
       {props.action && (
         <Action
           {...props.action}

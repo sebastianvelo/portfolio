@@ -5,8 +5,14 @@ import Route from "common/entities/Route";
 const index = CardPropsBuilder.builder("index")
   .setClassName("bg-yellow-400")
   .setFront({
+    img: "https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-512.png",
     title: "Sebastian Velo",
     text: "Software Engineer",
+  })
+  .setBack({
+    paragraph: `Hi! Thanks for visiting my portfolio 🙂. 
+    I have been a developer since 2017, when I started to work at ICBC. I currently work as a Software Engineer at MercadoLibre, using Java and React. 
+    `,
   });
 
 const experience = CardPropsBuilder.builder("experience")

@@ -3,9 +3,9 @@ import { FunctionComponent } from "react";
 
 const letterStyle = (i: number) =>
   TailwindStyle.builder()
-    .add("text-4xl px-1 transform font-bold")
+    .add("text-4xl px-1 py-2 transform font-bold border-dashed border-current")
     .add("transition-all ease-in-out duration-300")
-    .add("lg:group-hover:px-2")
+    .add("lg:group-hover:px-2 group-hover:border-t-2 group-hover:border-b-2")
     .get();
 
 interface TitleProps {

@@ -86,6 +86,7 @@ module.exports = {
       scale: ['group-hover'],
       translate: ['group-hover'],
       padding: ['group-hover'],
+      borderWidth: ['group-hover']
     },
   },
   plugins: [],
