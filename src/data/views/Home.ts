@@ -22,7 +22,7 @@ const experience = CardPropsBuilder.builder("experience")
     action: {
       type: "link",
       route: Route.EXPERIENCE,
-      children: "See more",
+      children: "See my experience",
     },
   });
 
@@ -39,7 +39,7 @@ const education = CardPropsBuilder.builder("education")
     action: {
       type: "link",
       route: Route.EDUCATION,
-      children: "See more",
+      children: "See my education",
     },
   });
 
@@ -56,7 +56,7 @@ const skills = CardPropsBuilder.builder("skills")
     action: {
       type: "link",
       route: Route.SKILLS,
-      children: "See more",
+      children: "See my skills",
     },
   });
 
@@ -73,7 +73,7 @@ const projects = CardPropsBuilder.builder("projects")
     action: {
       type: "link",
       route: Route.PROJECTS,
-      children: "See more",
+      children: "See my projects",
     },
   });
 
@@ -90,7 +90,7 @@ const contact = CardPropsBuilder.builder("contact")
     action: {
       type: "link",
       route: Route.CONTACT,
-      children: "See more",
+      children: "Contact me!",
     },
   });
 

@@ -3,7 +3,7 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 
 const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-blue-600 text-gray-200")
+  .setClassName("bg-blue-800 text-gray-200")
   .toggleInvertColors()
   .setFront({
     title: "Education",
@@ -11,7 +11,7 @@ const index = CardPropsBuilder.builder("index")
     action: {
       type: "link",
       route: Route.HOME,
-      children: "Go back",
+      children: "Home",
     },
   });
 

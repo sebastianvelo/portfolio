@@ -16,7 +16,7 @@ const Skills: Page = {
             action: {
               type: "link",
               route: Route.HOME,
-              children: "Go back",
+              children: "Home",
             },
           },
         },

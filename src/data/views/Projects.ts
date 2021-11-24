@@ -11,7 +11,7 @@ const index = CardPropsBuilder.builder("index")
     action: {
       type: "link",
       route: Route.HOME,
-      children: "Go back",
+      children: "Home",
     },
   });
 
