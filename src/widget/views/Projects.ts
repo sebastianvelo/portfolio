@@ -3,7 +3,7 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 
 const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-pink-700 text-gray-200")
+  .setClassName("bg-gradient-to-b from-pink-700 to-pink-900 text-gray-200")
   .toggleInvertColors()
   .setFront({
     title: "Projects",

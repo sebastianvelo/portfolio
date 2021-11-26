@@ -1,6 +1,6 @@
 import { Route } from "react-router-dom";
 import View from "./view/View";
-import Views from "../data/Views";
+import Views from "../widget/Views";
 
 const App = () => (
   <div className="bg-black min-h-screen">

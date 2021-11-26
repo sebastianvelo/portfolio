@@ -3,9 +3,9 @@ import { FunctionComponent } from "react";
 
 const imageStyle = (props: ImageProps) =>
   TailwindStyle.builder()
-    .add("w-24")
-    .add("transition-transform  ease-in-out duration-700")
-    .add("transform lg:group-hover:scale-150 group-hover:rotate-360")
+    .add("w-24 scale-90")
+    .add("transition-transform ease-in-out duration-700")
+    .add("transform lg:group-hover:scale-125 group-hover:rotate-360")
     .addIf("filter invert", props.invertColors)
     .get();
 

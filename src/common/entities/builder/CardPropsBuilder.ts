@@ -33,15 +33,15 @@ class CardPropsBuilder implements CardProps {
     return this;
   };
 
-  setClassName = (className: string) => {
-    this.className = className;
+  setClassName = (className?: string) => {
+    if (className) this.className = className;
     return this;
   };
 
   toggleInvertColors = () => {
     this.invertColors = !this.invertColors;
     return this;
-  }
+  };
 }
 
 export default CardPropsBuilder;

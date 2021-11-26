@@ -8,7 +8,7 @@ const Skills: Page = {
       cards: [
         {
           id: "skills",
-          className: "bg-rose-600 text-gray-200",
+          className: "bg-gradient-to-b from-rose-600 to-rose-800 text-gray-200",
           invertColors: true,
           front: {
             title: "Skills",

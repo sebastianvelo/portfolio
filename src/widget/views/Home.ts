@@ -3,20 +3,20 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 
 const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-yellow-400")
+  .setClassName("bg-gradient-to-b from-yellow-400 to-yellow-600")
   .setFront({
     img: "https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-512.png",
     title: "Sebastian Velo",
-    text: "Software Engineer",
+    subtitle: "Software Engineer",
   })
   .setBack({
-    paragraph: `Hi! Thanks for visiting my portfolio 🙂. 
+    text: `Hi! Thanks for visiting my portfolio 🙂. 
     I have been a developer since 2017, when I started to work at ICBC. I currently work as a Software Engineer at MercadoLibre, using Java and React. 
     `,
   });
 
 const experience = CardPropsBuilder.builder("experience")
-  .setClassName("bg-orange-600 text-gray-200")
+  .setClassName("bg-gradient-to-b from-orange-500 to-orange-800 text-gray-200")
   .toggleInvertColors()
   .setFront({
     title: "Experience",
@@ -33,7 +33,7 @@ const experience = CardPropsBuilder.builder("experience")
   });
 
 const education = CardPropsBuilder.builder("education")
-  .setClassName("bg-blue-800 text-gray-200")
+  .setClassName("bg-gradient-to-b from-blue-500 to-blue-900 text-gray-200")
   .toggleInvertColors()
   .setFront({
     title: "Education",
@@ -50,7 +50,7 @@ const education = CardPropsBuilder.builder("education")
   });
 
 const skills = CardPropsBuilder.builder("skills")
-  .setClassName("bg-rose-600 text-gray-200")
+  .setClassName("bg-gradient-to-b from-rose-500 to-rose-800 text-gray-200")
   .toggleInvertColors()
   .setFront({
     title: "Skills",
@@ -67,7 +67,7 @@ const skills = CardPropsBuilder.builder("skills")
   });
 
 const projects = CardPropsBuilder.builder("projects")
-  .setClassName("bg-pink-700 text-gray-200")
+  .setClassName("bg-gradient-to-b from-pink-500 to-pink-900 text-gray-200")
   .toggleInvertColors()
   .setFront({
     title: "Projects",
@@ -84,7 +84,7 @@ const projects = CardPropsBuilder.builder("projects")
   });
 
 const contact = CardPropsBuilder.builder("contact")
-  .setClassName("bg-indigo-800 text-gray-200")
+  .setClassName("bg-gradient-to-b from-indigo-500 to-indigo-900 text-gray-200")
   .toggleInvertColors()
   .setFront({
     title: "Contact",

@@ -69,6 +69,12 @@ module.exports = {
         },
         sky: {
           ...colors.sky
+        },
+        green: {
+          ...colors.green
+        },
+        esmerald: {
+          ...colors.emerald
         }
       },
       rotate: {
@@ -86,7 +92,8 @@ module.exports = {
       scale: ['group-hover'],
       translate: ['group-hover'],
       padding: ['group-hover'],
-      borderWidth: ['group-hover']
+      borderWidth: ['group-hover'],
+      fontSize: ['group-hover'],
     },
   },
   plugins: [],

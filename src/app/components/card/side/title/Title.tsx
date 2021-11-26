@@ -1,11 +1,15 @@
 import TailwindStyle from "common/tailwind/TailwindStyle";
 import { FunctionComponent } from "react";
 
-const letterStyle = (i: number) =>
+const letterStyle = () =>
   TailwindStyle.builder()
-    .add("text-4xl px-1 py-2 transform font-bold border-dashed border-current")
-    .add("transition-all ease-in-out duration-300")
-    .add("lg:group-hover:px-2 group-hover:border-t-2 group-hover:border-b-2")
+    .add("text-3xl px-1 py-2 font-bold")
+    .add("transition-all ease-in-out duration-500")
+    .add("transform")
+    .add("border-dashed border-current")
+    .add("text-current")
+    .add("group-hover:px-2 lg:group-hover:text-4xl")
+    //.add("group-hover:border-t-2 group-hover:border-b-2 ")
     .get();
 
 interface TitleProps {
@@ -18,8 +22,8 @@ const Title: FunctionComponent<TitleProps> = (props: TitleProps) => {
       {props.children &&
         props.children.split("").map((letter, i) => (
           <span
-            className={letterStyle(i)}
-            style={{ transitionDelay: `${i * 30}ms` }}
+            className={letterStyle()}
+            style={{ transitionDelay: `${i * 25}ms` }}
           >
             {letter}
           </span>
