@@ -12,12 +12,22 @@
 
     @keyframes view-anim {
         from {
-            transform: rotateY(180deg);
+            transform: rotateY(90deg);
+        }
+    }
+
+    @keyframes home-anim {
+        from {
+            transform: rotateY(-90deg);
         }
     }
 
     .view {
-        animation: view-anim .6s linear;
+        animation: view-anim .4s ease-in-out;
+    }
+
+    #home {
+        animation: home-anim .4s ease-in-out;
     }
 
     .card {

@@ -10,19 +10,35 @@
   }
   @-webkit-keyframes view-anim {
     from {
-      -webkit-transform: rotateY(180deg);
-              transform: rotateY(180deg);
+      -webkit-transform: rotateY(90deg);
+              transform: rotateY(90deg);
     }
   }
   @keyframes view-anim {
     from {
-      -webkit-transform: rotateY(180deg);
-              transform: rotateY(180deg);
+      -webkit-transform: rotateY(90deg);
+              transform: rotateY(90deg);
+    }
+  }
+  @-webkit-keyframes home-anim {
+    from {
+      -webkit-transform: rotateY(-90deg);
+              transform: rotateY(-90deg);
+    }
+  }
+  @keyframes home-anim {
+    from {
+      -webkit-transform: rotateY(-90deg);
+              transform: rotateY(-90deg);
     }
   }
   .view {
-    -webkit-animation: view-anim .6s linear;
-            animation: view-anim .6s linear;
+    -webkit-animation: view-anim .4s ease-in-out;
+            animation: view-anim .4s ease-in-out;
+  }
+  #home {
+    -webkit-animation: home-anim .4s ease-in-out;
+            animation: home-anim .4s ease-in-out;
   }
   .card {
     -webkit-perspective: 100%;

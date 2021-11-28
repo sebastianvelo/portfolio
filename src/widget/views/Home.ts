@@ -1,116 +1,19 @@
-import CardPropsBuilder from "common/entities/builder/CardPropsBuilder";
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-
-const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-gradient-to-b from-yellow-400 to-yellow-600")
-  .setFront({
-    img: "https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-512.png",
-    title: "Sebastian Velo",
-    subtitle: "Software Engineer",
-  })
-  .setBack({
-    text: `Hi! Thanks for visiting my portfolio 🙂. 
-    I have been a developer since 2017, when I started to work at ICBC. I currently work as a Software Engineer at MercadoLibre, using Java and React. 
-    `,
-  });
-
-const experience = CardPropsBuilder.builder("experience")
-  .setClassName("bg-gradient-to-b from-orange-500 to-orange-800 text-gray-200")
-  .toggleInvertColors()
-  .setFront({
-    title: "Experience",
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
-  })
-  .setBack({
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/experience-icon.png?raw=true",
-    text: "I'm currently working as a Software Engineer at MercadoLibre.",
-    action: {
-      type: "link",
-      route: Route.EXPERIENCE,
-      children: "See my experience",
-    },
-  });
-
-const education = CardPropsBuilder.builder("education")
-  .setClassName("bg-gradient-to-b from-blue-500 to-blue-900 text-gray-200")
-  .toggleInvertColors()
-  .setFront({
-    title: "Education",
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
-  })
-  .setBack({
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
-    text: "I'm Programming Technician and I have taken some courses.",
-    action: {
-      type: "link",
-      route: Route.EDUCATION,
-      children: "See my education",
-    },
-  });
-
-const skills = CardPropsBuilder.builder("skills")
-  .setClassName("bg-gradient-to-b from-rose-500 to-rose-800 text-gray-200")
-  .toggleInvertColors()
-  .setFront({
-    title: "Skills",
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
-  })
-  .setBack({
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
-    text: "Java and ReactJS are my main skills.",
-    action: {
-      type: "link",
-      route: Route.SKILLS,
-      children: "See my skills",
-    },
-  });
-
-const projects = CardPropsBuilder.builder("projects")
-  .setClassName("bg-gradient-to-b from-pink-500 to-pink-900 text-gray-200")
-  .toggleInvertColors()
-  .setFront({
-    title: "Projects",
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
-  })
-  .setBack({
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/proyects-icon.png?raw=true",
-    text: "I have developed personal projects in React and Typescript.",
-    action: {
-      type: "link",
-      route: Route.PROJECTS,
-      children: "See my projects",
-    },
-  });
-
-const contact = CardPropsBuilder.builder("contact")
-  .setClassName("bg-gradient-to-b from-indigo-500 to-indigo-900 text-gray-200")
-  .toggleInvertColors()
-  .setFront({
-    title: "Contact",
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",
-  })
-  .setBack({
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",
-    text: "You can contact me by Linkedin, E-mail or Github!",
-    action: {
-      type: "link",
-      route: Route.CONTACT,
-      children: "Contact me!",
-    },
-  });
+import { presentation, experience, skills, projects, education, contact } from "widget/data/Indexes";
 
 const Home: Page = {
+  id: "home",
   route: Route.HOME,
   rows: [
     {
-      cards: [index, experience],
+      cards: [presentation.toCard(), experience.toCard()],
     },
     {
-      cards: [skills, projects],
+      cards: [skills.toCard(), projects.toCard()],
     },
     {
-      cards: [education, contact],
+      cards: [education.toCard(), contact.toCard()],
     },
   ],
 };

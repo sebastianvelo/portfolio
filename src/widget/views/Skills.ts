@@ -1,32 +1,18 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
+import { skills } from "widget/data/Indexes";
 
 const Skills: Page = {
   route: Route.SKILLS,
   rows: [
     {
-      cards: [
-        {
-          id: "skills",
-          className: "bg-gradient-to-b from-rose-600 to-rose-800 text-gray-200",
-          invertColors: true,
-          front: {
-            title: "Skills",
-            img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills-icon.png?raw=true",
-            action: {
-              type: "link",
-              route: Route.HOME,
-              children: "Home",
-            },
-          },
-        },
-      ],
+      cards: [skills.toCardIndex()],
     },
     {
       cards: [
         {
           id: "javascript",
-          className: "bg-yellow-300",
+          className: "bg-yellow-400",
           front: {
             title: "JavaScript",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/js.png?raw=true",
@@ -54,7 +40,7 @@ const Skills: Page = {
       cards: [
         {
           id: "sass",
-          className: "bg-pink-300",
+          className: "bg-pink-200",
           front: {
             title: "SASS",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/sass.png?raw=true",
@@ -74,7 +60,7 @@ const Skills: Page = {
       cards: [
         {
           id: "java",
-          className: "bg-blue-300",
+          className: "bg-blue-200",
           front: {
             title: "Java",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/java.png?raw=true",
@@ -82,7 +68,7 @@ const Skills: Page = {
         },
         {
           id: "spring",
-          className: "bg-green-300",
+          className: "bg-esmerald-200",
           front: {
             title: "Spring",
             img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/skills/spring.png?raw=true",
@@ -90,7 +76,7 @@ const Skills: Page = {
         },
         {
           id: "spark",
-          className: "bg-orange-500",
+          className: "bg-orange-200",
           front: {
             title: "Spark",
             img: "https://www.pngkey.com/png/full/441-4411566_spark-logo-png-transparent-spark-java-logo-png.png", //TODO SUBIR A GIT
@@ -110,7 +96,7 @@ const Skills: Page = {
         },
         {
           id: "mysql",
-          className: "bg-blue-400",
+          className: "bg-sky-400",
           front: {
             title: "MySQL",
             img: "https://cdn-icons-png.flaticon.com/512/528/528260.png", //TODO SUBIR A GIT

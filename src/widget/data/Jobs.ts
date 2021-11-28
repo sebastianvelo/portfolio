@@ -1,4 +1,4 @@
-import JobModel from "../../model/JobModel";
+import JobModel from "../model/JobModel";
 
 const mercadolibre = new JobModel({
   company: "MercadoLibre",

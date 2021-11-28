@@ -94,6 +94,7 @@ module.exports = {
       padding: ['group-hover'],
       borderWidth: ['group-hover'],
       fontSize: ['group-hover'],
+      gradientColorStops: ['group-hover'],
     },
   },
   plugins: [],

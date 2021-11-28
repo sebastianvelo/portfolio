@@ -1,19 +1,7 @@
 import CardPropsBuilder from "common/entities/builder/CardPropsBuilder";
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-
-const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-gradient-to-b from-indigo-700 to-indigo-900 text-gray-200")
-  .toggleInvertColors()
-  .setFront({
-    title: "Contact",
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact-icon.png?raw=true",
-    action: {
-      type: "link",
-      route: Route.HOME,
-      children: "Home",
-    },
-  });
+import { contact } from "widget/data/Indexes";
 
 const github = CardPropsBuilder.builder("github")
   .setClassName("bg-gray-300")
@@ -67,13 +55,13 @@ const Contact: Page = {
   route: Route.CONTACT,
   rows: [
     {
-      cards: [index],
-    },
-    {
-      cards: [linkedin, email],
+      cards: [contact.toCardIndex()],
     },
     {
       cards: [github, codepen],
+    },
+    {
+      cards: [email, linkedin],
     },
   ],
 };

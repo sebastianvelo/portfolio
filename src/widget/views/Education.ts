@@ -1,29 +1,17 @@
 import CardPropsBuilder from "common/entities/builder/CardPropsBuilder";
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-
-const index = CardPropsBuilder.builder("index")
-  .setClassName("bg-gradient-to-b from-blue-700 to-blue-900 text-gray-200")
-  .toggleInvertColors()
-  .setFront({
-    title: "Education",
-    img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education-icon.png?raw=true",
-    action: {
-      type: "link",
-      route: Route.HOME,
-      children: "Home",
-    },
-  });
+import { education } from "widget/data/Indexes";
 
 const joseHernandez = CardPropsBuilder.builder("jh")
-  .setClassName("bg-sky-500")
+  .setClassName("bg-sky-200")
   .setFront({
     title: "Programming Technician",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/jh.png?raw=true",
   });
 
 const utn = CardPropsBuilder.builder("utn")
-  .setClassName("bg-gray-400")
+  .setClassName("bg-gray-300")
   .setFront({
     title: "UTN",
     subtitle: "Unity Game Development course",
@@ -31,7 +19,7 @@ const utn = CardPropsBuilder.builder("utn")
   });
 
 const exo = CardPropsBuilder.builder("exo")
-  .setClassName("bg-red-300")
+  .setClassName("bg-gray-200")
   .setFront({
     title: "EXO",
     subtitle: "Advanced Programming in Java",
@@ -42,7 +30,7 @@ const Education: Page = {
   route: Route.EDUCATION,
   rows: [
     {
-      cards: [index],
+      cards: [education.toCardIndex()],
     },
     {
       cards: [joseHernandez],
