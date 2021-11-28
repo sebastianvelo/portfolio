@@ -10,10 +10,10 @@ const Experience: Page = {
       cards: [experience.toCardIndex()],
     },
     {
-      cards: [mercadolibre.toCard("bg-yellow-400")],
+      cards: [mercadolibre.toCard("bg-gradient-to-b from-yellow-200 to-yellow-400")],
     },
     {
-      cards: [icbc.toCard("bg-gray-200")],
+      cards: [icbc.toCard("bg-gradient-to-b from-red-50 to-red-200")],
     },
   ],
 };

@@ -7,7 +7,7 @@ import Subtitle from "./subtitle/Subtitle";
 
 const cardSideStyle = (props: CardSideProps) =>
   TailwindStyle.builder()
-    .add("flex absolute flex-col items-center justify-around")
+    .add("flex flex-col absolute items-center justify-around")
     .add("px-2 py-4")
     .add("h-full w-full")
     .add("group")

@@ -4,7 +4,7 @@ import Route from "common/entities/Route";
 import { contact } from "widget/data/Indexes";
 
 const github = CardPropsBuilder.builder("github")
-  .setClassName("bg-gray-300")
+  .setClassName("bg-gradient-to-b from-gray-300 to-indigo-900 text-light")
   .setFront({
     title: "Github",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/github.png?raw=true",
@@ -16,7 +16,7 @@ const github = CardPropsBuilder.builder("github")
   });
 
 const codepen = CardPropsBuilder.builder("codepen")
-  .setClassName("bg-gray-400")
+  .setClassName("bg-gradient-to-b from-gray-100 to-gray-900 text-light")
   .setFront({
     title: "CodePen",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/codepen.png?raw=true",
@@ -28,7 +28,7 @@ const codepen = CardPropsBuilder.builder("codepen")
   });
 
 const linkedin = CardPropsBuilder.builder("linkedin")
-  .setClassName("bg-sky-500")
+  .setClassName("bg-gradient-to-b from-sky-600 to-sky-200")
   .setFront({
     title: "LinkedIn",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/linkedin.png?raw=true",
@@ -40,7 +40,7 @@ const linkedin = CardPropsBuilder.builder("linkedin")
   });
 
 const email = CardPropsBuilder.builder("email")
-  .setClassName("bg-sky-400")
+  .setClassName("bg-gradient-to-b from-sky-200 to-sky-400")
   .setFront({
     title: "E-Mail",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/contact/email.png?raw=true",
@@ -58,10 +58,10 @@ const Contact: Page = {
       cards: [contact.toCardIndex()],
     },
     {
-      cards: [github, codepen],
+      cards: [email, linkedin],
     },
     {
-      cards: [email, linkedin],
+      cards: [github, codepen],
     },
   ],
 };

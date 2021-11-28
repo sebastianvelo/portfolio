@@ -13,21 +13,18 @@ const Projects: Page = {
   route: Route.PROJECTS,
   rows: [
     {
-      cards: [projects.toCardIndex()],
-    },
-    {
-      cards: [ifdb.toCard("bg-yellow-400")],
+      cards: [projects.toCardIndex(), ifdb.toCard("bg-gradient-to-b from-yellow-200 to-yellow-500")],
     },
     {
       cards: [
-        socialNetwork.toCard("bg-pink-400"),
-        chat.toCard("bg-sky-400"),
+        socialNetwork.toCard("bg-gradient-to-b from-rose-200 to-rose-500"),
+        chat.toCard("bg-gradient-to-b from-sky-200 to-sky-500"),
       ],
     },
     {
       cards: [
-        resumeBuilder.toCard("bg-esmerald-400"),
-        pixelArt.toCard("bg-orange-400"),
+        pixelArt.toCard("bg-gradient-to-b from-pink-200 to-pink-500"),
+        resumeBuilder.toCard("bg-gradient-to-b from-esmerald-200 to-esmerald-500"),
       ],
     },
   ],

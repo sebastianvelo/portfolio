@@ -10,35 +10,39 @@
   }
   @-webkit-keyframes view-anim {
     from {
-      -webkit-transform: rotateY(90deg);
-              transform: rotateY(90deg);
+      opacity: 0.3;
+      -webkit-transform: rotateZ(180deg);
+              transform: rotateZ(180deg);
     }
   }
   @keyframes view-anim {
     from {
-      -webkit-transform: rotateY(90deg);
-              transform: rotateY(90deg);
+      opacity: 0.3;
+      -webkit-transform: rotateZ(180deg);
+              transform: rotateZ(180deg);
     }
   }
   @-webkit-keyframes home-anim {
     from {
-      -webkit-transform: rotateY(-90deg);
-              transform: rotateY(-90deg);
+      -webkit-transform: rotateZ(-180deg);
+              transform: rotateZ(-180deg);
+      opacity: 0.3;
     }
   }
   @keyframes home-anim {
     from {
-      -webkit-transform: rotateY(-90deg);
-              transform: rotateY(-90deg);
+      -webkit-transform: rotateZ(-180deg);
+              transform: rotateZ(-180deg);
+      opacity: 0.3;
     }
   }
   .view {
-    -webkit-animation: view-anim .4s ease-in-out;
-            animation: view-anim .4s ease-in-out;
+    -webkit-animation: view-anim 0.5s cubic-bezier(0.17, 0.74, 0.17, 1);
+            animation: view-anim 0.5s cubic-bezier(0.17, 0.74, 0.17, 1);
   }
   #home {
-    -webkit-animation: home-anim .4s ease-in-out;
-            animation: home-anim .4s ease-in-out;
+    -webkit-animation: home-anim 0.5s cubic-bezier(0.17, 0.74, 0.17, 1);
+            animation: home-anim 0.5s cubic-bezier(0.17, 0.74, 0.17, 1);
   }
   .card {
     -webkit-perspective: 100%;
@@ -49,8 +53,8 @@
             transform: rotateY(-180deg);
   }
   .card-wrapper {
-    -webkit-transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition: 1s cubic-bezier(0.17, 0.74, 0.17, 1.44);
+    transition: 1s cubic-bezier(0.17, 0.74, 0.17, 1.44);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
   }

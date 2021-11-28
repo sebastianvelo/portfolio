@@ -4,14 +4,14 @@ import Route from "common/entities/Route";
 import { education } from "widget/data/Indexes";
 
 const joseHernandez = CardPropsBuilder.builder("jh")
-  .setClassName("bg-sky-200")
+  .setClassName("bg-gradient-to-b from-sky-200 to-sky-400")
   .setFront({
-    title: "Programming Technician",
+    subtitle: "Programming Technician",
     img: "https://github.com/SebastianVelo/portfolio/blob/main/src/assets/education/jh.png?raw=true",
   });
 
 const utn = CardPropsBuilder.builder("utn")
-  .setClassName("bg-gray-300")
+.setClassName("bg-gradient-to-b from-gray-50 to-gray-400")
   .setFront({
     title: "UTN",
     subtitle: "Unity Game Development course",
@@ -19,7 +19,7 @@ const utn = CardPropsBuilder.builder("utn")
   });
 
 const exo = CardPropsBuilder.builder("exo")
-  .setClassName("bg-gray-200")
+.setClassName("bg-gradient-to-b from-gray-50 to-red-300")
   .setFront({
     title: "EXO",
     subtitle: "Advanced Programming in Java",

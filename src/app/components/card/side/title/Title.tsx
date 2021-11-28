@@ -9,7 +9,6 @@ const letterStyle = () =>
     .add("border-dashed border-current")
     .add("text-current")
     .add("group-hover:px-2 lg:group-hover:text-4xl")
-    //.add("group-hover:border-t-2 group-hover:border-b-2 ")
     .get();
 
 interface TitleProps {
@@ -18,9 +17,9 @@ interface TitleProps {
 
 const Title: FunctionComponent<TitleProps> = (props: TitleProps) => {
   return (
-    <div className="text-center">
+    <div>
       {props.children &&
-        props.children.split("").map((letter, i) => (
+        [...props.children].map((letter, i) => (
           <span
             className={letterStyle()}
             style={{ transitionDelay: `${i * 25}ms` }}
