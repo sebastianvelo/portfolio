@@ -9,9 +9,11 @@ const Experience: Page = {
     {
       cards: [experience.toCardIndex()],
     },
-    /*{
-      cards: [despegar.toCard("bg-gradient-to-br from-indigo-400 to-indigo-700")],
-    },*/
+    {
+      cards: [
+        despegar.toCard("bg-gradient-to-br from-indigo-400 to-indigo-700"),
+      ],
+    },
     {
       cards: [
         mercadolibre.toCard("bg-gradient-to-br from-yellow-200 to-yellow-500"),
