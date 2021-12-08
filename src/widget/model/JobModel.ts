@@ -35,7 +35,9 @@ class JobModel extends Model implements IJob {
         title: this.position,
         img: this.img,
         subtitle: this.company,
-        text: `${this.start} - ${this.end ?? "Now"}`,
+        text: `${this.start} ${
+          !this.end ? "- Now" : this.end === this.start ? "" : "-" + this.end
+        }`,
       })
       .setBack({
         img: this.img,
