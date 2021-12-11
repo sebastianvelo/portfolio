@@ -7,7 +7,7 @@ import getImg from "widget/helpers/getImg";
 const getEducationImg = (file: string) => getImg(file, "/education");
 
 const joseHernandez = CardPropsBuilder.builder("jh")
-  .setClassName("bg-gradient-to-b from-sky-200 to-sky-400")
+  .setClassName("bg-gradient-to-b from-blue-200 to-blue-500")
   .setFront({
     subtitle: "Programming Technician",
     img: getEducationImg("jh"),

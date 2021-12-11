@@ -6,7 +6,7 @@ const despegar = new ExperienceModel({
   start: 2022,
   image: "despegar",
   description: "I'm currently working as a Software Engineer at Despegar.",
-  className: "from-indigo-400 to-indigo-700",
+  className: "from-indigo-300 to-indigo-600",
 });
 
 const mercadolibre = new ExperienceModel({
@@ -17,7 +17,7 @@ const mercadolibre = new ExperienceModel({
   image: "meli",
   description:
     "I was a Software Engineer at MercadoLibre, developing projects with Java and React.",
-  className: "from-yellow-200 to-yellow-500",
+  className: "from-yellow-100 to-yellow-500",
 });
 
 const icbc = new ExperienceModel({
@@ -28,7 +28,7 @@ const icbc = new ExperienceModel({
   image: "icbc",
   description:
     "In my first professional experience, I worked developing projects from beginning to end for ICBC's Corporate Home banking with Java 6, JSP, Struts and JavaScript.",
-  className: "from-red-200 to-red-500",
+  className: "from-red-200 to-red-600",
 });
 
 export { mercadolibre, icbc, despegar };
