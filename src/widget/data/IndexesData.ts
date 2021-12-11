@@ -16,8 +16,7 @@ export const presentation = new IndexModel({
   title: "Sebastian Velo",
   subtitle: "Software Engineer",
   text: `Hi! Thanks for visiting my portfolio 🙂. 
-    I have been a developer since 2017, when I started to work at ICBC. I currently work as a Software Engineer at MercadoLibre, using Java and React. 
-    `,
+    I have been a developer since 2017, when I started to work at ICBC. I currently work as a Software Engineer at Despegar.`,
 });
 
 export const experience = new IndexModel({
@@ -25,7 +24,7 @@ export const experience = new IndexModel({
   className: indexStyle("from-orange-600 to-orange-900"),
   title: "Experience",
   img: getImg("experience-icon"),
-  text: "I'm currently working as a Software Engineer at MercadoLibre.",
+  text: "I'm currently working as a Software Engineer at Despegar.",
   route: Route.EXPERIENCE,
   button: "See my experience",
 });
