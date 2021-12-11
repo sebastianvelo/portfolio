@@ -1,5 +1,6 @@
 import CardPropsBuilder from "common/entities/builder/CardPropsBuilder";
 import Route from "common/entities/Route";
+import TailwindStyle from "common/tailwind/TailwindStyle";
 import Model from "./Model";
 
 interface IIndex {
@@ -35,9 +36,15 @@ class IndexModel extends Model implements IIndex {
     this.button = index.button;
   }
 
+  getClassName = () =>
+    TailwindStyle.builder()
+      .add("bg-gradient-to-b text-gray-200")
+      .add(this.className)
+      .get();
+
   toCard() {
     return CardPropsBuilder.builder(this.id)
-      .setClassName(this.className)
+      .setClassName(this.getClassName())
       .toggleInvertColors()
       .setFront({
         title: this.title,

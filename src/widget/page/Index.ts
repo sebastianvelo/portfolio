@@ -1,6 +1,6 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { presentation, experience, skills, projects, education, contact } from "widget/data/Indexes";
+import { presentation, experience, skills, projects, education, contact } from "widget/data/IndexesData";
 
 const Index: Page = {
   id: "home",

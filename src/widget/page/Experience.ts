@@ -1,7 +1,7 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { experience } from "widget/data/Indexes";
-import { icbc, mercadolibre, despegar } from "widget/data/Jobs";
+import { experience } from "widget/data/IndexesData";
+import { icbc, mercadolibre, despegar } from "widget/data/ExperienceData";
 
 const Experience: Page = {
   route: Route.EXPERIENCE,
@@ -10,17 +10,13 @@ const Experience: Page = {
       cards: [experience.toCardIndex()],
     },
     {
-      cards: [
-        despegar.toCard("bg-gradient-to-br from-indigo-400 to-indigo-700"),
-      ],
+      cards: [despegar.toCard()],
     },
     {
-      cards: [
-        mercadolibre.toCard("bg-gradient-to-br from-yellow-200 to-yellow-500"),
-      ],
+      cards: [mercadolibre.toCard()],
     },
     {
-      cards: [icbc.toCard("bg-gradient-to-br from-red-200 to-red-500")],
+      cards: [icbc.toCard()],
     },
   ],
 };

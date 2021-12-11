@@ -1,7 +1,7 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 import TailwindStyle from "common/tailwind/TailwindStyle";
-import { skills } from "widget/data/Indexes";
+import { skills } from "widget/data/IndexesData";
 import getImg from "widget/helpers/getImg";
 
 const getSkillsImg = (file: string) => getImg(file, "/skills");

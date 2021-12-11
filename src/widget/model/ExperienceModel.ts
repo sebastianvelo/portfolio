@@ -1,25 +1,28 @@
 import CardPropsBuilder from "common/entities/builder/CardPropsBuilder";
+import TailwindStyle from "common/tailwind/TailwindStyle";
 import Model from "./Model";
 
-interface IJob {
+interface IExperience {
   company: string;
   position: string;
   start: number;
   end?: number;
   description?: string;
   image: string;
+  className?: string;
 }
 
-class JobModel extends Model implements IJob {
+class ExperienceModel extends Model implements IExperience {
   protected folder: string = "/experience";
   company: string;
   position: string;
   start: number;
   end?: number;
   description?: string;
+  className?: string;
   image: string;
 
-  constructor(job: IJob) {
+  constructor(job: IExperience) {
     super();
     this.company = job.company;
     this.position = job.position;
@@ -27,6 +30,7 @@ class JobModel extends Model implements IJob {
     this.description = job.description;
     this.end = job.end;
     this.image = job.image;
+    this.className = job.className;
   }
 
   getText = () =>
@@ -36,9 +40,12 @@ class JobModel extends Model implements IJob {
 
   getJobImage = () => this.getImage(this.image);
 
-  toCard(className?: string) {
+  getClassName = () =>
+    TailwindStyle.builder().add("bg-gradient-to-br").add(this.className).get();
+
+  toCard() {
     return CardPropsBuilder.builder(this.company)
-      .setClassName(className)
+      .setClassName(this.getClassName())
       .setFront({
         title: this.position,
         subtitle: this.company,
@@ -52,4 +59,4 @@ class JobModel extends Model implements IJob {
   }
 }
 
-export default JobModel;
+export default ExperienceModel;
