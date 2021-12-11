@@ -1,10 +1,10 @@
 import { Route } from "react-router-dom";
 import View from "./view/View";
-import Views from "../widget/Views";
+import Pages from "../widget/Pages";
 
 const App = () => (
   <div className="bg-black min-h-screen">
-    {Views.map((view) => (
+    {Pages.map((view) => (
       <Route
         exact
         path={view.route}

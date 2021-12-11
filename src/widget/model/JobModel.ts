@@ -7,16 +7,17 @@ interface IJob {
   start: number;
   end?: number;
   description?: string;
-  img: string;
+  image: string;
 }
 
 class JobModel extends Model implements IJob {
+  protected folder: string = "/experience";
   company: string;
   position: string;
   start: number;
   end?: number;
   description?: string;
-  img: string;
+  image: string;
 
   constructor(job: IJob) {
     super();
@@ -25,22 +26,27 @@ class JobModel extends Model implements IJob {
     this.start = job.start;
     this.description = job.description;
     this.end = job.end;
-    this.img = job.img;
+    this.image = job.image;
   }
+
+  getText = () =>
+    `${this.start} ${
+      !this.end ? "- Now" : this.end === this.start ? "" : "-" + this.end
+    }`;
+
+  getJobImage = () => this.getImage(this.image);
 
   toCard(className?: string) {
     return CardPropsBuilder.builder(this.company)
       .setClassName(className)
       .setFront({
         title: this.position,
-        img: this.img,
         subtitle: this.company,
-        text: `${this.start} ${
-          !this.end ? "- Now" : this.end === this.start ? "" : "-" + this.end
-        }`,
+        img: this.getJobImage(),
+        text: this.getText(),
       })
       .setBack({
-        img: this.img,
+        img: this.getJobImage(),
         text: this.description,
       });
   }
