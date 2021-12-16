@@ -1,7 +1,7 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 import { email, linkedin, github, codepen } from "widget/data/ContactData";
-import { contact } from "widget/data/IndexesData";
+import { contact } from "widget/data/SectionsData";
 
 const Contact: Page = {
   route: Route.CONTACT,

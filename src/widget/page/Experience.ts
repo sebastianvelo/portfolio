@@ -1,6 +1,6 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { experience } from "widget/data/IndexesData";
+import { experience } from "widget/data/SectionsData";
 import { icbc, mercadolibre, despegar } from "widget/data/ExperienceData";
 
 const Experience: Page = {

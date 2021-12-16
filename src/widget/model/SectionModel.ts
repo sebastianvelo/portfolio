@@ -3,39 +3,41 @@ import Route from "common/entities/Route";
 import TailwindStyle from "common/tailwind/TailwindStyle";
 import Model from "./Model";
 
-interface IIndex {
+interface ISection {
   id: string;
   className: string;
   title: string;
   subtitle?: string;
   text: string;
-  img: string;
+  image: string;
   route?: Route;
   button?: string;
 }
 
-class IndexModel extends Model implements IIndex {
+class SectionModel extends Model implements ISection {
   id: string;
   className: string;
   title: string;
   subtitle?: string;
   text: string;
-  img: string;
+  image: string;
   route?: Route;
   button?: string;
 
-  constructor(index: IIndex) {
+  constructor(index: ISection) {
     super();
     this.id = index.id;
     this.className = index.className;
     this.title = index.title;
     this.subtitle = index.subtitle;
     this.text = index.text;
-    this.img = index.img;
+    this.image = index.image;
     this.route = index.route;
     this.button = index.button;
   }
 
+  getIndexImage = () => this.getImage(this.image);
+  
   getClassName = () =>
     TailwindStyle.builder()
       .add("bg-gradient-to-b text-gray-200")
@@ -49,10 +51,10 @@ class IndexModel extends Model implements IIndex {
       .setFront({
         title: this.title,
         subtitle: this.subtitle,
-        img: this.img,
+        img: this.getIndexImage(),
       })
       .setBack({
-        img: this.img,
+        img: this.getIndexImage(),
         text: this.text,
         action: this.route
           ? {
@@ -66,11 +68,11 @@ class IndexModel extends Model implements IIndex {
 
   toCardIndex() {
     return CardPropsBuilder.builder(this.id)
-      .setClassName(this.className)
+    .setClassName(this.getClassName())
       .toggleInvertColors()
       .setFront({
         title: this.title,
-        img: this.img,
+        img: this.getIndexImage(),
         action: {
           type: "link",
           route: Route.HOME,
@@ -80,4 +82,4 @@ class IndexModel extends Model implements IIndex {
   }
 }
 
-export default IndexModel;
+export default SectionModel;

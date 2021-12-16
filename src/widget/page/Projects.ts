@@ -1,6 +1,6 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { projects } from "widget/data/IndexesData";
+import { projects } from "widget/data/SectionsData";
 import {
   ifdb,
   socialNetwork,

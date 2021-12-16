@@ -1,9 +1,9 @@
 import CardPropsBuilder from "common/entities/builder/CardPropsBuilder";
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { education } from "widget/data/IndexesData";
+import { education } from "widget/data/SectionsData";
 import getImg from "widget/helpers/getImg";
-
+console.log(education)
 const getEducationImg = (file: string) => getImg(file, "/education");
 
 const joseHernandez = CardPropsBuilder.builder("jh")

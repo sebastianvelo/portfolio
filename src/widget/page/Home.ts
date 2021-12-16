@@ -1,8 +1,8 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { presentation, experience, skills, projects, education, contact } from "widget/data/IndexesData";
+import { presentation, experience, skills, projects, education, contact } from "widget/data/SectionsData";
 
-const Index: Page = {
+const Home: Page = {
   id: "home",
   route: Route.HOME,
   rows: [
@@ -18,4 +18,4 @@ const Index: Page = {
   ],
 };
 
-export default Index;
+export default Home;

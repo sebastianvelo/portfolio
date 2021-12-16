@@ -75,6 +75,9 @@ module.exports = {
         },
         esmerald: {
           ...colors.emerald
+        },
+        violet: {
+          ...colors.violet
         }
       },
       rotate: {
