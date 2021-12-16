@@ -7,6 +7,7 @@ import {
   chat,
   resumeBuilder,
   pixelArt,
+  tictactoe,
 } from "widget/data/ProjectsData";
 
 const Projects: Page = {
@@ -16,7 +17,7 @@ const Projects: Page = {
       cards: [projects.toCardIndex()],
     },
     {
-      cards: [ifdb.toCard()],
+      cards: [ifdb.toCard(), tictactoe.toCard()],
     },
     {
       cards: [socialNetwork.toCard(), pixelArt.toCard()],

@@ -9,6 +9,15 @@ export const ifdb = new ProjectModel({
   className: "from-yellow-300 to-yellow-600",
 });
 
+export const tictactoe = new ProjectModel({
+  title: "Tic-Tac-Toe",
+  image: "tictactoe",
+  description:
+    "A Tic-Tac-Toe game, made with Angular and deployed with Firebase.",
+  url: "https://internetfilmdb.web.app/#/movie",
+  className: "from-violet-300 to-violet-600",
+});
+
 export const socialNetwork = new ProjectModel({
   title: "SocialNetwork",
   image: "loremipsum",
