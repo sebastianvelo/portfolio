@@ -23,7 +23,7 @@ const Projects: Page = {
       cards: [socialNetwork.toCard(), pixelArt.toCard()],
     },
     {
-      cards: [chat.toCard(), resumeBuilder.toCard()],
+      cards: [resumeBuilder.toCard(), chat.toCard()],
     },
   ],
 };

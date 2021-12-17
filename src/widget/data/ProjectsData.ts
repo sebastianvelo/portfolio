@@ -14,7 +14,7 @@ export const tictactoe = new ProjectModel({
   image: "tictactoe",
   description:
     "A Tic-Tac-Toe game, made with Angular and deployed with Firebase.",
-  url: "https://internetfilmdb.web.app/#/movie",
+  url: "https://sv-tictactoe.firebaseapp.com/",
   className: "from-violet-300 to-violet-600",
 });
 
