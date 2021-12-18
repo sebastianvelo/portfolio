@@ -15,7 +15,7 @@ export const tictactoe = new ProjectModel({
   description:
     "A Tic-Tac-Toe game, made with Angular and deployed with Firebase.",
   url: "https://sv-tictactoe.firebaseapp.com/",
-  className: "from-violet-300 to-violet-600",
+  className: "from-orange-300 to-orange-600",
 });
 
 export const socialNetwork = new ProjectModel({
@@ -24,7 +24,7 @@ export const socialNetwork = new ProjectModel({
   description:
     "This social network is an Instagram clone, made with React and ExpressJS, styled with SCSS and deployed with GitHub Pages.",
   url: "https://sebastianvelo.github.io/social-network/#/",
-  className: "from-rose-300 to-rose-600",
+  className: "from-pink-300 to-pink-600",
 });
 
 export const chat = new ProjectModel({
@@ -42,7 +42,7 @@ export const pixelArt = new ProjectModel({
   description:
     "A pixel-art web application, created with React, pure CSS and deployed with GitHub Pages.",
   url: "https://sebastianvelo.github.io/pixel-art",
-  className: "from-indigo-300 to-indigo-600",
+  className: "from-rose-300 to-rose-600",
 });
 
 export const resumeBuilder = new ProjectModel({
