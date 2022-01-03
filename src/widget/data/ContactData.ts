@@ -29,6 +29,6 @@ export const email = new ContactModel({
     title: "E-Mail",
     image: "email",
     label:  "sebastian_velo@hotmail.com",
-    url: "sebastian_velo@hotmail.com",
+    url: "mailto:sebastian_velo@hotmail.com",
     className: "from-sky-200 to-sky-400",
   });
