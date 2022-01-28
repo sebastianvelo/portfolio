@@ -8,7 +8,7 @@ const getSkillsImg = (file: string) => getImg(file, "/skills");
 
 const skillStyle = (color: string, light?: boolean) =>
   TailwindStyle.builder()
-    .add("bg-gradient-to-b")
+    .add("bg-gradient-to-tl")
     .addIf("text-light", light)
     .add(color)
     .get();
@@ -51,7 +51,7 @@ const Skills: Page = {
       cards: [
         {
           id: "tailwind",
-          className: skillStyle("from-sky-700 to-sky-400"),
+          className: skillStyle("from-sky-600 to-sky-400"),
           front: {
             title: "Tailwind",
             img: getSkillsImg("tailwind"),
@@ -107,7 +107,7 @@ const Skills: Page = {
         },
         {
           id: "mysql",
-          className: skillStyle("from-orange-100 to-sky-900", true),
+          className: skillStyle("from-orange-300 to-sky-500"),
           front: {
             title: "MySQL",
             img: getSkillsImg("mysql"),

@@ -7,14 +7,14 @@ console.log(education)
 const getEducationImg = (file: string) => getImg(file, "/education");
 
 const joseHernandez = CardPropsBuilder.builder("jh")
-  .setClassName("bg-gradient-to-b from-blue-200 to-blue-500")
+  .setClassName("bg-gradient-to-t from-blue-300 to-blue-600")
   .setFront({
     subtitle: "Programming Technician",
     img: getEducationImg("jh"),
   });
 
 const utn = CardPropsBuilder.builder("utn")
-  .setClassName("bg-gradient-to-b from-gray-50 to-gray-400")
+  .setClassName("bg-gradient-to-t from-gray-200 to-gray-400")
   .setFront({
     title: "UTN",
     subtitle: "Unity Game Development course",
@@ -22,7 +22,7 @@ const utn = CardPropsBuilder.builder("utn")
   });
 
 const exo = CardPropsBuilder.builder("exo")
-  .setClassName("bg-gradient-to-b from-gray-50 to-red-300")
+  .setClassName("bg-gradient-to-t from-red-300 to-red-500")
   .setFront({
     title: "EXO",
     subtitle: "Advanced Programming in Java",

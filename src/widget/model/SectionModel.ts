@@ -40,7 +40,7 @@ class SectionModel extends Model implements ISection {
   
   getClassName = () =>
     TailwindStyle.builder()
-      .add("bg-gradient-to-b text-gray-200")
+      .add("bg-gradient-to-t text-gray-200")
       .add(this.className)
       .get();
 

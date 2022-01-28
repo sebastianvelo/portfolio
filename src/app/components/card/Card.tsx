@@ -7,7 +7,7 @@ import CardSide, { CardSideProps } from "./side/CardSide";
 const cardStyle = (props: CardProps, front: boolean) =>
   TailwindStyle.builder()
     .add("card")
-    .add("w-full h-full")
+    .add("w-full h-96")
     .addIf("active", !front)
     .addIf(hoverableStyle(), props.back)
     .get();

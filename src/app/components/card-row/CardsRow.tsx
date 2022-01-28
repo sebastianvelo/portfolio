@@ -6,7 +6,7 @@ export interface CardRowProps {
 
 const CardRow = (props: CardRowProps) => {
   return (
-    <section className="flex flex-col lg:flex-row h-screen lg:h-96">
+    <section className="flex flex-col lg:flex-row lg:h-96'">
       {props.cards.map((card) => (
         <Card {...card} />
       ))}

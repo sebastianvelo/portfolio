@@ -7,13 +7,16 @@ const Home: Page = {
   route: Route.HOME,
   rows: [
     {
-      cards: [presentation.toCard(), experience.toCard()],
+      cards: [presentation.toCard()],
     },
     {
-      cards: [skills.toCard(), projects.toCard()],
+      cards: [experience.toCard(), projects.toCard()],
     },
     {
-      cards: [education.toCard(), contact.toCard()],
+      cards: [skills.toCard(), education.toCard()],
+    },
+    {
+      cards: [contact.toCard()],
     },
   ],
 };

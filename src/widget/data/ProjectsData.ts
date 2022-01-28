@@ -6,7 +6,7 @@ export const ifdb = new ProjectModel({
   description:
     "This site is an IMDB clone, my second project with Typescript. It was hosted with Firebase.",
   url: "https://internetfilmdb.web.app/#/movie",
-  className: "from-yellow-300 to-yellow-600",
+  className: "from-yellow-400 to-yellow-600",
 });
 
 export const tictactoe = new ProjectModel({
@@ -15,7 +15,7 @@ export const tictactoe = new ProjectModel({
   description:
     "A Tic-Tac-Toe game, made with Angular and deployed with Firebase.",
   url: "https://sv-tictactoe.firebaseapp.com/",
-  className: "from-orange-300 to-orange-600",
+  className: "from-orange-400 to-orange-600",
 });
 
 export const socialNetwork = new ProjectModel({
@@ -24,7 +24,7 @@ export const socialNetwork = new ProjectModel({
   description:
     "This social network is an Instagram clone, made with React and ExpressJS, styled with SCSS and deployed with GitHub Pages.",
   url: "https://sebastianvelo.github.io/social-network/#/",
-  className: "from-pink-300 to-pink-600",
+  className: "from-rose-400 to-rose-600",
 });
 
 export const chat = new ProjectModel({
@@ -33,7 +33,7 @@ export const chat = new ProjectModel({
   description:
     "This chat app was made with React and Typescript, styled with Tailwind and deployed with Firebase. It has a 00's style!",
   url: "https://chat-msn.web.app/",
-  className: "from-sky-300 to-sky-600",
+  className: "from-sky-400 to-sky-600",
 });
 
 export const pixelArt = new ProjectModel({
@@ -42,7 +42,7 @@ export const pixelArt = new ProjectModel({
   description:
     "A pixel-art web application, created with React, pure CSS and deployed with GitHub Pages.",
   url: "https://sebastianvelo.github.io/pixel-art",
-  className: "from-rose-300 to-rose-600",
+  className: "from-violet-400 to-violet-600",
 });
 
 export const resumeBuilder = new ProjectModel({
