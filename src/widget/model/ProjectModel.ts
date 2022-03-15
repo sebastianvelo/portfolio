@@ -28,7 +28,7 @@ class ProjectModel extends Model implements IProject {
   }
 
   getClassName = () =>
-    TailwindStyle.builder().add("bg-gradient-to-t").add(this.className).get();
+    TailwindStyle.builder().add("bg-gradient-to-tl").add(this.className).get();
 
   getProjectImage = () => this.getImage(this.image);
 

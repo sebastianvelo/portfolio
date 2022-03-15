@@ -28,7 +28,7 @@ export const linkedin = new ContactModel({
 export const email = new ContactModel({
   title: "E-Mail",
   image: "email",
-  label: "sebastian_velo@hotmail.com",
-  url: "mailto:sebastian_velo@hotmail.com",
+  label: "sebastianvelo.it@gmail.com",
+  url: "mailto:sebastianvelo.it@gmail.com",
   className: "from-sky-300 via-sky-500 to-sky-300",
 });

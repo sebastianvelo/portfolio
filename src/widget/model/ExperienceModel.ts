@@ -41,7 +41,7 @@ class ExperienceModel extends Model implements IExperience {
   getJobImage = () => this.getImage(this.image);
 
   getClassName = () =>
-    TailwindStyle.builder().add("bg-gradient-to-t").add(this.className).get();
+    TailwindStyle.builder().add("bg-gradient-to-b").add(this.className).get();
 
   toCard() {
     return CardPropsBuilder.builder(this.company)
