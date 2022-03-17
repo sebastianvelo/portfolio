@@ -5,7 +5,7 @@ export const github = new ContactModel({
   image: "github",
   label: "Go to GitHub",
   url: "https://github.com/sebastianvelo",
-  className: "from-purple-300 via-purple-500 to-purple-300",
+  className: "from-indigo-300  to-purple-100",
 });
 
 export const codepen = new ContactModel({
@@ -13,7 +13,7 @@ export const codepen = new ContactModel({
   image: "codepen",
   label: "Go to CodePen",
   url: "https://codepen.io/sebastianvelo/",
-  className: "from-gray-300 via-gray-500 to-gray-300",
+  className: "from-gray-300  to-gray-100",
 });
 
 export const linkedin = new ContactModel({
@@ -21,7 +21,7 @@ export const linkedin = new ContactModel({
   image: "linkedin",
   label: "Go to LinkedIn",
   url: "https://www.linkedin.com/in/sebastian-velo/",
-  className: "from-blue-300 via-blue-500 to-blue-300",
+  className: "from-blue-300 to-sky-300",
 });
 
 
@@ -30,5 +30,5 @@ export const email = new ContactModel({
   image: "email",
   label: "sebastianvelo.it@gmail.com",
   url: "mailto:sebastianvelo.it@gmail.com",
-  className: "from-sky-300 via-sky-500 to-sky-300",
+  className: "from-red-300 via-blue-400 to-esmerald-300",
 });

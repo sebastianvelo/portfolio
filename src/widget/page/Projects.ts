@@ -17,13 +17,13 @@ const Projects: Page = {
       cards: [projects.toCardIndex()],
     },
     {
-      cards: [ifdb.toCard(), tictactoe.toCard()],
+      cards: [ifdb.toCard(), socialNetwork.toCard()],
     },
     {
-      cards: [socialNetwork.toCard(), pixelArt.toCard()],
+      cards: [tictactoe.toCard(), resumeBuilder.toCard()],
     },
     {
-      cards: [resumeBuilder.toCard(), chat.toCard()],
+      cards: [pixelArt.toCard(), chat.toCard()],
     },
   ],
 };

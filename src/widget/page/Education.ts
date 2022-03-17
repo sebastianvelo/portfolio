@@ -29,6 +29,14 @@ const exo = CardPropsBuilder.builder("exo")
     img: getEducationImg("exo"),
   });
 
+const platzi = CardPropsBuilder.builder("platzi")
+  .setClassName("bg-gradient-to-t from-green-300 to-green-500")
+  .setFront({
+    title: "Platzi",
+    subtitle: "JavaScript Course",
+    img: getEducationImg("platzi"),
+  });
+
 const Education: Page = {
   route: Route.EDUCATION,
   rows: [
@@ -36,10 +44,10 @@ const Education: Page = {
       cards: [education.toCardIndex()],
     },
     {
-      cards: [joseHernandez],
+      cards: [platzi, exo],
     },
     {
-      cards: [utn, exo],
+      cards: [utn, joseHernandez],
     },
   ],
 };

@@ -51,7 +51,7 @@ const Skills: Page = {
       cards: [
         {
           id: "tailwind",
-          className: skillStyle("from-sky-600 to-sky-400"),
+          className: skillStyle("from-sky-200 to-sky-400"),
           front: {
             title: "Tailwind",
             img: getSkillsImg("tailwind"),
@@ -71,7 +71,7 @@ const Skills: Page = {
       cards: [
         {
           id: "java",
-          className: skillStyle("from-red-300 to-blue-300"),
+          className: skillStyle("from-red-300 to-blue-200"),
           front: {
             title: "Java",
             img: getSkillsImg("java"),
@@ -79,7 +79,7 @@ const Skills: Page = {
         },
         {
           id: "spring",
-          className: skillStyle("from-green-200 to-esmerald-400"),
+          className: skillStyle("from-green-400 to-esmerald-100"),
           front: {
             title: "Spring",
             img: getSkillsImg("spring"),
@@ -87,7 +87,7 @@ const Skills: Page = {
         },
         {
           id: "spark",
-          className: skillStyle("from-red-700 to-orange-700", true),
+          className: skillStyle("from-red-500 to-orange-700", true),
           front: {
             title: "Spark",
             img: getSkillsImg("spark"),
