@@ -1,6 +1,6 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { email, linkedin, github, codepen } from "widget/data/ContactData";
+import { email, linkedin, github, codepen, codesignal } from "widget/data/ContactData";
 import { contact } from "widget/data/SectionsData";
 
 const Contact: Page = {
@@ -10,10 +10,13 @@ const Contact: Page = {
       cards: [contact.toCardIndex()],
     },
     {
-      cards: [email.toCard(), linkedin.toCard()],
+      cards: [email.toCard()],
     },
     {
-      cards: [github.toCard(), codepen.toCard()],
+      cards: [linkedin.toCard(), github.toCard()],
+    },
+    {
+      cards: [codesignal.toCard(), codepen.toCard()],
     },
   ],
 };

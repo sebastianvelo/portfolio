@@ -22,7 +22,7 @@ const utn = CardPropsBuilder.builder("utn")
   });
 
 const exo = CardPropsBuilder.builder("exo")
-  .setClassName("bg-gradient-to-t from-red-300 to-red-500")
+  .setClassName("bg-gradient-to-t from-red-200 to-red-500")
   .setFront({
     title: "EXO",
     subtitle: "Advanced Programming in Java",
@@ -30,7 +30,7 @@ const exo = CardPropsBuilder.builder("exo")
   });
 
 const platzi = CardPropsBuilder.builder("platzi")
-  .setClassName("bg-gradient-to-t from-green-300 to-green-500")
+  .setClassName("bg-gradient-to-t from-green-200 to-green-400")
   .setFront({
     title: "Platzi",
     subtitle: "JavaScript Course",
@@ -44,7 +44,7 @@ const Education: Page = {
       cards: [education.toCardIndex()],
     },
     {
-      cards: [platzi, exo],
+      cards: [exo, platzi],
     },
     {
       cards: [utn, joseHernandez],

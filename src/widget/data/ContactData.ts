@@ -32,3 +32,10 @@ export const email = new ContactModel({
   url: "mailto:sebastianvelo.it@gmail.com",
   className: "from-red-300 via-blue-400 to-esmerald-300",
 });
+export const codesignal = new ContactModel({
+  title: "Codesignal",
+  image: "codesignal",
+  label: "Go to Codesignal",
+  url: "https://app.codesignal.com/profile/sebastianvel",
+  className: "from-blue-600 to-blue-400",
+});
