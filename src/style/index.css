@@ -11,29 +11,29 @@
   @-webkit-keyframes view-anim {
     from {
       opacity: 0.3;
-      -webkit-transform: rotateZ(180deg);
-              transform: rotateZ(180deg);
+      -webkit-transform: rotateZ(270deg);
+              transform: rotateZ(270deg);
     }
   }
   @keyframes view-anim {
     from {
       opacity: 0.3;
-      -webkit-transform: rotateZ(180deg);
-              transform: rotateZ(180deg);
+      -webkit-transform: rotateZ(270deg);
+              transform: rotateZ(270deg);
     }
   }
   @-webkit-keyframes home-anim {
     from {
-      -webkit-transform: rotateZ(-180deg);
-              transform: rotateZ(-180deg);
       opacity: 0.3;
+      -webkit-transform: rotateZ(-270deg);
+              transform: rotateZ(-270deg);
     }
   }
   @keyframes home-anim {
     from {
-      -webkit-transform: rotateZ(-180deg);
-              transform: rotateZ(-180deg);
       opacity: 0.3;
+      -webkit-transform: rotateZ(-270deg);
+              transform: rotateZ(-270deg);
     }
   }
   .view {
@@ -69,6 +69,14 @@
   .card--back {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
+  }
+  /* Firefox */
+  * {
+    scrollbar-width: 0px;
+  }
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
   }
 }
 /*# sourceMappingURL=index.css.map */

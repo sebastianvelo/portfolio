@@ -10,13 +10,13 @@ const Contact: Page = {
       cards: [contact.toCardIndex()],
     },
     {
-      cards: [email.toCard()],
-    },
-    {
       cards: [linkedin.toCard(), github.toCard()],
     },
     {
       cards: [codesignal.toCard(), codepen.toCard()],
+    },
+    {
+      cards: [email.toCard()],
     },
   ],
 };

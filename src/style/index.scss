@@ -13,14 +13,14 @@
     @keyframes view-anim {
         from {
             opacity: 0.3;
-            transform: rotateZ(180deg);
+            transform: rotateZ(270deg);
         }
     }
 
     @keyframes home-anim {
         from {
-            transform: rotateZ(-180deg);
             opacity: 0.3;
+            transform: rotateZ(-270deg);
         }
     }
 
@@ -57,4 +57,15 @@
             transform: rotateY(180deg);
         }
     }
+
+    /* Firefox */
+    * {
+        scrollbar-width: 0px;
+    }
+
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 0px;
+    }
+
 }

@@ -30,7 +30,7 @@ class ContactModel extends Model implements IContact {
   getContactImage = () => this.getImage(this.image);
 
   getClassName = () =>
-    TailwindStyle.builder().add("bg-gradient-to-b").add(this.className).get();
+    TailwindStyle.builder().add(this.className).get();
 
   toCard() {
     return CardPropsBuilder.builder(this.title)

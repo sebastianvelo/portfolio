@@ -3,7 +3,7 @@ import View from "./view/View";
 import Pages from "../widget/Pages";
 
 const App = () => (
-  <div className="bg-black min-h-screen">
+  <div className="bg-black min-h-screen overflow-x-hidden">
     {Pages.map((view) => (
       <Route
         exact
