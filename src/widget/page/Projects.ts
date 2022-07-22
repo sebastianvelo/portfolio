@@ -2,7 +2,8 @@ import Page from "common/entities/Page";
 import Route from "common/entities/Route";
 import { projects } from "widget/data/SectionsData";
 import {
-  ifdb,
+  filmaholiks,
+  hiringroom,
   socialNetwork,
   chat,
   resumeBuilder,
@@ -17,13 +18,13 @@ const Projects: Page = {
       cards: [projects.toCardIndex()],
     },
     {
-      cards: [ifdb.toCard(), socialNetwork.toCard()],
+      cards: [filmaholiks.toCard(), hiringroom.toCard()],
     },
     {
-      cards: [tictactoe.toCard(), resumeBuilder.toCard()],
+      cards: [ pixelArt.toCard(), chat.toCard(),  resumeBuilder.toCard()],
     },
     {
-      cards: [pixelArt.toCard(), chat.toCard()],
+      cards: [socialNetwork.toCard(), tictactoe.toCard(),],
     },
   ],
 };
