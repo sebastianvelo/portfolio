@@ -13,10 +13,7 @@ const Home: Page = {
       cards: [experience.toCard(), projects.toCard()],
     },
     {
-      cards: [skills.toCard(), education.toCard()],
-    },
-    {
-      cards: [contact.toCard()],
+      cards: [skills.toCard(), education.toCard(), contact.toCard()],
     },
   ],
 };

@@ -9,6 +9,7 @@ import {
   resumeBuilder,
   pixelArt,
   tictactoe,
+  taxCalculator,
 } from "widget/data/ProjectsData";
 
 const Projects: Page = {
@@ -21,10 +22,10 @@ const Projects: Page = {
       cards: [filmaholiks.toCard(), hiringroom.toCard()],
     },
     {
-      cards: [ pixelArt.toCard(), chat.toCard(),  resumeBuilder.toCard()],
+      cards: [resumeBuilder.toCard(), chat.toCard(), pixelArt.toCard(), tictactoe.toCard(),],
     },
     {
-      cards: [socialNetwork.toCard(), tictactoe.toCard(),],
+      cards: [taxCalculator.toCard(), socialNetwork.toCard(),],
     },
   ],
 };

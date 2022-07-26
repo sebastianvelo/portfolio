@@ -61,24 +61,7 @@ module.exports = {
           DEFAULT: colors.gray[900],
           light: colors.gray[800],
         },
-        orange: {
-          ...colors.orange
-        },
-        rose: {
-          ...colors.rose
-        },
-        sky: {
-          ...colors.sky
-        },
-        green: {
-          ...colors.green
-        },
-        esmerald: {
-          ...colors.emerald
-        },
-        violet: {
-          ...colors.violet
-        }
+        ...colors
       },
       rotate: {
         '360': '360deg'
