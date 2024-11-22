@@ -7,7 +7,7 @@ console.log(education)
 const getEducationImg = (file: string) => getImg(file, "/education");
 
 const exo = CardPropsBuilder.builder("exo")
-  .setClassName("bg-gradient-to-br from-red-300 to-red-600")
+  .setClassName("bg-gradient-to-br from-red-600 to-red-300")
   .setFront({
     title: "EXO",
     subtitle: "Advanced Programming in Java",
@@ -23,7 +23,7 @@ const platzi = CardPropsBuilder.builder("platzi")
   });
 
 const utn = CardPropsBuilder.builder("utn")
-  .setClassName("bg-gradient-to-tr from-gray-300 to-gray-600")
+  .setClassName("bg-gradient-to-tr from-gray-600 to-gray-300")
   .setFront({
     title: "UTN",
     subtitle: "Unity Game Development course",
@@ -37,6 +37,14 @@ const joseHernandez = CardPropsBuilder.builder("jh")
     img: getEducationImg("jh"),
   });
 
+const hongKong = CardPropsBuilder.builder("hongKong")
+  .setClassName("bg-gradient-to-tl from-yellow-500 to-yellow-300")
+  .setFront({
+    title: "HKUST",
+    subtitle: "Front-End JavaScript Frameworks: Angular",
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/UST.svg/120px-UST.svg.png",
+  });
+
 
 
 const Education: Page = {
@@ -46,10 +54,10 @@ const Education: Page = {
       cards: [education.toCardIndex()],
     },
     {
-      cards: [exo, platzi],
+      cards: [hongKong, platzi],
     },
     {
-      cards: [utn, joseHernandez],
+      cards: [utn, exo, joseHernandez],
     },
   ],
 };

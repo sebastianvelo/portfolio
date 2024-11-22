@@ -4,8 +4,9 @@ const despegar = new ExperienceModel({
   company: "Despegar",
   position: "Fullstack Developer",
   start: 2022,
+  end: 2024,
   image: "despegar",
-  description: "I'm currently working as a Software Developer III at Despegar, one of the most important travel agencies in Latin America, using Java, Kotlin and Angular.",
+  description: "I worked as a Software Developer III at Despegar, one of the most important travel agencies in Latin America, using Java and Angular.",
   className: "from-indigo-300 via-violet-300 to-violet-500",
 });
 

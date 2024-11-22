@@ -8,7 +8,7 @@ const getSkillsImg = (file: string) => getImg(file, "/skills");
 
 const skillStyle = (color: string, light?: boolean) =>
   TailwindStyle.builder()
-    .add("bg-gradient-to-tl")
+    .add("bg-gradient-to-t")
     .addIf("text-light", light)
     .add(color)
     .get();
@@ -22,14 +22,6 @@ const Skills: Page = {
     {
       cards: [
         {
-          id: "javascript",
-          className: skillStyle("from-yellow-200 to-yellow-400"),
-          front: {
-            title: "JavaScript",
-            img: getSkillsImg("js"),
-          },
-        },
-        {
           id: "typescript",
           className: skillStyle("from-blue-500 to-blue-800", true),
           front: {
@@ -38,11 +30,38 @@ const Skills: Page = {
           },
         },
         {
+          id: "javascript",
+          className: skillStyle("from-yellow-200 to-yellow-400"),
+          front: {
+            title: "JavaScript",
+            img: getSkillsImg("js"),
+          },
+        },
+      ],
+    }, {
+      cards: [
+        {
           id: "react",
           className: skillStyle("from-sky-500 to-sky-800", true),
           front: {
             title: "React",
             img: getSkillsImg("react"),
+          },
+        },
+        {
+          id: "svelte",
+          className: skillStyle("from-orange-600 to-red-600", true),
+          front: {
+            title: "Svelte",
+            img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1702px-Svelte_Logo.svg.png",
+          },
+        },
+        {
+          id: "angular",
+          className: skillStyle("from-red-600 to-red-900", true),
+          front: {
+            title: "Angular",
+            img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
           },
         },
       ],
@@ -51,7 +70,7 @@ const Skills: Page = {
       cards: [
         {
           id: "tailwind",
-          className: skillStyle("from-sky-200 to-sky-400"),
+          className: skillStyle("from-sky-500 to-sky-200"),
           front: {
             title: "Tailwind",
             img: getSkillsImg("tailwind"),
@@ -67,19 +86,28 @@ const Skills: Page = {
         },
       ],
     },
+
     {
       cards: [
         {
           id: "java",
-          className: skillStyle("from-red-300 to-blue-200"),
+          className: skillStyle("from-red-500 via-blue-200 to-blue-200"),
           front: {
             title: "Java",
             img: getSkillsImg("java"),
           },
         },
         {
+          id: "mysql",
+          className: skillStyle("from-orange-500 via-sky-300 to-sky-400"),
+          front: {
+            title: "MySQL",
+            img: getSkillsImg("mysql"),
+          },
+        },
+        {
           id: "spring",
-          className: skillStyle("from-green-400 to-esmerald-100"),
+          className: skillStyle("from-green-400 via-emerald-100 to-emerald-100"),
           front: {
             title: "Spring",
             img: getSkillsImg("spring"),
@@ -87,30 +115,10 @@ const Skills: Page = {
         },
         {
           id: "spark",
-          className: skillStyle("from-red-500 to-orange-700", true),
+          className: skillStyle("from-orange-300 via-red-500 to-red-500", true),
           front: {
             title: "Spark",
             img: getSkillsImg("spark"),
-          },
-        },
-      ],
-    },
-    {
-      cards: [
-        {
-          id: "git",
-          className: skillStyle("from-gray-100 to-gray-400"),
-          front: {
-            title: "GIT",
-            img: getSkillsImg("git"),
-          },
-        },
-        {
-          id: "mysql",
-          className: skillStyle("from-orange-300 to-sky-500"),
-          front: {
-            title: "MySQL",
-            img: getSkillsImg("mysql"),
           },
         },
       ],
