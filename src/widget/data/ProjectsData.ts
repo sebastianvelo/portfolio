@@ -4,7 +4,7 @@ export const filmaholiks = new ProjectModel({
   title: "Filmaholiks",
   image: "ifdb",
   description:
-    "This site is an IMDB clone, my second project with Typescript. It was hosted with Firebase.",
+    "An IMDB clone, my second project with Typescript. It was hosted with Firebase.",
   url: "https://filmaholiks.web.app/#/show",
   className: "from-cyan-500 to-cyan-700 bg-gradient-to-tl",
 });
@@ -71,4 +71,13 @@ export const resumeBuilder = new ProjectModel({
     "You can build your resume in a easy way! My first project with React.",
   url: "https://resumecreator.github.io/cvbuilder/#/",
   className: "from-green-300 to-green-600 bg-gradient-to-bl",
+});
+
+export const wikirdle = new ProjectModel({
+  title: "Wikirdle",
+  image: "wikirdle",
+  description:
+    "The goal of the game is to go from one Wikipedia article to another in as few clicks as possible. Made with React and TypeScript.",
+  url: "https://wikirdle.web.app",
+  className: "from-gray-300 to-gray-600 bg-gradient-to-bl",
 });

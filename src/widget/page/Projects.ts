@@ -1,16 +1,15 @@
 import Page from "common/entities/Page";
 import Route from "common/entities/Route";
-import { projects } from "widget/data/SectionsData";
 import {
+  chat,
   filmaholiks,
   hiringroom,
-  socialNetwork,
-  chat,
-  resumeBuilder,
   pixelArt,
+  resumeBuilder,
   tictactoe,
-  taxCalculator,
+  wikirdle
 } from "widget/data/ProjectsData";
+import { projects } from "widget/data/SectionsData";
 
 const Projects: Page = {
   route: Route.PROJECTS,
@@ -19,13 +18,16 @@ const Projects: Page = {
       cards: [projects.toCardIndex()],
     },
     {
-      cards: [filmaholiks.toCard(), hiringroom.toCard()],
+      cards: [filmaholiks.toCard(), wikirdle.toCard()],
     },
     {
-      cards: [resumeBuilder.toCard(), chat.toCard(), pixelArt.toCard(), tictactoe.toCard(),],
+      cards: [hiringroom.toCard(), pixelArt.toCard()],
     },
     {
-      cards: [taxCalculator.toCard(), socialNetwork.toCard(),],
+      cards: [resumeBuilder.toCard(), chat.toCard(), tictactoe.toCard(),],
+    },
+    {
+      cards: []//[taxCalculator.toCard(), socialNetwork.toCard(),],
     },
   ],
 };

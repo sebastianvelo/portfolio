@@ -8,7 +8,7 @@ export const presentation = new SectionModel({
   title: "Sebastian Velo",
   subtitle: "Fullstack Developer",
   text: `Hi! Thanks for visiting my portfolio 🙂. 
-    I have been a developer since 2017, when I started to work at ICBC. I currently work as a Software Developer III at Despegar.`,
+    I have been a developer since 2017, when I started to work at ICBC. I have used Java, Spring, React and Angular in the jobs I have had.`,
 });
 
 export const experience = new SectionModel({
@@ -16,7 +16,7 @@ export const experience = new SectionModel({
   className: "from-rose-600 to-rose-900",
   title: "Experience",
   image: "experience-icon",
-  text: "I'm currently working as a Fullstack Developer at Despegar.",
+  text: "I worked in large companies such as ICBC, MercadoLibre and Despegar.",
   route: Route.EXPERIENCE,
   button: "See my experience",
 });

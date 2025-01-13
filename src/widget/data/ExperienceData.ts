@@ -1,5 +1,15 @@
 import ExperienceModel from "../model/ExperienceModel";
 
+const outlier = new ExperienceModel({
+  company: "Outlier",
+  position: "AI Trainer",
+  start: 2024,
+  image: "outlier",
+  description:
+    "I work for Outlier applying Reinforcement Learning from Human Feedback (RLHF) to enhance the efficiency with which machine learning models learn.",
+  className: "from-sky-300 via-sky-500 to-pink-300",
+});
+
 const despegar = new ExperienceModel({
   company: "Despegar",
   position: "Fullstack Developer",
@@ -32,4 +42,4 @@ const icbc = new ExperienceModel({
   className: "from-white via-red-50 to-red-300",
 });
 
-export { mercadolibre, icbc, despegar };
+export { mercadolibre, icbc, despegar, outlier };
