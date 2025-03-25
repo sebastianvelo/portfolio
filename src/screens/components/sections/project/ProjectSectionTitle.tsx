@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import RocketSVG from "../../utils/svg/RocketSVG";
 import paths from "../../../paths";
-import BigTitle from "../../utils/text/BigTitle";
+import SectionTitle from "../../utils/section/SectionTitle";
+import RocketSVG from "../../utils/svg/RocketSVG";
 
 interface ProjectSectionTitleProps {
   title: string;
@@ -9,12 +8,7 @@ interface ProjectSectionTitleProps {
 
 const ProjectSectionTitle = (props: ProjectSectionTitleProps) => {
   return (
-    <div className="flex flex-col gap-x-4 items-center justify-center md:flex-row md:items-end md:justify-start">
-      <RocketSVG />
-      <Link to={paths.projects} className="text-slate-800 hover:text-black transition-all duration-300">
-        <BigTitle>{props.title}</BigTitle>
-      </Link>
-    </div>
+    <SectionTitle title={props.title} path={paths.projects} SVG={RocketSVG}></SectionTitle>
   );
 };
 

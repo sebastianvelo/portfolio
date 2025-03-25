@@ -1,4 +1,5 @@
 import BigTitle from "../../utils/text/BigTitle";
+import TimeRange from "../../utils/text/TimeRange";
 import { ExperienceCardProps } from "./ExperienceCard";
 
 const ExperienceCardFrontHeader = (props: ExperienceCardProps) => {
@@ -15,9 +16,7 @@ const ExperienceCardFrontBody = (props: ExperienceCardProps) => {
     <div className="p-6 space-y-3">
       <BigTitle size={0}>{props.company}</BigTitle>
       <p className="text-lg">{props.position}</p>
-      <p className="text-sm">
-        {props.start} -{props.end ? ` ${props.end}` : " Now"}
-      </p>
+      <TimeRange start={props.start} end={props.end} />
     </div>
   )
 };

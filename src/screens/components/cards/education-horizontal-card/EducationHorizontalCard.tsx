@@ -1,6 +1,7 @@
 import { EducationItem } from "../../../../data/model/EducationSectionProps";
-import BigTitle from "../../utils/text/BigTitle";
 import HorizontalCard from "../../utils/horizontal-card/HorizontalCard";
+import BigTitle from "../../utils/text/BigTitle";
+import TimeRange from "../../utils/text/TimeRange";
 
 export interface EducationHorizontalCardProps extends EducationItem { }
 
@@ -18,9 +19,7 @@ const EducationHorizontalCard = (props: EducationHorizontalCardProps) => {
                         <BigTitle size={1}>{props.description}</BigTitle>
                     </div>
                     <p className="text-lg">{props.title}</p>
-                    <p className="text-sm">
-                        {props.start} -{props.end ? ` ${props.end}` : " Now"}
-                    </p>
+                    <TimeRange start={props.start} end={props.end} />
                 </div>
             </div>
         </HorizontalCard>
