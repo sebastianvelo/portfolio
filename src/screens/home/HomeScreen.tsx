@@ -1,10 +1,10 @@
 import getHomeScreenModel from "../../data/screen/home/getHomeScreenModel";
 import Header from "./header/Header";
 import { LanguageProps } from "../../types/Language";
-import ExperienceSection from "../sections/experience/ExperienceSection";
-import ProjectSection from "../sections/project/ProjectSection";
-import SkillSection from "../sections/skill/SkillSection";
-import EducationSection from "../sections/education/EducationSection";
+import ExperienceSection from "../components/sections/experience/ExperienceSection";
+import ProjectSection from "../components/sections/project/ProjectSection";
+import SkillSection from "../components/sections/skill/SkillSection";
+import EducationSection from "../components/sections/education/EducationSection";
 
 interface HomeScreenProps extends LanguageProps { }
 

@@ -1,6 +1,6 @@
 import { Category } from "../../data/screen/project/getProjectScreenModel";
 import BigTitle from "../components/utils/text/BigTitle";
-import ProjectHorizontalCard from "../sections/project/project-horizontal-card/ProjectHorizontalCard";
+import ProjectHorizontalCard from "../components/sections/project/project-horizontal-card/ProjectHorizontalCard";
 
 interface ProjectCategoryProps {
     category: Category;

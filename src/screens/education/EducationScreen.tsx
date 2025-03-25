@@ -2,8 +2,8 @@ import getEducationScreenModel from "../../data/screen/education/getEducationScr
 import useScrollTop from "../../hooks/useScrollTop";
 import { LanguageProps } from "../../types/Language";
 import LineSeparator from "../components/utils/svg/LineSeparator";
-import EducationHorizontalCard from "../sections/education/education-horizontal-card/EducationHorizontalCard";
-import EducationSectionTitle from "../sections/education/EducationSectionTitle";
+import EducationHorizontalCard from "../components/sections/education/education-horizontal-card/EducationHorizontalCard";
+import EducationSectionTitle from "../components/sections/education/EducationSectionTitle";
 
 interface EducationScreenProps extends LanguageProps { }
 

@@ -2,7 +2,7 @@ import getProjectScreenModel from "../../data/screen/project/getProjectScreenMod
 import useScrollTop from "../../hooks/useScrollTop";
 import { LanguageProps } from "../../types/Language";
 import LineSeparator from "../components/utils/svg/LineSeparator";
-import ProjectSectionTitle from "../sections/project/ProjectSectionTitle";
+import ProjectSectionTitle from "../components/sections/project/ProjectSectionTitle";
 import ProjectCategory from "./ProjectCategory";
 
 interface ProjectsScreenProps extends LanguageProps { }
