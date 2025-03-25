@@ -1,4 +1,4 @@
-import BigTitle from "../../../utils/text/BigTitle";
+import BigTitle from "../../utils/text/BigTitle";
 import { EducationCardProps } from "./EducationCard";
 
 const EducationCardBackHeader = (props: EducationCardProps) => {

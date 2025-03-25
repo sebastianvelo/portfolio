@@ -1,5 +1,5 @@
-import BigTitle from "../../../utils/text/BigTitle";
-import SkillsContainer from "../../skill/skills-container/SkillsContainer";
+import BigTitle from "../../utils/text/BigTitle";
+import SkillsContainer from "../../sections/skill/skills-container/SkillsContainer";
 import { ExperienceCardProps } from "./ExperienceCard";
 
 const ExperienceCardBackHeader = (props: ExperienceCardProps) => {

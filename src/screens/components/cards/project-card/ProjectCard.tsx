@@ -1,6 +1,6 @@
-import { ProjectItem } from "../../../../../data/model/ProjectSectionProps";
-import useFlip from "../../../../../hooks/useFlip";
-import FlippableCard, { GenericFlippableCardSideProps } from "../../../utils/flippable-card/FlippableCard";
+import { ProjectItem } from "../../../../data/model/ProjectSectionProps";
+import useFlip from "../../../../hooks/useFlip";
+import FlippableCard, { GenericFlippableCardSideProps } from "../../utils/flippable-card/FlippableCard";
 import ProjectCardBack from "./ProjectCardBack";
 import ProjectCardFront from "./ProjectCardFront";
 

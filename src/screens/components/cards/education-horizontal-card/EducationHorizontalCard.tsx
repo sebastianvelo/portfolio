@@ -1,6 +1,6 @@
-import { EducationItem } from "../../../../../data/model/EducationSectionProps";
-import BigTitle from "../../../utils/text/BigTitle";
-import HorizontalCard from "../../../utils/horizontal-card/HorizontalCard";
+import { EducationItem } from "../../../../data/model/EducationSectionProps";
+import BigTitle from "../../utils/text/BigTitle";
+import HorizontalCard from "../../utils/horizontal-card/HorizontalCard";
 
 export interface EducationHorizontalCardProps extends EducationItem { }
 

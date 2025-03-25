@@ -1,4 +1,4 @@
-import BigTitle from "../../../utils/text/BigTitle";
+import BigTitle from "../../utils/text/BigTitle";
 import { ProjectCardProps } from "./ProjectCard";
 
 const ProjectCardFrontHeader = (props: ProjectCardProps) => {

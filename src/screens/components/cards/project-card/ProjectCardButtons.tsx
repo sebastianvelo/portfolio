@@ -1,6 +1,6 @@
-import LinkButton from "../../../utils/button/LinkButton";
-import GithubSVG from "../../../utils/svg/GithubSVG";
-import GlobeSVG from "../../../utils/svg/GlobeSVG";
+import LinkButton from "../../utils/button/LinkButton";
+import GithubSVG from "../../utils/svg/GithubSVG";
+import GlobeSVG from "../../utils/svg/GlobeSVG";
 
 interface ProjectCardButtonsProps {
     githubUrl: string;

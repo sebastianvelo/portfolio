@@ -1,4 +1,4 @@
-import { SkillItem } from "../../../../../data/model/SkillSectionProps";
+import { SkillItem } from "../../../../data/model/SkillSectionProps";
 
 interface TooltipProps {
     children: React.ReactNode;

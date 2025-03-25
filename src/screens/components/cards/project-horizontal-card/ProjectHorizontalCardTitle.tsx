@@ -1,5 +1,5 @@
-import { ProjectItem } from "../../../../../data/model/ProjectSectionProps";
-import BigTitle from "../../../utils/text/BigTitle";
+import { ProjectItem } from "../../../../data/model/ProjectSectionProps";
+import BigTitle from "../../utils/text/BigTitle";
 
 export interface ProjectHorizontalCardTitleProps extends ProjectItem { }
 

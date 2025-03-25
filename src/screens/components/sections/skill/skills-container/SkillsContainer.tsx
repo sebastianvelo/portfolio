@@ -1,6 +1,6 @@
 import { SkillItem } from "../../../../../data/model/SkillSectionProps";
 import { getSkillsByNames } from "../../../../../data/screen/home/getSkillSectionModel";
-import SkillCard from "../skill-card/SkillCard";
+import SkillCard from "../../../cards/skill-card/SkillCard";
 
 interface SkillsContainerProps {
     stack?: string[];

@@ -1,5 +1,5 @@
 import EducationSectionProps from "../../../../data/model/EducationSectionProps";
-import EducationHorizontalCard from "./education-horizontal-card/EducationHorizontalCard";
+import EducationHorizontalCard from "../../cards/education-horizontal-card/EducationHorizontalCard";
 
 const EducationSectionBody = (props: EducationSectionProps) => {
   return (

@@ -1,4 +1,4 @@
-import { ProjectItem } from "../../../../../data/model/ProjectSectionProps";
+import { ProjectItem } from "../../../../data/model/ProjectSectionProps";
 import ProjectCardButtons from "../project-card/ProjectCardButtons";
 import ProjectHorizontalCardTitle from "./ProjectHorizontalCardTitle";
 

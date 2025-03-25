@@ -1,6 +1,6 @@
-import { ExperienceItem } from "../../../../../data/model/ExperienceSectionProps";
-import useFlip from "../../../../../hooks/useFlip";
-import FlippableCard, { GenericFlippableCardSideProps } from "../../../utils/flippable-card/FlippableCard";
+import { ExperienceItem } from "../../../../data/model/ExperienceSectionProps";
+import useFlip from "../../../../hooks/useFlip";
+import FlippableCard, { GenericFlippableCardSideProps } from "../../utils/flippable-card/FlippableCard";
 import ExperienceCardBack from "./ExperienceCardBack";
 import ExperienceCardFront from "./ExperienceCardFront";
 

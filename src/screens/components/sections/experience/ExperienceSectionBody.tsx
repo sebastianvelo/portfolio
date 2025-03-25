@@ -1,5 +1,5 @@
 import ExperienceSectionProps from "../../../../data/model/ExperienceSectionProps";
-import ExperienceCard from "./experience-card/ExperienceCard";
+import ExperienceCard from "../../cards/experience-card/ExperienceCard";
 
 const ExperienceSectionBody = (props: ExperienceSectionProps) => {
   return (

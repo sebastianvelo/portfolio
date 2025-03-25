@@ -1,4 +1,4 @@
-import BigTitle from "../../../utils/text/BigTitle";
+import BigTitle from "../../utils/text/BigTitle";
 import { ExperienceCardProps } from "./ExperienceCard";
 
 const ExperienceCardFrontHeader = (props: ExperienceCardProps) => {

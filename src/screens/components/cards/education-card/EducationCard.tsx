@@ -1,6 +1,6 @@
-import { EducationItem } from "../../../../../data/model/EducationSectionProps";
-import useFlip from "../../../../../hooks/useFlip";
-import FlippableCard, { GenericFlippableCardSideProps } from "../../../utils/flippable-card/FlippableCard";
+import { EducationItem } from "../../../../data/model/EducationSectionProps";
+import useFlip from "../../../../hooks/useFlip";
+import FlippableCard, { GenericFlippableCardSideProps } from "../../utils/flippable-card/FlippableCard";
 import EducationCardBack from "./EducationCardBack";
 import EducationCardFront from "./EducationCardFront";
 

@@ -1,8 +1,8 @@
-import { ExperienceItem } from "../../../../../data/model/ExperienceSectionProps";
-import HorizontalCard from "../../../utils/horizontal-card/HorizontalCard";
-import BigTitle from "../../../utils/text/BigTitle";
-import RichText from "../../../utils/text/RichText";
-import SkillsContainer from "../../skill/skills-container/SkillsContainer";
+import { ExperienceItem } from "../../../../data/model/ExperienceSectionProps";
+import HorizontalCard from "../../utils/horizontal-card/HorizontalCard";
+import BigTitle from "../../utils/text/BigTitle";
+import RichText from "../../utils/text/RichText";
+import SkillsContainer from "../../sections/skill/skills-container/SkillsContainer";
 
 export interface ExperienceHorizontalCardProps extends ExperienceItem { }
 
