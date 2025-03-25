@@ -1,0 +1,136 @@
+{
+  "en": {
+    "title": "Projects",
+    "description": "I enjoy developing both frontend and backend, which allows me to quickly adapt to new environments. In my spare time, I love exploring new languages and technologies through personal projects.",
+    "fullUrl": "See more",
+    "items": [
+      {
+        "id": "1",
+        "title": "Particle Life",
+        "description": "A game where you can customize interactions between particles – choose whether they attract or repel each other. Enjoy the mesmerizing patterns that emerge!"
+      },
+      {
+        "id": "2",
+        "title": "Wikirdle",
+        "description": "A fun and challenging game where the objective is to navigate from one Wikipedia article to another in as few clicks as possible. Built with React, TypeScript, and styled using Tailwind CSS."
+      },
+      {
+        "id": "3",
+        "title": "Filmaholiks",
+        "description": "Search for your favorite movies and TV shows in Filmaholiks! This project, built with React and TypeScript, features Tailwind styling and is hosted on Firebase."
+      },
+      {
+        "id": "4",
+        "title": "Hiringroom",
+        "description": "A fictitious employment website built with Svelte and TypeScript, hosted on Firebase."
+      },
+      {
+        "id": "5",
+        "title": "Tic-Tac-Toe",
+        "description": "A classic Tic-Tac-Toe game developed with Angular and deployed on Firebase."
+      },
+      {
+        "id": "6",
+        "title": "PixelArt",
+        "description": "A pixel art web application created using React and pure CSS, deployed on GitHub Pages."
+      },
+      {
+        "id": "7",
+        "title": "Tax calculator",
+        "description": "A calculator designed to compute income tax in Argentina."
+      },
+      {
+        "id": "8",
+        "title": "Chat",
+        "description": "A chat application developed with React and TypeScript, styled with Tailwind, and deployed on Firebase, featuring a nostalgic 2000s aesthetic."
+      },
+      {
+        "id": "9",
+        "title": "SocialNetwork",
+        "description": "A social network inspired by Instagram, built with React and ExpressJS, styled with SCSS, and deployed on GitHub Pages."
+      },
+      {
+        "id": "10",
+        "title": "ResumeCreator",
+        "description": "Create your resume effortlessly with this user-friendly tool—my first project using React."
+      },
+      {
+        "id": "11",
+        "title": "Ghost CSS",
+        "description": "A Tailwind-style library built in TypeScript"
+      },
+      {
+        "id": "12",
+        "title": "TMDB.js",
+        "description": "API wrapper for TMDB API"
+      }
+    ]
+  },
+  "es": {
+    "title": "Proyectos",
+    "description": "Disfruto desarrollando tanto el frontend como el backend, lo que me permite adaptarme rápidamente a nuevos entornos. En mi tiempo libre, me encanta explorar nuevos lenguajes y tecnologías a través de proyectos personales.",
+    "fullUrl": "Ver más",
+    "items": [
+      {
+        "id": "1",
+        "title": "Particle Life",
+        "description": "Un juego en el que podés personalizar interacciones entre partículas: elige si se atraen o se repelen entre sí. ¡Disfrutá de los patrones que se forman!"
+      },
+      {
+        "id": "2",
+        "title": "Wikirdle",
+        "description": "Un juego divertido cuyo objetivo es navegar de un artículo de Wikipedia a otro en la menor cantidad de clics posible. Desarrollado con React, TypeScript y estilizado con Tailwind CSS."
+      },
+      {
+        "id": "3",
+        "title": "Filmaholiks",
+        "description": "Busca tus películas y series favoritas en Filmaholiks! Este proyecto, construido con React y TypeScript, está alojado en Firebase. Cuenta con una librería y un backend."
+      },
+      {
+        "id": "4",
+        "title": "Hiringroom",
+        "description": "Un sitio web ficticio de empleo, desarrollado con Svelte y TypeScript, y alojado en Firebase."
+      },
+      {
+        "id": "5",
+        "title": "Tic-Tac-Toe",
+        "description": "Un Tic-Tac-Toe desarrollado con Angular y deployado en Firebase."
+      },
+      {
+        "id": "6",
+        "title": "PixelArt",
+        "description": "Una aplicación web de pixel art creada con React y CSS puro, deployada en GitHub Pages."
+      },
+      {
+        "id": "7",
+        "title": "Tax calculator",
+        "description": "Una calculadora diseñada para calcular el impuesto a la renta en Argentina."
+      },
+      {
+        "id": "8",
+        "title": "Chat",
+        "description": "Una chat desarrollado con React y TypeScript, estilizado con Tailwind y deployado en Firebase, con una estética nostálgica de los años 2000."
+      },
+      {
+        "id": "9",
+        "title": "SocialNetwork",
+        "description": "Una red social inspirada en Instagram, construida con React y ExpressJS, estilizada con SCSS y deployada en GitHub Pages."
+      },
+      {
+        "id": "10",
+        "title": "ResumeCreator",
+        "description": "Crea tu currículum de manera sencilla con esta herramienta fácil de usar. Mi primer proyecto con React!"
+      },
+      {
+        "id": "11",
+        "title": "Ghost CSS",
+        "description": "Una librería al estilo Tailwind creada en TypeScript"
+      },
+      {
+        "id": "12",
+        "title": "TMDB.js",
+        "description": "API wrapper para la API de TMDB"
+      }
+    ]
+  }
+}

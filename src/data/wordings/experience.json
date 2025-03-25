@@ -1,0 +1,62 @@
+{
+    "en": {
+        "title": "Work experience",
+        "description": "With over 6 years of professional experience, I specialize in full-stack development across diverse tech stacks. I have worked with leading companies like Mercado Libre and ICBC, demonstrating expertise in Java and JavaScript technologies.",
+        "items": [
+            {
+                "id": "1",
+                "company": "Outlier",
+                "description": "I collaborate with Outlier, implementing Reinforcement Learning from Human Feedback (RLHF) to optimize machine learning model performance and learning efficiency.",
+                "fullDescription": "I collaborate with Outlier, implementing Reinforcement Learning from Human Feedback (RLHF) to optimize machine learning model performance and learning efficiency. \n○ Responsibilities: \n • [Information not available] \n|\n"
+            },
+            {
+                "id": "2",
+                "company": "Despegar",
+                "description": "As a Software Developer III at Despegar, one of Latin America's premier travel agencies, I developed robust solutions using Java and Angular technologies.",
+                "fullDescription": "As a Software Developer III at Despegar, one of Latin America's premier travel agencies, I developed robust solutions using Java and Angular technologies. \n○ Responsibilities: \n • [Information not available] \n|\n ○ Key Projects: \n • [Information not available]"
+            },
+            {
+                "id": "3",
+                "company": "MercadoLibre",
+                "description": "As a Software Developer at MercadoLibre, I developed comprehensive full-stack solutions, applying advanced software engineering practices and innovative UI techniques.",
+                "fullDescription": "○ Responsibilities \n • Design and implementation of REST APIs with Java 11 \n • Development of components using ReactJS \n • Implementation of component mapping using Server Driven UI technique \n • Participation in agile planning and task management \n|\n ○ Projects \n • Inbound Invoice Creator \n Sophisticated REST API in Java to efficiently process and analyze spreadsheets containing shipment and invoice data. \n • Complementary Invoices \n API that enables vendors to upload and manage pending invoices to avoid fiscal issues."
+            },
+            {
+                "id": "4",
+                "company": "ICBC",
+                "description": "In my first professional role, I developed comprehensive software solutions for ICBC's Corporate Banking platform using Java, JSP, Struts, and JavaScript technologies.",
+                "fullDescription": "During my first professional experience at ICBC, I was mentored by senior and mid-level developers, expanding my web development skills and learning collaborative software engineering practices. \n○ Responsibilities \n• Development of complete projects from conception to implementation using Java and JSP \n• Resolving production-level issues \n• PLSQL for analyzing production issues \n• Maintenance of the institutional website using HTML, CSS, and JavaScript \n|\n○ Projects \n • Immediate Debit \nIntegration of a third-party immediate debit transactions API into the electronic banking system, enabling fund transfers between accounts. My responsibilities included: \n- Backend API integration \n- Development of user interfaces with JSP and JavaScript \n- Collaborative task planning"
+            }
+        ]
+    },
+    "es": {
+        "title": "Experiencia laboral",
+        "description": "Con más de 6 años de experiencia profesional, me especializo en desarrollo full-stack en diversas tecnologías. He trabajado con empresas líderes como Mercado Libre e ICBC, demostrando experiencia en tecnologías Java y JavaScript.",
+        "items": [
+            {
+                "id": "1",
+                "company": "Outlier",
+                "description": "Colaboro con Outlier, implementando Aprendizaje por Refuerzo a partir de Retroalimentación Humana (RLHF) para optimizar el rendimiento y la eficiencia de los modelos de aprendizaje automático.",
+                "fullDescription": "Colaboro con Outlier, implementando Aprendizaje por Refuerzo a partir de Retroalimentación Humana (RLHF) para optimizar el rendimiento y la eficiencia de los modelos de aprendizaje automático. ○ Responsabilidades \n • [Información no disponible] \n|\n ○ Proyectos \n • [Información no disponible]"
+            },
+            {
+                "id": "2",
+                "company": "Despegar",
+                "description": "Trabajé como Software Developer III en Despegar, una de las principales agencias de viajes de América Latina, desarrollando soluciones robustas utilizando Java y Angular.",
+                "fullDescription": "Trabajé como Software Developer III en Despegar, una de las principales agencias de viajes de América Latina, desarrollando soluciones robustas utilizando Java y Angular. \n○ Responsabilidades \n • [Información no disponible] \n|\n ○ Proyectos \n • [Información no disponible]"
+            },
+            {
+                "id": "3",
+                "company": "MercadoLibre",
+                "description": "Como Software Developer en Mercado Libre, desarrollé soluciones full-stack integrales, aplicando prácticas avanzadas de ingeniería de software y técnicas innovadoras de UI.",
+                "fullDescription": "○ Responsabilidades \n • Diseño e implementación de APIs REST con Java 11 \n • Desarrollo de componentes con ReactJS \n • Implementación de mapeo de componentes con técnica Server Driven UI \n • Participación en planificación ágil y gestión de tareas \n|\n ○ Proyectos \n • Inbound Invoice Creator \n API REST sofisticada en Java para procesar y analizar eficientemente hojas de cálculo de información de envíos y facturas. \n • Complementary invoices \n API que permite a los vendedores cargar y gestionar facturas pendientes para evitar problemas fiscales."
+            },
+            {
+                "id": "4",
+                "company": "ICBC",
+                "description": "En mi primer rol profesional, desarrollé soluciones de software integrales para la plataforma de Banca Corporativa de ICBC utilizando tecnologías Java, JSP, Struts y JavaScript.",
+                "fullDescription": "Durante mi primera experiencia profesional en ICBC, fui mentoreado por desarrolladores senior y mid-level, expandiendo mis habilidades de desarrollo web y aprendiendo prácticas colaborativas de ingeniería de software. \n○ Responsabilidades \n• Desarrollo de proyectos completos desde su concepción hasta su implementación usando Java y JSP \n• Resolución de problemas a nivel de producción \n• PLSQL para análisis de issues en producción \n• Mantenimiento del sitio web institucional usando HTML, CSS y JavaScript \n|\n○ Proyectos \n • Débito Inmediato \nIntegración de API de transacciones de débito inmediato de terceros al sistema de banca electrónica, permitiendo transferencias de fondos entre cuentas. Mis responsabilidades incluyeron: \n- Integración de API backend \n- Desarrollo de interfaces de usuario con JSP y JavaScript \n- Planificación colaborativa de tareas"
+            }
+        ]
+    }
+}

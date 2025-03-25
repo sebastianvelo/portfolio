@@ -1,0 +1,30 @@
+{
+    "en": {
+        "1": {
+            "name": "Games"
+        },
+        "2": {
+            "name": "Web"
+        },
+        "3": {
+            "name": "Utils"
+        },
+        "4": {
+            "name": "Libraries"
+        }
+    },
+    "es": {
+        "1": {
+            "name": "Juegos"
+        },
+        "2": {
+            "name": "Web"
+        },
+        "3": {
+            "name": "Herramientas"
+        },
+        "4": {
+            "name": "Librerías"
+        }
+    }
+}

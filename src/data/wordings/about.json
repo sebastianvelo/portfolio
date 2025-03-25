@@ -1,0 +1,16 @@
+{
+  "en": {
+    "header": {
+      "title": "Hi there!",
+      "subtitle": " I'm Sebastián, a full-stack developer based in Argentina."
+    },
+    "content": "Thank you for visiting my portfolio 🙂."
+  },
+  "es": {
+    "header": {
+      "title": "Hola!",
+      "subtitle": "Soy Sebastián, un desarrollador fullstack de Argentina."
+    },
+    "content": "Gracias por visitar mi portfolio 🙂."
+  }
+}

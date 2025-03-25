@@ -1,0 +1,38 @@
+{
+    "en": {
+        "title": "Contact",
+        "message": "Let's talk!",
+        "items": [
+            {
+                "name": "sebastianvelo.it@gmail.com",
+                "label": "sebastianvelo.it@gmail.com"
+            },
+            {
+                "name": "Github",
+                "label": "Go to GitHub"
+            },
+            {
+                "name": "LinkedIn",
+                "label": "Go to LinkedIn"
+            }
+        ]
+    },
+    "es": {
+        "title": "Contacto",
+        "message": "Hablemos!",
+        "items": [
+            {
+                "name": "sebastianvelo.it@gmail.com",
+                "label": "sebastianvelo.it@gmail.com"
+            },
+            {
+                "name": "Github",
+                "label": "Ir a GitHub"
+            },
+            {
+                "name": "LinkedIn",
+                "label": "Ir a LinkedIn"
+            }
+        ]
+    }
+}

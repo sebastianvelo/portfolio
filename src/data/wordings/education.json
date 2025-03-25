@@ -1,0 +1,55 @@
+{
+    "en": {
+      "title": "Education",
+      "description": "This section highlights my formal education and courses that have helped shape my technical skills.",
+      "items": [
+        {
+          "id": "exo",
+          "description": "Advanced Programming in Java"
+        },
+        {
+          "id": "platzi",
+          "description": "JavaScript Course"
+        },
+        {
+          "id": "utn",
+          "description": "Unity Game Development Course"
+        },
+        {
+          "id": "jh",
+          "description": "Programming Technician"
+        },
+        {
+          "id": "coursera",
+          "description": "Angular Course"
+        }
+      ]
+    },
+    "es": {
+      "title": "Educación",
+      "description": "Esta sección destaca mi formación académica y cursos que han ayudado a moldear mis habilidades técnicas.",
+      "items": [
+        {
+          "id": "exo",
+          "description": "Java"
+        },
+        {
+          "id": "platzi",
+          "description": "JavaScript"
+        },
+        {
+          "id": "utn",
+          "description": "Desarrollo de Juegos en Unity y C#"
+        },
+        {
+          "id": "jh",
+          "description": "Técnico en Programación"
+        },
+        {
+          "id": "coursera",
+          "description": "Angular"
+        }
+      ]
+    }
+  }
+  
