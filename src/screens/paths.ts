@@ -1,10 +1,10 @@
 const paths = {
     home: '/',
-    project: '/p/:id',
-    job: '/j/:id',
+    project: '/projects/:id',
+    job: '/experience/:id',
     education: '/e/:id',
-    projects: '/p',
-    jobs: '/j',
+    projects: '/projects',
+    jobs: '/experience',
     eduations: '/e'
 };
 

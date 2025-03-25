@@ -15,7 +15,7 @@ const ExperienceHorizontalCard = (props: ExperienceHorizontalCardProps) => {
                 <div className="space-y-2">
                     <div className="flex space-x-3">
                         <img src={props.image} alt={props.company} className="self-center w-6 h-6 2xl:w-8 2xl:h-8 object-cover" />
-                        <BigTitle size={1}>{props.company}</BigTitle>
+                        <BigTitle size={2}>{props.company}</BigTitle>
                     </div>
                     <BigTitle size={0}>{props.position}</BigTitle>
                     <TimeRange start={props.start} end={props.end} />

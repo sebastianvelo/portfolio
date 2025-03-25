@@ -20,7 +20,7 @@ function getProjectScreenModel(language: Language): Model {
     const wording = wordings[language];
     const localizedCategories: { [key: string]: any } = projectCategories[language];
 
-    const combinedItems = projects.map(item => {
+    const combinedItems = projects.filter(item => !item.hide).map(item => {
         const wordingItem = wording.items.find(w => w.title === item.title);
         return {
             ...item,

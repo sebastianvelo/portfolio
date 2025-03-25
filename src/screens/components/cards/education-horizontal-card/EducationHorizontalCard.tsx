@@ -18,7 +18,7 @@ const EducationHorizontalCard = (props: EducationHorizontalCardProps) => {
                         />
                         <BigTitle size={1}>{props.description}</BigTitle>
                     </div>
-                    <p className="text-lg">{props.title}</p>
+                    <BigTitle size={0}>{props.title}</BigTitle>
                     <TimeRange start={props.start} end={props.end} />
                 </div>
             </div>
