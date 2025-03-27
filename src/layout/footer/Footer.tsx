@@ -5,11 +5,11 @@ const Footer = (props: ContactSectionProps) => {
   return (
     <footer className="bg-gradient-to-b from-slate-100 to-slate-200">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-4">
-        <div className="flex flex-row items-end justify-between font-mono">
-          <span className="text-lg sm:text-center">
+        <div className="flex flex-row items-end justify-end font-mono">
+          <span className="text-lg sm:text-center hidden">
             Sebastián Velo
           </span>
-          <div className="flex items-end justify-end space-x-4">
+          <div className="flex flex-col items-center xl:items-end xl:justify-end xl:space-x-4">
             <span className="text-lg sm:text-center">
               {props.message}
             </span>

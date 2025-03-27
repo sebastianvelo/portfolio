@@ -8,7 +8,7 @@ interface SectionProps {
 const Section = (props: SectionProps) => {
     return (
         <>
-            <section className="space-y-8 px-4 md:self-center md:w-2/3">
+            <section className="space-y-8 px-5 2xl:px-14 2xl:self-center 2xl:w-3/4">
                 {props.children}
             </section>
             <LineSeparator />
