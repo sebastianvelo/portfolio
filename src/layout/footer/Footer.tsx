@@ -2,24 +2,28 @@ import ContactSectionProps from '../../data/model/ContactSectionProps';
 import ContactItem from '../../screens/components/common/contact/ContactItem';
 
 const Footer = (props: ContactSectionProps) => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-gradient-to-b from-slate-100 to-slate-200">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-4">
-        <div className="flex flex-row items-end justify-end font-mono">
-          <span className="text-lg sm:text-center hidden">
-            Sebastián Velo
-          </span>
-          <div className="flex flex-col items-center xl:items-end xl:justify-end xl:space-x-4">
-            <span className="text-lg sm:text-center">
-              {props.message}
-            </span>
-            <ul className="text-black space-x-6 flex">
-              {props.items.map((item) => (
-                <li key={item.name}>
-                  <ContactItem key={item.name} {...item} />
-                </li>
-              ))}
-            </ul>
+    <footer className="bg-gray-100 dark:bg-gray-900 py-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <p className="text-gray-700 dark:text-gray-300 mb-4 md:mb-0">
+            © {currentYear} John Doe. All rights reserved.
+          </p>
+          <div className="flex space-x-6">
+            {props.items.map((link) => (
+              <a
+                key={link.name}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
+                aria-label={link.name}
+              >
+                <ContactItem key={link.name} {...link} />
+              </a>
+            ))}
           </div>
         </div>
       </div>

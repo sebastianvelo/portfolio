@@ -1,8 +1,5 @@
 import { ReactNode } from "react";
 import useScrollTop from "../../../hooks/useScrollTop";
-import SectionTitle from "../utils/section/SectionTitle";
-import paths from "../../paths";
-import RocketSVG from "../utils/svg/RocketSVG";
 
 interface ScreenProps {
     children: ReactNode;

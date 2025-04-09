@@ -5,17 +5,19 @@ import Body from './layout/body/Body';
 import Footer from './layout/footer/Footer';
 import Nav from './layout/nav/Nav';
 import Language, { LanguageProps } from './types/Language';
+import Header from './layout/header/Header';
 
 interface AppProps extends LanguageProps { }
 
 const App = (props: AppProps) => {
   const [lang, setLang] = useState<Language>(props.lang);
-  const { nav, contacts } = getAppModel(lang);
+  const { nav, contacts, header } = getAppModel(lang);
   
   return (
     <Router>
-      <div className="flex flex-col space-y-6 2xl:space-y-12 bg-slate-100 text-slate-900">
+      <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white font-sans`}>
         <Nav nav={nav} lang={lang} setLang={setLang} />
+        <Header {...header} />
         <Body lang={lang} />
         <Footer {...contacts} />
       </div>

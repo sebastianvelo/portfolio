@@ -29,7 +29,7 @@ const BookSVG: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
                 width="40"
                 height="40"
                 rx="2"
-                fill="#374151"
+                fill="#1e3a8a"
                 stroke="#111827"
                 strokeWidth="2"
             />

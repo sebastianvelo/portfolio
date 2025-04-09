@@ -1,38 +1,27 @@
-import { useState } from "react";
-import HamburgerMenuButton from "../../screens/components/utils/button/HamburgerMenuButton";
 import { LanguageSelectorProps } from "../../screens/components/utils/button/LanguageSelector";
 import DesktopMenu from "./DesktopMenu";
-import MobileMenu from "./MobileMenu";
 import { NavLinksProps } from "./NavLinks";
-import BigTitle from "../../screens/components/utils/text/BigTitle";
-import SectionTitle from "../../screens/components/utils/section/SectionTitle";
-import paths from "../../screens/paths";
-import { useLocation } from "react-router-dom";
-import Underline from "../../screens/components/utils/text/Undeline";
+import ThemeToggle from "./ThemeToggle";
 
 interface NavProps extends LanguageSelectorProps, NavLinksProps { }
 
 const Nav = (props: NavProps) => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
-  const isHome = location.pathname === paths.home;
-
   return (
-    <nav className="md:sticky md:top-0 md:z-50 flex items-center justify-between font-mono p-4 xl:px-32 bg-slate-100/30 backdrop-blur-md">
-      <h1 className="flex space-x-2">
-        {!isHome && <SectionTitle path={paths.home} title={"⬅"}></SectionTitle>}
-        <Underline>
-          <BigTitle size={1}>Sebastián</BigTitle>
-        </Underline>
-        <Underline>
-          <BigTitle size={1}>Velo</BigTitle>
-        </Underline>
-      </h1>
-      <DesktopMenu {...props} />
-      <HamburgerMenuButton toggleMenu={setMenuOpen} menuOpen={menuOpen} />
-      <MobileMenu {...props} toggleMenu={setMenuOpen} menuOpen={menuOpen} />
+    <nav className="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/90 backdrop-blur-md shadow-sm">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between h-16 items-center">
+          <div className="flex-shrink-0">
+            <h1 className="text-xl font-bold text-gray-900 dark:text-white">
+              Sebastián Velo
+            </h1>
+          </div>
+          <div className="flex items-center space-x-4">
+            <DesktopMenu {...props} />
+            <ThemeToggle />
+          </div>
+        </div>
+      </div>
     </nav>
-
   );
 };
 

@@ -9,10 +9,8 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.14",
-    "@tailwindcss/postcss": "^4.0.14",
     "loader-utils": "3.2.1",
-    "postcss-import": "^16.1.0", 
+    "postcss-import": "^15.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^7.4.0",
@@ -21,14 +19,18 @@
   "devDependencies": {
     "@types/react": "18.2.38",
     "@types/react-dom": "18.2.15",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
     "typescript": "4.4.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && firebase deploy",
+    "build:tailwind": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch",
+    "start": "react-scripts start"
   },
   "browserslist": [
     ">0.2%",

@@ -1,5 +1,5 @@
 import ProjectSectionProps, { ProjectItem } from "../../../../data/model/ProjectSectionProps";
-import ProjectCard from "../../cards/project-card/ProjectCard";
+import ProjectCard from "../../cards/ProjectCard";
 
 const ProjectSectionBody = (props: ProjectSectionProps) => {
   return (
