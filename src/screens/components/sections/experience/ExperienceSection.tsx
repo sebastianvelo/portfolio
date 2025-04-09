@@ -1,7 +1,6 @@
 import ExperienceSectionProps from "../../../../data/model/ExperienceSectionProps";
 import ExperienceCard from "../../cards/ExperienceCard";
 import Section from "../../utils/section/Section";
-import WorkSVG from "../../utils/svg/WorkSVG";
 import Title from "../../utils/text/Title";
 
 const ExperienceSection = (props: ExperienceSectionProps) => {

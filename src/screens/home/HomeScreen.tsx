@@ -5,9 +5,6 @@ import EducationSection from "../components/sections/education/EducationSection"
 import ExperienceSection from "../components/sections/experience/ExperienceSection";
 import ProjectSection from "../components/sections/project/ProjectSection";
 import SkillSection from "../components/sections/skill/SkillSection";
-import BookSVG from "../components/utils/svg/BookSVG";
-import RocketSVG from "../components/utils/svg/RocketSVG";
-import WorkSVG from "../components/utils/svg/WorkSVG";
 import TabButton from "../components/utils/tab/TabButton";
 
 interface HomeScreenProps extends LanguageProps { }
@@ -68,8 +65,8 @@ const HomeScreen = (props: HomeScreenProps) => {
             <div className="min-h-[300px]">
                 <div className={contentClasses}>{renderActiveSection()}</div>
             </div>
-            <div className="hidden">
 
+            <div className="hidden">
                 <SkillSection {...skills.frontend} />
                 <SkillSection {...skills.frameworkFrontend} />
                 <SkillSection {...skills.backend} />

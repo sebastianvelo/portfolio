@@ -1,7 +1,6 @@
 import EducationSectionProps from "../../../../data/model/EducationSectionProps";
 import EducationCard from "../../cards/EducationCard";
 import Section from "../../utils/section/Section";
-import BookSVG from "../../utils/svg/BookSVG";
 import Title from "../../utils/text/Title";
 
 const EducationSection = (props: EducationSectionProps) => {

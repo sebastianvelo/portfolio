@@ -1,7 +1,6 @@
 import ProjectSectionProps from "../../../../data/model/ProjectSectionProps";
 import ProjectCard from "../../cards/ProjectCard";
 import Section from "../../utils/section/Section";
-import RocketSVG from "../../utils/svg/RocketSVG";
 import Title from "../../utils/text/Title";
 
 const ProjectSection = (props: ProjectSectionProps) => {
