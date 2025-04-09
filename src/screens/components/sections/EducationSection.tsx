@@ -1,7 +1,7 @@
-import EducationSectionProps from "../../../../data/model/EducationSectionProps";
-import EducationCard from "../../cards/EducationCard";
-import Section from "../../utils/section/Section";
-import Title from "../../utils/text/Title";
+import EducationSectionProps from "../../../data/model/EducationSectionProps";
+import EducationCard from "../cards/EducationCard";
+import Section from "../common/section/Section";
+import Title from "../utils/text/Title";
 
 const EducationSection = (props: EducationSectionProps) => {
   return (

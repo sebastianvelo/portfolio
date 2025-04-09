@@ -1,5 +1,5 @@
 import SkillSectionProps from "../../../../data/model/SkillSectionProps";
-import Section from "../../utils/section/Section";
+import Section from "../../common/section/Section";
 import SkillsContainer from "./skills-container/SkillsContainer";
 
 const SkillSection = (props: SkillSectionProps) => {

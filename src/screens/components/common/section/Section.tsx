@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import LineSeparator from "../svg/LineSeparator";
+import LineSeparator from "../../utils/svg/LineSeparator";
 
 interface SectionProps {
     id?: string;

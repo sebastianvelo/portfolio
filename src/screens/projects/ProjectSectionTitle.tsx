@@ -1,6 +1,6 @@
-import paths from "../../../paths";
-import SectionTitle from "../../utils/section/SectionTitle";
-import RocketSVG from "../../utils/svg/RocketSVG";
+import paths from "../paths";
+import SectionTitle from "../components/common/section/SectionTitle";
+import RocketSVG from "../components/utils/svg/RocketSVG";
 
 interface ProjectSectionTitleProps {
   title: string;

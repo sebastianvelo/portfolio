@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import BigTitle from "../../utils/text/BigTitle";
-import Underline from "../text/Undeline";
+import Underline from "../../utils/text/Undeline";
 
 interface SectionTitleProps {
     title: string;

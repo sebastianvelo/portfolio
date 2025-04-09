@@ -1,8 +1,8 @@
 import { ProjectItem } from "../../../data/model/ProjectSectionProps";
 import Badge from "../utils/badge/Badge";
 import LinkButton from "../utils/button/LinkButton";
-import FlipCard from "../utils/flip-card/FlipCard";
-import FlipCardSide from "../utils/flip-card/FlipCardSide";
+import FlipCard from "../common/flip-card/FlipCard";
+import FlipCardSide from "../common/flip-card/FlipCardSide";
 import GithubSVG from "../utils/svg/GithubSVG";
 import GlobeSVG from "../utils/svg/GlobeSVG";
 
@@ -10,7 +10,7 @@ export interface ProjectCardProps extends ProjectItem { }
 
 const Skills = (props: ProjectCardProps) => (
   <div className="flex space-x-2 mt-1">
-    {props.stack!.map(item => <Badge>{item}</Badge>)}
+    {props.stack!.map(item => <Badge key={item}>{item}</Badge>)}
   </div>
 )
 

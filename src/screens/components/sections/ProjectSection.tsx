@@ -1,7 +1,7 @@
-import ProjectSectionProps from "../../../../data/model/ProjectSectionProps";
-import ProjectCard from "../../cards/ProjectCard";
-import Section from "../../utils/section/Section";
-import Title from "../../utils/text/Title";
+import ProjectSectionProps from "../../../data/model/ProjectSectionProps";
+import ProjectCard from "../cards/ProjectCard";
+import Section from "../common/section/Section";
+import Title from "../utils/text/Title";
 
 const ProjectSection = (props: ProjectSectionProps) => {
   return (

@@ -1,6 +1,6 @@
-import paths from "../../../paths";
-import SectionTitle from "../../utils/section/SectionTitle";
-import BookSVG from "../../utils/svg/BookSVG";
+import SectionTitle from "../components/common/section/SectionTitle";
+import BookSVG from "../components/utils/svg/BookSVG";
+import paths from "../paths";
 
 interface EducationSectionTitleProps {
   title: string;

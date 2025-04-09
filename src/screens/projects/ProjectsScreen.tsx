@@ -1,8 +1,7 @@
 import getProjectScreenModel from "../../data/screen/project/getProjectScreenModel";
-import useScrollTop from "../../hooks/useScrollTop";
 import { LanguageProps } from "../../types/Language";
 import LineSeparator from "../components/utils/svg/LineSeparator";
-import ProjectSectionTitle from "../components/sections/project/ProjectSectionTitle";
+import ProjectSectionTitle from "./ProjectSectionTitle";
 import ProjectCategory from "./ProjectCategory";
 import Screen from "../components/screen/Screen";
 

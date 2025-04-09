@@ -1,10 +1,9 @@
 import getExperienceScreenModel from "../../data/screen/experience/getExperienceScreenModel";
-import useScrollTop from "../../hooks/useScrollTop";
 import { LanguageProps } from "../../types/Language";
-import LineSeparator from "../components/utils/svg/LineSeparator";
 import ExperienceHorizontalCard from "../components/cards/experience-horizontal-card/ExperienceHorizontalCard";
-import ExperienceSectionTitle from "../components/sections/experience/ExperienceSectionTitle";
 import Screen from "../components/screen/Screen";
+import LineSeparator from "../components/utils/svg/LineSeparator";
+import ExperienceSectionTitle from "./ExperienceSectionTitle";
 
 interface ExperiencesScreenProps extends LanguageProps { }
 

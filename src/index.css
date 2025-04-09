@@ -19,10 +19,11 @@
   -webkit-perspective: 1000px;
 }
 
-.rotate-y-180 {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
+.rotate-x-180 {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
 }
+
 .perspective-1000 {
   perspective: 1000px;
 }

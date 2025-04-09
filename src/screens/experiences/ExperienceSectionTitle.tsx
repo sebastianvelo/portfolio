@@ -1,6 +1,6 @@
-import paths from "../../../paths";
-import SectionTitle from "../../utils/section/SectionTitle";
-import WorkSVG from "../../utils/svg/WorkSVG";
+import SectionTitle from "../components/common/section/SectionTitle";
+import WorkSVG from "../components/utils/svg/WorkSVG";
+import paths from "../paths";
 
 interface ExperienceSectionTitleProps {
   title: string;

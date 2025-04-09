@@ -1,7 +1,7 @@
-import ExperienceSectionProps from "../../../../data/model/ExperienceSectionProps";
-import ExperienceCard from "../../cards/ExperienceCard";
-import Section from "../../utils/section/Section";
-import Title from "../../utils/text/Title";
+import ExperienceSectionProps from "../../../data/model/ExperienceSectionProps";
+import ExperienceCard from "../cards/ExperienceCard";
+import Section from "../common/section/Section";
+import Title from "../utils/text/Title";
 
 const ExperienceSection = (props: ExperienceSectionProps) => {
   return (
