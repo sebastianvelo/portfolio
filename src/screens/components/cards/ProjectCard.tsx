@@ -40,7 +40,7 @@ const CardFront = (props: ProjectCardProps) => (
           <Skills {...props} slice={3} />
         </div>
       </div>
-      <p className="cursor-text text-gray-700 dark:text-gray-300 flex-grow">
+      <p className="cursor-text text-slate-700 dark:text-slate-300 flex-grow">
         {props.description}
       </p>
     </div>

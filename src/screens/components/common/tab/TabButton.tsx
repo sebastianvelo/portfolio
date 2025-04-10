@@ -10,7 +10,7 @@ const TabButton = (props: TabButtonProps) => {
             onClick={props.onClick}
             className={`px-6 py-2 flex flex-col items-center font-medium text-sm md:text-xl transition-all duration-300 relative ${props.active
                 ? "text-blue-600 dark:text-blue-400 font-semibold"
-                : "cursor-pointer text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                : "cursor-pointer text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400"
                 }`}
         >
             {props.children}

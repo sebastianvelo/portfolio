@@ -17,7 +17,7 @@ const Header = (props: HeaderProps) => (
             <h2 className="text-2xl md:text-3xl font-medium text-blue-600 dark:text-blue-400 mb-6">
                 {props.content}
             </h2>
-            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl mx-auto">
                 {props.header.subtitle}
             </p>
         </div>

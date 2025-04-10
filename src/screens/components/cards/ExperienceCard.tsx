@@ -23,11 +23,11 @@ const CardFront = (props: ExperienceCardProps) => (
         />
         <div>
           <h3 className="font-bold text-lg">{props.company}</h3>
-          <p className="text-gray-600 dark:text-gray-300">{props.position}</p>
+          <p className="text-slate-600 dark:text-slate-300">{props.position}</p>
         </div>
       </div>
       <Badge>{props.start} - {props.end}</Badge>
-      <p className="mt-4 text-gray-700 dark:text-gray-300 flex-grow">
+      <p className="mt-4 text-slate-700 dark:text-slate-300 flex-grow">
         {props.description}
       </p>
     </div>
@@ -65,7 +65,7 @@ const CardBack = (props: ExperienceCardBackProps) => {
         <Badge>{props.start} - {props.end}</Badge>
         <div
           ref={contentRef}
-          className="cursor-text mt-4 text-gray-700 dark:text-gray-300 flex-grow overflow-y-auto pb-8"
+          className="cursor-text mt-4 text-slate-700 dark:text-slate-300 flex-grow overflow-y-auto pb-8"
         >
           <RichText>{props.fullDescription}</RichText>
 
@@ -77,7 +77,7 @@ const CardBack = (props: ExperienceCardBackProps) => {
         {hasOverflow && (
           <div className="absolute top-4 right-4 z-10">
             <button
-              className="flex items-center justify-center w-8 h-8 rounded-full bg-white dark:bg-gray-700 shadow-md hover:shadow-lg transition-shadow"
+              className="flex items-center justify-center w-8 h-8 rounded-full bg-white dark:bg-slate-700 shadow-md hover:shadow-lg transition-shadow"
               onClick={props.toggleExpand}
               aria-label={props.isExpanded ? "Mostrar menos" : "Mostrar más"}
               title={props.isExpanded ? "Mostrar menos" : "Mostrar más"}
