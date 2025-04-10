@@ -1,7 +1,10 @@
-import EducationSectionProps from "../../../data/model/EducationSectionProps";
+import EducationItem from "../../../data/model/EducationItem";
+import GenericSection from "../../../data/model/GenericSection";
 import EducationCard from "../cards/EducationCard";
 import Section from "../common/section/Section";
 import Title from "../utils/text/Title";
+
+export interface EducationSectionProps extends GenericSection<EducationItem> { }
 
 const EducationSection = (props: EducationSectionProps) => {
   return (

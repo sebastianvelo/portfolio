@@ -1,41 +1,40 @@
+import { EducationSectionProps } from "../../../screens/components/sections/EducationSection";
+import { ExperienceSectionProps } from "../../../screens/components/sections/ExperienceSection";
+import { ProjectSectionProps } from "../../../screens/components/sections/ProjectSection";
 import Language from "../../../types/Language";
-import EducationSectionProps from "../../model/EducationSectionProps";
-import ExperienceSectionProps from "../../model/ExperienceSectionProps";
-import ProjectSectionProps from "../../model/ProjectSectionProps";
-import SkillSectionProps from "../../model/SkillSectionProps";
 import getEducationSectionModel from "./getEducationSectionModel";
 import getExperienceSectionModel from "./getExperienceSectionModel";
 import getProjectSectionModel from "./getProjectSectionModel";
 import getSkillSectionModel from "./getSkillSectionModel";
 
-interface Model {
+interface HomeModel {
     experience: ExperienceSectionProps;
     projects: ProjectSectionProps;
     education: EducationSectionProps;
-    skills: {
+    /*skills: {
         frontend: SkillSectionProps;
         backend: SkillSectionProps;
         frameworkFrontend: SkillSectionProps;
-    }
+    }*/
 }
 
-const getHomeScreenModel = (language: Language): Model => {
+const getHomeScreenModel = (language: Language): HomeModel => {
     const experience = getExperienceSectionModel(language);
     const projects = getProjectSectionModel(language);
+    const education = getEducationSectionModel(language);
     const frameworkFrontend = getSkillSectionModel("framework-frontend");
     const frontend = getSkillSectionModel("frontend");
     const backend = getSkillSectionModel("backend");
-    const education = getEducationSectionModel(language);
 
     return {
         experience,
         projects,
         education,
-        skills: {
+        /*skills: {
             frontend,
             backend,
             frameworkFrontend,
-        }
+        }*/
     };
 };
 

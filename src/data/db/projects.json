@@ -5,7 +5,7 @@
         "image": "https://cdn-icons-png.flaticon.com/512/8232/8232934.png",
         "githubUrl": "https://github.com/sebastianvelo/particle-life",
         "liveUrl": "https://particle-life.web.app/",
-        "color": "from-pink-50 to-pink-300 hover:from-pink-400 hover:via-pink-300 hover:to-pink-400 bg-gradient-to-tl",
+        "color": "hover:bg-pink-100 dark:hover:bg-pink-900",
         "stack": [
             "React",
             "Typescript",
@@ -21,7 +21,7 @@
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/wikirdle.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/wikirdle",
         "liveUrl": "https://wikirdle.web.app",
-        "color": "from-gray-50 to-gray-300 hover:from-gray-400 hover:via-gray-300 hover:to-gray-400 bg-gradient-to-tl",
+        "color": "hover:bg-zinc-200 dark:hover:bg-black/70",
         "stack": [
             "React",
             "Typescript",
@@ -37,7 +37,7 @@
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/ifdb.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/filmaholiks-frontend",
         "liveUrl": "https://filmaholiks.web.app/#/show",
-        "color": "from-gray-50 to-blue-200 hover:from-blue-400 hover:via-blue-200 hover:to-blue-400 bg-gradient-to-tl",
+        "color": "hover:bg-slate-100 dark:hover:bg-slate-900",
         "stack": [
             "React",
             "Typescript",
@@ -49,12 +49,27 @@
         "category": 2
     },
     {
+        "id": "6",
+        "title": "pixartsx",
+        "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/pixelart.png?raw=true",
+        "githubUrl": "https://github.com/sebastianvelo/pixel-art",
+        "liveUrl": "https://pixartsx.web.app/",
+        "color": "hover:bg-purple-100 dark:hover:bg-indigo-900",
+        "stack": [
+            "TypeScript",
+            "React",
+            "Tailwind"
+        ],
+        "showInHome": true,
+        "category": 1
+    },
+    {
         "id": "4",
         "title": "Hiringroom",
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/hiringroom.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/hiringroom",
         "liveUrl": "https://sv-hiringroom.web.app/all/offers",
-        "color": "from-gray-50 to-yellow-200 hover:from-yellow-400 hover:via-yellow-200 hover:to-yellow-400 bg-gradient-to-tl",
+        "color": "hover:bg-yellow-100 dark:hover:bg-orange-800",
         "stack": [
             "Svelte",
             "Typescript",
@@ -70,7 +85,7 @@
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/tictactoe.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/tictactoe",
         "liveUrl": "https://sv-tictactoe.firebaseapp.com/",
-        "color": "from-gray-50 to-rose-200 hover:from-rose-400 hover:via-rose-200 hover:to-rose-400 bg-gradient-to-tl",
+        "color": "hover:from-rose-400 hover:via-rose-200 hover:to-rose-400 bg-gradient-to-tl",
         "stack": [
             "Angular",
             "Typescript",
@@ -81,27 +96,12 @@
         "category": 1
     },
     {
-        "id": "6",
-        "title": "PixelArt",
-        "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/pixelart.png?raw=true",
-        "githubUrl": "https://github.com/sebastianvelo/pixel-art",
-        "liveUrl": "https://sebastianvelo.github.io/pixel-art",
-        "color": "from-gray-50 to-orange-200 hover:from-orange-400 hover:via-orange-200 hover:to-orange-400 bg-gradient-to-tl",
-        "stack": [
-            "Angular",
-            "JavaScript",
-            "SASS"
-        ],
-        "showInHome": true,
-        "category": 1
-    },
-    {
         "id": "7",
         "title": "Tax calculator",
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/taxCalculator.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/tax-calculator",
         "liveUrl": "https://calculadora-ganancias.web.app/?#/",
-        "color": "from-gray-50 to-emerald-400 hover:from-emerald-600 hover:via-emerald-400 hover:to-emerald-600 bg-gradient-to-tl",
+        "color": "hover:from-emerald-600 hover:via-emerald-400 hover:to-emerald-600 bg-gradient-to-tl",
         "hide": true,
         "showInHome": false,
         "category": 3
@@ -112,7 +112,7 @@
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/chat.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/chat",
         "liveUrl": "https://chat-msn.web.app/",
-        "color": "from-gray-50 to-cyan-200 hover:from-cyan-400 hover:via-cyan-200 hover:to-cyan-400 bg-gradient-to-tl",
+        "color": "hover:bg-cyan-100 dark:hover:bg-cyan-800",
         "stack": [
             "React",
             "Typescript",
@@ -127,7 +127,7 @@
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/loremipsum.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/social-network",
         "liveUrl": "https://sebastianvelo.github.io/social-network/#/",
-        "color": "from-gray-50 to-rose-200 hover:from-rose-400 hover:via-rose-200 hover:to-rose-400 bg-gradient-to-tl",
+        "color": "hover:from-rose-400 hover:via-rose-200 hover:to-rose-400 bg-gradient-to-tl",
         "hide": true,
         "showInHome": false,
         "category": 2
@@ -138,7 +138,7 @@
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/resumecreator.png?raw=true",
         "githubUrl": "https://github.com/resumecreator/cvbuilder",
         "liveUrl": "https://resumecreator.github.io/cvbuilder/#/",
-        "color": "from-gray-50 to-green-200 hover:from-green-400 hover:via-green-200 hover:to-green-400 bg-gradient-to-tl",
+        "color": "hover:bg-green-200 dark:hover:bg-green-900",
         "stack": [
             "React",
             "JavaScript",
@@ -153,7 +153,7 @@
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/resumecreator.png?raw=true",
         "githubUrl": "https://github.com/sebastianvelo/ghost",
         "liveUrl": "https://ghost-css.web.app/",
-        "color": "from-gray-50 to-yellow-200 hover:from-yellow-400 hover:via-yellow-200 hover:to-yellow-400 bg-gradient-to-tl",
+        "color": "hover:bg-yellow-200 dark:hover:bg-yellow-900",
         "stack": [
             "Typescript",
             "CSS"
@@ -167,7 +167,7 @@
         "githubUrl": "https://github.com/sebastianvelo/tmdb.js",
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/ifdb.png?raw=true",
         "liveUrl": "https://filmaholiks.web.app/#/show",
-        "color": "from-gray-50 to-blue-200 hover:from-blue-400 hover:via-blue-200 hover:to-blue-400 bg-gradient-to-tl",
+        "color": "hover:from-blue-400 hover:via-blue-200 hover:to-blue-400 bg-gradient-to-tl",
         "stack": [
             "Typescript",
             "Firebase Functions"

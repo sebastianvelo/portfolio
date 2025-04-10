@@ -1,7 +1,10 @@
-import ExperienceSectionProps from "../../../data/model/ExperienceSectionProps";
+import ExperienceItem from "../../../data/model/ExperienceItem";
+import GenericSection from "../../../data/model/GenericSection";
 import ExperienceCard from "../cards/ExperienceCard";
 import Section from "../common/section/Section";
 import Title from "../utils/text/Title";
+
+export interface ExperienceSectionProps extends GenericSection<ExperienceItem> { }
 
 const ExperienceSection = (props: ExperienceSectionProps) => {
   return (

@@ -1,7 +1,7 @@
-import wordings from '../../wordings/projects.json';
-import projects from '../../db/projects.json';
+import { ProjectSectionProps } from '../../../screens/components/sections/ProjectSection';
 import Language from '../../../types/Language';
-import ProjectSectionProps from '../../model/ProjectSectionProps';
+import projects from '../../db/projects.json';
+import wordings from '../../wordings/projects.json';
 
 function getProjectSectionModel(language: Language): ProjectSectionProps {
     const wording = wordings[language];
@@ -10,12 +10,13 @@ function getProjectSectionModel(language: Language): ProjectSectionProps {
         const wordingItem = wording.items.find(w => w.id === item.id);
         return {
             ...item,
-            description: wordingItem?.description || ''
+            description: wordingItem?.description ?? ''
         };
     });
     
     return {
         title: wording.title,
+        tab: wording.tab,
         description: wording.description,
         items: combinedItems
     };

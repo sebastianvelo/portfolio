@@ -1,4 +1,4 @@
-export interface ProjectItem {
+interface ProjectItem {
     id: string;
     title: string;
     description: string;
@@ -10,10 +10,4 @@ export interface ProjectItem {
     showInHome: boolean;
 }
 
-interface ProjectSectionProps {
-    title: string;
-    description: string;
-    items: ProjectItem[];
-}
-
-export default ProjectSectionProps;
+export default ProjectItem;

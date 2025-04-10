@@ -1,6 +1,7 @@
 {
   "en": {
     "title": "My projects",
+    "tab": "Projects",
     "description": "I enjoy developing both frontend and backend, which allows me to quickly adapt to new environments. In my spare time, I love exploring new languages and technologies through personal projects.",
     "fullUrl": "See more",
     "items": [
@@ -20,6 +21,11 @@
         "description": "Search for your favorite movies and TV shows in Filmaholiks! This project, built with React and TypeScript, features Tailwind styling and is hosted on Firebase."
       },
       {
+        "id": "6",
+        "title": "pixartsx",
+        "description": "A pixel art web application created using React, Typescript and Tailwind, deployed on Firebase."
+      },
+      {
         "id": "4",
         "title": "Hiringroom",
         "description": "A fictitious employment website built with Svelte and TypeScript, hosted on Firebase."
@@ -28,11 +34,6 @@
         "id": "5",
         "title": "Tic-Tac-Toe",
         "description": "A classic Tic-Tac-Toe game developed with Angular and deployed on Firebase."
-      },
-      {
-        "id": "6",
-        "title": "PixelArt",
-        "description": "A pixel art web application created using React and pure CSS, deployed on GitHub Pages."
       },
       {
         "id": "7",
@@ -68,6 +69,7 @@
   },
   "es": {
     "title": "Mis proyectos",
+    "tab": "Proyectos",
     "description": "Disfruto desarrollando tanto el frontend como el backend, lo que me permite adaptarme rápidamente a nuevos entornos. En mi tiempo libre, me encanta explorar nuevos lenguajes y tecnologías a través de proyectos personales.",
     "fullUrl": "Ver más",
     "items": [

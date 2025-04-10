@@ -16,7 +16,7 @@ const getSocialIcon = (icon: string) => {
     }
 };
 
-const ContactItem = (props: ContactItemProps) => {
+const ContactIcon = (props: ContactItemProps) => {
     return (
         <a
             key={props.name}
@@ -30,4 +30,4 @@ const ContactItem = (props: ContactItemProps) => {
     );
 };
 
-export default ContactItem;
+export default ContactIcon;

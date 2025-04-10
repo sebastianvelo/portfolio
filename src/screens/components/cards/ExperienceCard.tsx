@@ -1,7 +1,7 @@
-import { ExperienceItem } from "../../../data/model/ExperienceSectionProps";
-import Badge from "../utils/badge/Badge";
+import ExperienceItem from "../../../data/model/ExperienceItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
+import Badge from "../utils/badge/Badge";
 import RichText from "../utils/text/RichText";
 
 export interface ExperienceCardProps extends ExperienceItem { }

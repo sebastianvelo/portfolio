@@ -1,6 +1,7 @@
 {
     "en": {
       "title": "My education",
+      "tab": "Education",
       "description": "This section highlights my formal education and courses that have helped shape my technical skills.",
       "items": [
         {
@@ -27,6 +28,7 @@
     },
     "es": {
       "title": "Educación",
+      "tab": "Educación",
       "description": "Esta sección destaca mi formación académica y cursos que han ayudado a moldear mis habilidades técnicas.",
       "items": [
         {

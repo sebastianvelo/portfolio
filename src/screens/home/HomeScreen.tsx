@@ -4,7 +4,6 @@ import { LanguageProps } from "../../types/Language";
 import EducationSection from "../components/sections/EducationSection";
 import ExperienceSection from "../components/sections/ExperienceSection";
 import ProjectSection from "../components/sections/ProjectSection";
-import SkillSection from "../components/sections/skill/SkillSection";
 import TabButton from "../components/common/tab/TabButton";
 
 interface HomeScreenProps extends LanguageProps { }
@@ -12,7 +11,7 @@ interface HomeScreenProps extends LanguageProps { }
 type TabType = "experience" | "projects" | "education";
 
 const HomeScreen = ({ lang }: HomeScreenProps) => {
-    const { experience, projects, education, skills } = getHomeScreenModel(lang);
+    const model = getHomeScreenModel(lang);
     const [active, setActive] = useState<TabType>("experience");
     const [transitioning, setTransitioning] = useState(false);
     const previousActiveRef = useRef<TabType>(active);
@@ -34,12 +33,11 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
 
     // Objeto de mapeo para simplificar renderActiveSection
     const sectionMap = {
-        experience: <ExperienceSection {...experience} />,
-        projects: <ProjectSection {...projects} />,
-        education: <EducationSection {...education} />
+        experience: <ExperienceSection {...model.experience} />,
+        projects: <ProjectSection {...model.projects} />,
+        education: <EducationSection {...model.education} />
     };
 
-    // Determina qué sección mostrar
     const sectionToRender = transitioning ? previousActiveRef.current : active;
     const activeSection = sectionMap[sectionToRender];
 
@@ -48,7 +46,7 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
     return (
         <div className="flex flex-col space-y-8 view">
             <div className="flex justify-center mt-8">
-                {(["experience", "projects", "education"] as const).map(tab => (
+                {(Object.values(model)).map(tab => (
                     <TabButton
                         key={tab}
                         active={active === tab}
@@ -62,14 +60,6 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
             <div className="min-h-[300px]">
                 <div className={contentClasses}>{activeSection}</div>
             </div>
-
-            {process.env.NODE_ENV === 'development' && (
-                <div className="hidden">
-                    <SkillSection {...skills.frontend} />
-                    <SkillSection {...skills.frameworkFrontend} />
-                    <SkillSection {...skills.backend} />
-                </div>
-            )}
         </div>
     );
 };

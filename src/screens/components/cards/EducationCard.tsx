@@ -1,7 +1,7 @@
-import { EducationItem } from "../../../data/model/EducationSectionProps";
-import Badge from "../utils/badge/Badge";
+import EducationItem from "../../../data/model/EducationItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
+import Badge from "../utils/badge/Badge";
 
 export interface EducationCardProps extends EducationItem { }
 

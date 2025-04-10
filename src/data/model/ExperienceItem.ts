@@ -1,4 +1,4 @@
-export interface ExperienceItem {
+interface ExperienceItem {
     id: string;
     company: string;
     position: string;
@@ -11,10 +11,5 @@ export interface ExperienceItem {
     stack: string[];
 }
 
-interface ExperienceSectionProps {
-    title: string;
-    description: string;
-    items: ExperienceItem[];
-}
 
-export default ExperienceSectionProps;
+export default ExperienceItem;

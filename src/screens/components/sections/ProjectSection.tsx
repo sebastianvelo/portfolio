@@ -1,7 +1,10 @@
-import ProjectSectionProps from "../../../data/model/ProjectSectionProps";
+import GenericSection from "../../../data/model/GenericSection";
+import ProjectItem from "../../../data/model/ProjectItem";
 import ProjectCard from "../cards/ProjectCard";
 import Section from "../common/section/Section";
 import Title from "../utils/text/Title";
+
+export interface ProjectSectionProps extends GenericSection<ProjectItem> { }
 
 const ProjectSection = (props: ProjectSectionProps) => {
   return (

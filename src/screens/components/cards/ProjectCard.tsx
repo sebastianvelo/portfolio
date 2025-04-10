@@ -1,8 +1,8 @@
-import { ProjectItem } from "../../../data/model/ProjectSectionProps";
-import Badge from "../utils/badge/Badge";
-import LinkButton from "../utils/button/LinkButton";
+import ProjectItem from "../../../data/model/ProjectItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
+import Badge from "../utils/badge/Badge";
+import LinkButton from "../utils/button/LinkButton";
 import GithubSVG from "../utils/svg/GithubSVG";
 import GlobeSVG from "../utils/svg/GlobeSVG";
 
@@ -27,7 +27,7 @@ const Skills = (props: SkillsProps) => {
 }
 
 const CardFront = (props: ProjectCardProps) => (
-  <FlipCardSide>
+  <FlipCardSide color={props.color}>
     <div className="p-5 h-full flex flex-col">
       <div className="flex items-center mb-4">
         <img
@@ -48,7 +48,7 @@ const CardFront = (props: ProjectCardProps) => (
 );
 
 const CardBack = (props: ProjectCardProps) => (
-  <FlipCardSide>
+  <FlipCardSide color={props.color}>
     <div className="p-5 h-full flex flex-col justify-between">
       <div>
         <h3 className="font-bold text-lg mb-2">{props.title}</h3>
