@@ -1,13 +1,12 @@
-import { useState } from "react";
+import useFlip from "../../../../hooks/useFlip";
 
 interface FlipCardProps {
     front: React.ReactNode;
     back: React.ReactNode;
-    color?: string;
 }
 
 const FlipCard = (props: FlipCardProps) => {
-    const [isFlipped, setIsFlipped] = useState(false);
+    const [isFlipped, toggleFlip] = useFlip();
 
     const handleFlip = (e: React.MouseEvent) => {
         const element = e.target as HTMLElement;
@@ -19,7 +18,7 @@ const FlipCard = (props: FlipCardProps) => {
         ) {
             return;
         }
-        setIsFlipped(!isFlipped);
+        toggleFlip();
     };
 
     return (

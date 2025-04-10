@@ -7,7 +7,7 @@ interface NavProps extends LanguageSelectorProps, NavLinksProps { }
 
 const Nav = (props: NavProps) => {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/90 backdrop-blur-md shadow-sm">
+    <nav className="fixed top-0 w-full z-50 bg-white/80 dark:bg-black/60 backdrop-blur-md shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0">

@@ -6,7 +6,7 @@ const RichLine: React.FC<RichLineProps> = (props: RichLineProps) => {
   const children = props.children.trimStart();
   let className = "";
 
-  if (children.startsWith("○")) {
+  if (children.startsWith("♦")) {
     className += " text-lg font-bold";
   }
   else if (children.startsWith("•")) {

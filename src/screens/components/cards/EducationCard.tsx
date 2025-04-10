@@ -1,3 +1,4 @@
+import { useState } from "react";
 import EducationItem from "../../../model/EducationItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
@@ -42,7 +43,7 @@ const CardBack = (props: EducationCardProps) => (
 
 const EducationCard = (props: EducationCardProps) => {
   return (
-    <div className="h-44">
+    <div className={`h-44`}>
       <FlipCard front={<CardFront {...props} />} back={<CardBack {...props} />} />
     </div>
   );

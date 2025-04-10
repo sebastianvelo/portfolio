@@ -3,7 +3,7 @@ import ContactIcon from './ContactIcon';
 
 const Footer = (props: ContactSectionProps) => {
   return (
-    <footer className="sticky bottom-0 bg-white/70 dark:bg-slate-900/80 py-4 sm:py-6 mt-24">
+    <footer className="backdrop-blur-md sticky bottom-0 bg-white/60 dark:bg-black/60 py-4 sm:py-6">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-700 dark:text-gray-300 mb-4 md:mb-0">

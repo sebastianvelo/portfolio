@@ -39,19 +39,22 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
         education: <EducationSection {...model.education} />
     };
 
+    const entries = (Object.entries(model)) as [TabType, GenericSection<any>][];
+
     const sectionToRender = transitioning ? previousActiveRef.current : active;
     const activeSection = sectionMap[sectionToRender];
 
-    const contentClasses = `transition-all duration-300 ${transitioning ? "opacity-0 translate-y-8" : "opacity-100 translate-y-0"}`;
+    const animationClasses = ` ${transitioning ? "opacity-0 translate-y-16" : "opacity-100 translate-y-0"}`;
+    const contentClasses = `transition-all duration-500 ${animationClasses}`;
 
     return (
         <div className="flex flex-col space-y-8 view">
             <div className="flex justify-center mt-8">
-                {(Object.entries(model)).map(([k, section]) => (
+                {entries.map(([k, section]) => (
                     <TabButton
                         key={k}
                         active={active === k}
-                        onClick={() => handleTabChange(k as TabType)}
+                        onClick={() => handleTabChange(k)}
                     >
                         {section.tab}
                     </TabButton>
