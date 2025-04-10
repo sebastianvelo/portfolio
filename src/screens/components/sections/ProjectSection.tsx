@@ -1,5 +1,5 @@
-import GenericSection from "../../../data/model/GenericSection";
-import ProjectItem from "../../../data/model/ProjectItem";
+import GenericSection from "../../../model/GenericSection";
+import ProjectItem from "../../../model/ProjectItem";
 import ProjectCard from "../cards/ProjectCard";
 import Section from "../common/section/Section";
 import Title from "../utils/text/Title";

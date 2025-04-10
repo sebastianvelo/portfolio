@@ -1,4 +1,4 @@
-import ExperienceItem from "../../../data/model/ExperienceItem";
+import ExperienceItem from "../../../model/ExperienceItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
 import Badge from "../utils/badge/Badge";

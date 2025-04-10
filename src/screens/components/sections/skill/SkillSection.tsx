@@ -1,4 +1,4 @@
-import SkillSectionProps from "../../../../data/model/SkillSectionProps";
+import SkillSectionProps from "../../../../model/SkillSectionProps";
 import Section from "../../common/section/Section";
 import SkillsContainer from "./skills-container/SkillsContainer";
 

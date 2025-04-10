@@ -1,7 +1,7 @@
 import wordings from '../../wordings/contact.json';
 import data from '../../db/contact.json';
 import Language from '../../../types/Language';
-import ContactSectionProps from '../../model/ContactSectionProps';
+import ContactSectionProps from '../../../model/ContactSectionProps';
 
 function getContactSectionModel(language: Language): ContactSectionProps {
     const wording = wordings[language];

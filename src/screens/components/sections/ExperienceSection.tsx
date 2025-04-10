@@ -1,5 +1,5 @@
-import ExperienceItem from "../../../data/model/ExperienceItem";
-import GenericSection from "../../../data/model/GenericSection";
+import ExperienceItem from "../../../model/ExperienceItem";
+import GenericSection from "../../../model/GenericSection";
 import ExperienceCard from "../cards/ExperienceCard";
 import Section from "../common/section/Section";
 import Title from "../utils/text/Title";

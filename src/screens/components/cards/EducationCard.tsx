@@ -1,4 +1,4 @@
-import EducationItem from "../../../data/model/EducationItem";
+import EducationItem from "../../../model/EducationItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
 import Badge from "../utils/badge/Badge";

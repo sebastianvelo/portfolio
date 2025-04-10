@@ -5,6 +5,7 @@ import EducationSection from "../components/sections/EducationSection";
 import ExperienceSection from "../components/sections/ExperienceSection";
 import ProjectSection from "../components/sections/ProjectSection";
 import TabButton from "../components/common/tab/TabButton";
+import GenericSection from "../../model/GenericSection";
 
 interface HomeScreenProps extends LanguageProps { }
 
@@ -46,13 +47,13 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
     return (
         <div className="flex flex-col space-y-8 view">
             <div className="flex justify-center mt-8">
-                {(Object.values(model)).map(tab => (
+                {(Object.entries(model)).map(([k, section]) => (
                     <TabButton
-                        key={tab}
-                        active={active === tab}
-                        onClick={() => handleTabChange(tab)}
+                        key={k}
+                        active={active === k}
+                        onClick={() => handleTabChange(k as TabType)}
                     >
-                        {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                        {section.tab}
                     </TabButton>
                 ))}
             </div>

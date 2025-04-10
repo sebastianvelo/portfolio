@@ -1,4 +1,4 @@
-import { ContactItemProps } from "../../data/model/ContactSectionProps";
+import { ContactItemProps } from "../../model/ContactSectionProps";
 import GithubSVG from "../../screens/components/utils/svg/GithubSVG";
 import LinkedInSVG from "../../screens/components/utils/svg/LinkedInSVG";
 import MailSVG from "../../screens/components/utils/svg/MailSVG";

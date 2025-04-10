@@ -1,7 +1,7 @@
 import { HeaderProps } from "../../../layout/header/Header";
 import Language from "../../../types/Language";
-import ContactSectionProps from "../../model/ContactSectionProps";
-import NavLink from "../../model/NavLink";
+import ContactSectionProps from "../../../model/ContactSectionProps";
+import NavLink from "../../../model/NavLink";
 import getContactSectionModel from "./getContactSectionModel";
 import getHeaderModel from "./getHeaderModel";
 import getNavModel from "./getNavModel";

@@ -1,4 +1,4 @@
-import ProjectItem from "../../../data/model/ProjectItem";
+import ProjectItem from "../../../model/ProjectItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
 import Badge from "../utils/badge/Badge";

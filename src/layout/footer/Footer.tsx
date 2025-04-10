@@ -1,4 +1,4 @@
-import ContactSectionProps from '../../data/model/ContactSectionProps';
+import ContactSectionProps from '../../model/ContactSectionProps';
 import ContactIcon from './ContactIcon';
 
 const Footer = (props: ContactSectionProps) => {

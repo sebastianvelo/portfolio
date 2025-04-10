@@ -1,4 +1,4 @@
-import { SkillItem } from "../../../../../data/model/SkillSectionProps";
+import { SkillItem } from "../../../../../model/SkillSectionProps";
 import { getSkillsByNames } from "../../../../../data/screen/home/getSkillSectionModel";
 import SkillCard from "../../../cards/skill-card/SkillCard";
 
