@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import LineSeparator from "../../utils/svg/LineSeparator";
 
 interface SectionProps {
     id?: string;
@@ -8,12 +7,9 @@ interface SectionProps {
 
 const Section = (props: SectionProps) => {
     return (
-        <>
-            <section id={props.id} className="py-8 px-4 md:px-8 max-w-6xl mx-auto">
-                {props.children}
-            </section>
-            <LineSeparator />
-        </>
+        <section id={props.id} className="py-8 px-4 md:px-8 max-w-6xl mx-auto">
+            {props.children}
+        </section>
     );
 };
 

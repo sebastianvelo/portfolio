@@ -15,7 +15,7 @@ const App = (props: AppProps) => {
   
   return (
     <Router>
-      <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white font-sans`}>
+      <div className={`min-h-screen bg-zinc-100 dark:bg-slate-900 text-slate-900 dark:text-white font-sans`}>
         <Nav nav={nav} lang={lang} setLang={setLang} />
         <Header {...header} />
         <Body lang={lang} />

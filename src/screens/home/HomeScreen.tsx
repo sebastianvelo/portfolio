@@ -9,7 +9,6 @@ import TabButton from "../components/common/tab/TabButton";
 
 interface HomeScreenProps extends LanguageProps { }
 
-// Tipo para las pestañas disponibles
 type TabType = "experience" | "projects" | "education";
 
 const HomeScreen = ({ lang }: HomeScreenProps) => {
@@ -19,13 +18,11 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
     const previousActiveRef = useRef<TabType>(active);
 
     const handleTabChange = (tab: TabType) => {
-        // Evita transiciones innecesarias
         if (tab === active || transitioning) return;
 
         previousActiveRef.current = active;
 
         setTransitioning(true);
-        // Optimiza el temporizador usando una sola llamada a setTimeout
         setTimeout(() => {
             setActive(tab);
             // Usa requestAnimationFrame para la segunda fase para mejor rendimiento
@@ -46,10 +43,7 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
     const sectionToRender = transitioning ? previousActiveRef.current : active;
     const activeSection = sectionMap[sectionToRender];
 
-    const contentClasses = `
-    transition-all duration-300
-    ${transitioning ? "opacity-0 translate-y-8" : "opacity-100 translate-y-0"}
-  `;
+    const contentClasses = `transition-all duration-300 ${transitioning ? "opacity-0 translate-y-8" : "opacity-100 translate-y-0"}`;
 
     return (
         <div className="flex flex-col space-y-8 view">
@@ -69,7 +63,6 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
                 <div className={contentClasses}>{activeSection}</div>
             </div>
 
-            {/* Si estos componentes no se utilizan, considera eliminarlos */}
             {process.env.NODE_ENV === 'development' && (
                 <div className="hidden">
                     <SkillSection {...skills.frontend} />

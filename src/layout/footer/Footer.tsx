@@ -1,15 +1,13 @@
 import ContactSectionProps from '../../data/model/ContactSectionProps';
-import ContactItem from '../../screens/components/common/contact/ContactItem';
+import ContactItem from './ContactItem';
 
 const Footer = (props: ContactSectionProps) => {
-  const currentYear = new Date().getFullYear();
-
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 py-8">
+    <footer className="bg-white/70 dark:bg-slate-900/80 py-4 sm:py-8 mt-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-700 dark:text-gray-300 mb-4 md:mb-0">
-            © {currentYear} John Doe. All rights reserved.
+            Sebastián Velo
           </p>
           <div className="flex space-x-6">
             {props.items.map((link) => (

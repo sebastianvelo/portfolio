@@ -24,9 +24,6 @@ const CardFront = (props: ExperienceCardProps) => (
       <p className="mt-4 text-gray-700 dark:text-gray-300 flex-grow">
         {props.description}
       </p>
-      <p className="cursor-pointer text-sm text-blue-600 dark:text-blue-400 mt-4">
-        See more
-      </p>
     </div>
   </FlipCardSide>
 );

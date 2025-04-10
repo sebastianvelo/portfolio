@@ -1,6 +1,6 @@
 {
     "en": {
-        "title": "Work experience",
+        "title": "My experience",
         "description": "With over six years of professional experience, I have specialized in full-stack development using a wide variety of technologies. I have worked at leading companies such as Mercado Libre and ICBC, using various languages ​​such as Java, TypeScript, and JavaScript.",
         "items": [
             {
@@ -30,7 +30,7 @@
         ]
     },
     "es": {
-        "title": "Experiencia laboral",
+        "title": "Mi experiencia",
         "description": "Con más de 6 años de experiencia profesional, me he especializado en el desarrollo fullstack utilizando una amplia variedad de tecnologías. He trabajado en empresas líderes como Mercado Libre e ICBC, utilizando diversos lenguajes como Java, TypeScript y JavaScript.",
         "items": [
             {

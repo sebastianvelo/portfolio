@@ -16,15 +16,12 @@ const CardFront = (props: EducationCardProps) => (
         />
         <div>
           <h3 className="font-bold text-lg">{props.title}</h3>
-          <p className="text-gray-600 dark:text-gray-300">{props.description}</p>
+          <p className="text-sm text-gray-600 dark:text-gray-300">{props.description}</p>
         </div>
       </div>
       <Badge>{props.start} - {props.end}</Badge>
       <p className="cursor-text mt-4 text-gray-700 dark:text-gray-300 flex-grow">
         {props.description}
-      </p>
-      <p className="cursor-pointer text-sm text-blue-600 dark:text-blue-400 mt-4">
-        See more details
       </p>
     </div>
   </FlipCardSide>
@@ -34,7 +31,7 @@ const CardBack = (props: EducationCardProps) => (
   <FlipCardSide>
     <div className="p-5 h-full flex flex-col">
       <h3 className="font-bold text-lg mb-2">{props.title}</h3>
-      <p className="text-gray-600 dark:text-gray-300">{props.description}</p>
+      <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{props.description}</p>
       <Badge>{props.start} - {props.end}</Badge>
       <p className="cursor-text mt-4 text-gray-700 dark:text-gray-300 flex-grow overflow-y-auto [scrollbar-width:thin] [scrollbar-color:#111_#333]">
         {props.description}
@@ -45,7 +42,7 @@ const CardBack = (props: EducationCardProps) => (
 
 const EducationCard = (props: EducationCardProps) => {
   return (
-    <div className="h-52">
+    <div className="h-44">
       <FlipCard front={<CardFront {...props} />} back={<CardBack {...props} />} />
     </div>
   );

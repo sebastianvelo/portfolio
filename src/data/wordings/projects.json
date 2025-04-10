@@ -1,6 +1,6 @@
 {
   "en": {
-    "title": "Projects",
+    "title": "My projects",
     "description": "I enjoy developing both frontend and backend, which allows me to quickly adapt to new environments. In my spare time, I love exploring new languages and technologies through personal projects.",
     "fullUrl": "See more",
     "items": [
@@ -67,7 +67,7 @@
     ]
   },
   "es": {
-    "title": "Proyectos",
+    "title": "Mis proyectos",
     "description": "Disfruto desarrollando tanto el frontend como el backend, lo que me permite adaptarme rápidamente a nuevos entornos. En mi tiempo libre, me encanta explorar nuevos lenguajes y tecnologías a través de proyectos personales.",
     "fullUrl": "Ver más",
     "items": [
