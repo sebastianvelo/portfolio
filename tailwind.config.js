@@ -1,3 +1,5 @@
+const defaultColors = require('tailwindcss/colors')
+
 module.exports = {
     darkMode: 'class',
     content: [
@@ -5,7 +7,11 @@ module.exports = {
         './public/index.html',
     ],
     theme: {
-        extend: {},  //que tengo que agregar para darkmode class? 
+        extend: {
+            colors: {
+                primary: defaultColors.blue,
+            },
+        },
     },
     plugins: [],
 }

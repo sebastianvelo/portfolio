@@ -9,12 +9,12 @@ export interface HeaderProps {
 }
 
 const Header = (props: HeaderProps) => (
-    <header className="pt-24 pb-12 sm:pt-24 sm:pb-16 px-4 bg-gradient-to-r from-blue-50 to-blue-100 dark:from-slate-900 dark:to-blue-900 dark:bg-opacity-20">
+    <header className="pt-24 pb-12 sm:pt-24 sm:pb-16 px-4 bg-gradient-to-r from-primary-50 to-primary-100 dark:from-slate-900 dark:to-primary-900 dark:bg-opacity-20">
         <div className="max-w-4xl mx-auto text-center">
             <Title size="xl" className="mb-4">
                 {props.header.title}
             </Title>
-            <h2 className="text-2xl md:text-3xl font-medium text-blue-600 dark:text-blue-400 mb-6">
+            <h2 className="text-2xl md:text-3xl font-medium text-primary-600 dark:text-primary-400 mb-6">
                 {props.content}
             </h2>
             <p className="text-lg md:text-xl text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl mx-auto">

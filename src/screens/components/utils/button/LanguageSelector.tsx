@@ -39,7 +39,7 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
       {/* Botón del dropdown */}
       <button
         type="button"
-        className="flex items-center justify-between w-28 px-3 py-2 text-sm font-medium text-slate-700 bg-white border border-slate-300 rounded-md shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="flex items-center justify-between w-28 px-3 py-2 text-sm font-medium text-slate-700 bg-white border border-slate-300 rounded-md shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-primary-500"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="flex items-center">

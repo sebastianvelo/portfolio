@@ -70,7 +70,7 @@ const CardBack = (props: ExperienceCardBackProps) => {
           <RichText>{props.fullDescription}</RichText>
 
           {hasOverflow && !props.isExpanded && (
-            <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white hover:from-blue-50  dark:from-black dark:hover:from-blue-900 to-transparent pointer-events-none" />
+            <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white hover:from-primary-50  dark:from-black dark:hover:from-primary-900 to-transparent pointer-events-none" />
           )}
         </div>
 
