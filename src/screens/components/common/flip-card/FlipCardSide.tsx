@@ -1,6 +1,6 @@
 const cncardSide = "cursor-pointer h-full rounded-lg overflow-hidden " +
     "shadow-sm transition-shadow transition-colors duration-500 " +
-    "hover:shadow-md border border-slate-200 dark:border-slate-700 " +
+    "hover:shadow-md border border-secondary-200 dark:border-secondary-700 " +
     "hover:border-primary-300 dark:hover:border-primary-800 bg-white dark:bg-black/40 ";
 
 interface FlipCardSideProps {

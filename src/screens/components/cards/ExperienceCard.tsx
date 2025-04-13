@@ -1,12 +1,13 @@
-import { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import ExperienceItem from "../../../model/ExperienceItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
 import Badge from "../utils/badge/Badge";
+import ExpandCardButton from "../utils/button/ExpandCardButton";
 import RichText from "../utils/text/RichText";
-import ExpandSVG from "../utils/svg/ExpandIcon";
 
 export interface ExperienceCardProps extends ExperienceItem { }
+
 interface ExperienceCardBackProps extends ExperienceCardProps {
   toggleExpand: () => void;
   isExpanded: boolean;
@@ -23,11 +24,11 @@ const CardFront = (props: ExperienceCardProps) => (
         />
         <div>
           <h3 className="font-bold text-lg">{props.company}</h3>
-          <p className="text-slate-600 dark:text-slate-300">{props.position}</p>
+          <p className="text-secondary-600 dark:text-secondary-300">{props.position}</p>
         </div>
       </div>
       <Badge>{props.start} - {props.end}</Badge>
-      <p className="mt-4 text-slate-700 dark:text-slate-300 flex-grow">
+      <p className="mt-4 text-secondary-700 dark:text-secondary-300 flex-grow">
         {props.description}
       </p>
     </div>
@@ -65,7 +66,7 @@ const CardBack = (props: ExperienceCardBackProps) => {
         <Badge>{props.start} - {props.end}</Badge>
         <div
           ref={contentRef}
-          className="cursor-text mt-4 text-slate-700 dark:text-slate-300 flex-grow overflow-y-auto pb-8"
+          className="cursor-text mt-4 text-secondary-700 dark:text-secondary-300 flex-grow overflow-y-auto pb-8"
         >
           <RichText>{props.fullDescription}</RichText>
 
@@ -74,20 +75,7 @@ const CardBack = (props: ExperienceCardBackProps) => {
           )}
         </div>
 
-        {hasOverflow && (
-          <div className="absolute top-4 right-4 z-10">
-            <button
-              className="flex items-center justify-center w-8 h-8 rounded-full bg-white dark:bg-slate-700 shadow-md hover:shadow-lg transition-shadow"
-              onClick={props.toggleExpand}
-              aria-label={props.isExpanded ? "Mostrar menos" : "Mostrar más"}
-              title={props.isExpanded ? "Mostrar menos" : "Mostrar más"}
-            >
-              <span className={`transform transition-transform ${props.isExpanded ? "rotate-180" : ""}`}>
-                <ExpandSVG />
-              </span>
-            </button>
-          </div>
-        )}
+        <ExpandCardButton {...props} hasOverflow={hasOverflow} />
       </div>
     </FlipCardSide>
   );
@@ -96,23 +84,15 @@ const CardBack = (props: ExperienceCardBackProps) => {
 const ExperienceCard = (props: ExperienceCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
+  const toggleExpand = () => setIsExpanded(!isExpanded);
 
-  const className = `${isExpanded ? "h-96" : "h-48"}`;
+  const className = `${isExpanded ? "h-96" : "h-64 2xl:h-48"}`;
 
   return (
     <div className={`${className} transition-all duration-300`}>
       <FlipCard
         front={<CardFront {...props} />}
-        back={
-          <CardBack
-            {...props}
-            toggleExpand={toggleExpand}
-            isExpanded={isExpanded}
-          />
-        }
+        back={<CardBack {...props} toggleExpand={toggleExpand} isExpanded={isExpanded} />}
       />
     </div>
   );

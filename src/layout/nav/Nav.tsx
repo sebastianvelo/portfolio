@@ -11,7 +11,7 @@ const Nav = (props: NavProps) => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-slate-900 dark:text-white">
+            <h1 className="text-xl font-bold text-secondary-900 dark:text-white">
               Sebastián Velo
             </h1>
           </div>

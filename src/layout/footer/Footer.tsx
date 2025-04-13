@@ -6,7 +6,7 @@ const Footer = (props: ContactSectionProps) => {
     <footer className="backdrop-blur-md sticky bottom-0 bg-white/60 dark:bg-black/60 py-4 sm:py-6">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-slate-700 dark:text-slate-300 mb-4 md:mb-0">
+          <p className="text-secondary-700 dark:text-secondary-300 mb-4 md:mb-0">
             Sebastián Velo
           </p>
           <div className="flex space-x-6">
@@ -16,7 +16,7 @@ const Footer = (props: ContactSectionProps) => {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-600 hover:text-primary-600 dark:text-slate-400 dark:hover:text-primary-400 transition-colors"
+                className="text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors"
                 aria-label={link.name}
               >
                 <ContactIcon key={link.name} {...link} />

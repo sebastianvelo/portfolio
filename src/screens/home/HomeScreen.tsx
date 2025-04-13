@@ -48,8 +48,8 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
     const contentClasses = `transition-all duration-500 ${animationClasses}`;
 
     return (
-        <div className="flex flex-col space-y-8 view">
-            <div className="flex justify-center mt-8">
+        <div className="flex flex-col space-y-8 view overflow-x-hidden">
+            <div className="flex justify-center mt-8 space-x-2">
                 {entries.map(([k, section]) => (
                     <TabButton
                         key={k}
@@ -61,7 +61,7 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
                 ))}
             </div>
 
-            <div className="min-h-[300px]">
+            <div className="min-h-[300px] md:px-16">
                 <div className={contentClasses}>{activeSection}</div>
             </div>
         </div>

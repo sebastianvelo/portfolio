@@ -12,10 +12,10 @@ interface AppProps extends LanguageProps { }
 const App = (props: AppProps) => {
   const [lang, setLang] = useState<Language>(props.lang);
   const { nav, contacts, header } = getAppModel(lang);
-  
+
   return (
     <Router>
-      <div className={`min-h-screen bg-zinc-100 dark:bg-slate-900 text-slate-900 dark:text-white font-sans`}>
+      <div className={`min-h-screen bg-zinc-100 dark:bg-secondary-900 text-secondary-900 dark:text-white font-sans`}>
         <Nav nav={nav} lang={lang} setLang={setLang} />
         <Header {...header} />
         <Body lang={lang} />

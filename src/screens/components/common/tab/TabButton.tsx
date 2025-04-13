@@ -15,7 +15,7 @@ const TabButton = (props: TabButtonProps) => {
         >
             {props.children}
             {props.active && (
-                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-primary-600 dark:bg-primary-400 transform translate-y-0.5"></div>
+                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-primary-600 dark:bg-primary-400 transform translate-y-2"></div>
             )}
         </button>
     );
