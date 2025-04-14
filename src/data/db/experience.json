@@ -2,7 +2,7 @@
     {
         "id": "1",
         "company": "Outlier",
-        "position": "AI Trainer",
+        "position": "Frontend AI Trainer",
         "start": 2024,
         "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/experience/outlier.png?raw=true",
         "color": "from-gray-50 to-cyan-200 hover:from-cyan-400 hover:via-cyan-200 hover:to-cyan-400 bg-gradient-to-tl",

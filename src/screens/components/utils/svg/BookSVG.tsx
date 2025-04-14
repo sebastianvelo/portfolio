@@ -8,7 +8,6 @@ const BookSVG: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
         xmlns="http://www.w3.org/2000/svg"
         {...props}
     >
-        {/* Página (fija, en blanco) */}
         <g className="book-page">
             <rect
                 x="12"
@@ -21,7 +20,7 @@ const BookSVG: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
                 strokeWidth="2"
             />
         </g>
-        {/* Tapa del libro que gira al pasar el cursor */}
+        
         <g className="book-cover">
             <rect
                 x="12"
@@ -34,7 +33,7 @@ const BookSVG: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
                 strokeWidth="2"
             />
         </g>
-        {/* Lomo del libro */}
+        
         <rect
             x="12"
             y="12"

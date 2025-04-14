@@ -25,14 +25,12 @@ const HomeScreen = ({ lang }: HomeScreenProps) => {
         setTransitioning(true);
         setTimeout(() => {
             setActive(tab);
-            // Usa requestAnimationFrame para la segunda fase para mejor rendimiento
             requestAnimationFrame(() => {
                 setTimeout(() => setTransitioning(false), 200);
             });
         }, 200);
     };
 
-    // Objeto de mapeo para simplificar renderActiveSection
     const sectionMap = {
         experience: <ExperienceSection {...model.experience} />,
         projects: <ProjectSection {...model.projects} />,

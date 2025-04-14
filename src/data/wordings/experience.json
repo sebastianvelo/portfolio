@@ -7,8 +7,8 @@
             {
                 "id": "1",
                 "company": "Outlier",
-                "description": "I collaborate with Outlier, implementing Reinforcement Learning from Human Feedback (RLHF) to optimize machine learning model performance and enhance learning efficiency.",
-                "fullDescription": "I collaborate with Outlier, implementing Reinforcement Learning from Human Feedback (RLHF) to optimize machine learning model performance and enhance learning efficiency."
+                "description": "I create user interfaces with TypeScript, HTML, CSS, and Tailwind that serve to train AI models.",
+                "fullDescription": "I train and optimize AI models for frontend development, implementing tasks in TypeScript, HTML, CSS, and Tailwind to create intuitive and responsive user interfaces."
             },
             {
                 "id": "2",
@@ -38,8 +38,8 @@
             {
                 "id": "1",
                 "company": "Outlier",
-                "description": "Colaboro con Outlier, implementando Aprendizaje por Refuerzo a partir de Retroalimentación Humana (RLHF) para optimizar el rendimiento y la eficiencia de los modelos de aprendizaje automático.",
-                "fullDescription": "Colaboro con Outlier, implementando Aprendizaje por Refuerzo a partir de Retroalimentación Humana (RLHF) para optimizar el rendimiento y la eficiencia de los modelos de aprendizaje automático."
+                "description": "Creo interfaces de usuario con TypeScript, HTML, CSS y Tailwind que sirven para entrenar modelos de IA.",
+                "fullDescription": "Entreno y optimizo modelos de IA para el desarrollo frontend, implementando tareas en TypeScript, HTML, CSS y Tailwind para crear interfaces de usuario intuitivas y responsivas."
             },
             {
                 "id": "2",

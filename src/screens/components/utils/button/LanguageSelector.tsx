@@ -10,13 +10,11 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   
-  // Mapeo de idiomas para mostrar textos y banderas
   const languages = {
     en: { label: "English", flag: "🇺🇸" },
     es: { label: "Español", flag: "🇪🇸" }
   };
 
-  // Cerrar el dropdown cuando se hace clic fuera
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -28,7 +26,6 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Manejar el cambio de idioma
   const handleLanguageChange = (newLang: Language) => {
     setLang(newLang);
     setIsOpen(false);
@@ -36,7 +33,6 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
 
   return (
     <div className="relative" ref={dropdownRef}>
-      {/* Botón del dropdown */}
       <button
         type="button"
         className="flex items-center justify-between w-28 px-3 py-2 text-sm font-medium text-secondary-700 bg-white border border-secondary-300 rounded-md shadow-sm hover:bg-secondary-50 focus:outline-none focus:ring-2 focus:ring-primary-500"
@@ -49,7 +45,6 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
         {!isOpen ? <ChevronDownSVG />: <ChevronUpSVG />}
       </button>
 
-      {/* Menú desplegable */}
       {isOpen && (
         <div className="absolute right-0 z-10 mt-1 w-full bg-white border border-secondary-200 rounded-md shadow-lg">
           <div className="py-1">
