@@ -1,5 +1,35 @@
 [
     {
+        "id": "10",
+        "title": "Ideal Resume",
+        "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/resumecreator.png?raw=true",
+        "githubUrl": "https://github.com/sebastianvelo/ideal-resume",
+        "liveUrl": "http://ideal-resume.web.app/",
+        "color": "hover:bg-indigo-200 dark:hover:bg-indigo-900",
+        "stack": [
+            "React",
+            "Typescript",
+            "Tailwind"
+        ],
+        "showInHome": true,
+        "category": 3
+    },
+    {
+        "id": "6",
+        "title": "pixartsx",
+        "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/pixelart.png?raw=true",
+        "githubUrl": "https://github.com/sebastianvelo/pixel-art",
+        "liveUrl": "https://pixartsx.web.app/",
+        "color": "hover:bg-purple-100 dark:hover:bg-indigo-900",
+        "stack": [
+            "Typescript",
+            "React",
+            "Tailwind"
+        ],
+        "showInHome": true,
+        "category": 1
+    },
+    {
         "id": "1",
         "title": "Particle Life",
         "image": "https://cdn-icons-png.flaticon.com/512/8232/8232934.png",
@@ -47,21 +77,6 @@
         ],
         "showInHome": true,
         "category": 2
-    },
-    {
-        "id": "6",
-        "title": "pixartsx",
-        "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/pixelart.png?raw=true",
-        "githubUrl": "https://github.com/sebastianvelo/pixel-art",
-        "liveUrl": "https://pixartsx.web.app/",
-        "color": "hover:bg-purple-100 dark:hover:bg-indigo-900",
-        "stack": [
-            "TypeScript",
-            "React",
-            "Tailwind"
-        ],
-        "showInHome": true,
-        "category": 1
     },
     {
         "id": "4",
@@ -131,21 +146,6 @@
         "hide": true,
         "showInHome": false,
         "category": 2
-    },
-    {
-        "id": "10",
-        "title": "ResumeCreator",
-        "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/projects/resumecreator.png?raw=true",
-        "githubUrl": "https://github.com/resumecreator/cvbuilder",
-        "liveUrl": "https://resumecreator.github.io/cvbuilder/#/",
-        "color": "hover:bg-green-200 dark:hover:bg-green-900",
-        "stack": [
-            "React",
-            "JavaScript",
-            "SASS"
-        ],
-        "showInHome": true,
-        "category": 3
     },
     {
         "id": "11",
