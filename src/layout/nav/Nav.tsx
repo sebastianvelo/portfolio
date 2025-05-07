@@ -1,4 +1,4 @@
-import { LanguageSelectorProps } from "../../screens/components/utils/button/LanguageSelector";
+import { LanguageSelectorProps } from "../../ui/button/LanguageSelector";
 import DesktopMenu from "./DesktopMenu";
 import { NavLinksProps } from "./NavLinks";
 import ThemeToggle from "./ThemeToggle";

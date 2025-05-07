@@ -1,4 +1,4 @@
-import { ProjectSectionProps } from '../../../screens/components/sections/ProjectSection';
+import { ProjectSectionProps } from '../../../components/sections/ProjectSection';
 import Language from '../../../types/Language';
 import projects from '../../db/projects.json';
 import wordings from '../../wordings/projects.json';

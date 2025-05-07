@@ -1,4 +1,4 @@
-import { ExperienceSectionProps } from '../../../screens/components/sections/ExperienceSection';
+import { ExperienceSectionProps } from '../../../components/sections/ExperienceSection';
 import Language from '../../../types/Language';
 import data from '../../db/experience.json';
 import wordings from '../../wordings/experience.json';

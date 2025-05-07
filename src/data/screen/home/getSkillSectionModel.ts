@@ -1,5 +1,6 @@
 import skills from '../../db/skills.json';
-import SkillSectionProps, { SkillItem } from '../../../model/SkillSectionProps';
+import SkillSectionProps from '../../../model/SkillSectionProps';
+import { SkillItem } from "../../../model/SkillItem";
 
 export const getSkillByName = (name: string): SkillItem | undefined => {
     return skills.find(skill => skill.name === name);

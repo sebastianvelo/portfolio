@@ -1,4 +1,4 @@
-import useFlip from "../../../../hooks/useFlip";
+import useFlip from "../../../hooks/useFlip";
 
 interface FlipCardProps {
     front: React.ReactNode;

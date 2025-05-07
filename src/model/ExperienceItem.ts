@@ -11,5 +11,4 @@ interface ExperienceItem {
     stack: string[];
 }
 
-
 export default ExperienceItem;

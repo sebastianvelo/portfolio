@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import MoonSVG from "../../screens/components/utils/svg/MoonSVG";
-import SunSVG from "../../screens/components/utils/svg/SunSVG";
+import MoonSVG from "../../ui/svg/MoonSVG";
+import SunSVG from "../../ui/svg/SunSVG";
 
 const ThemeToggle = () => {
     const [darkMode, setDarkMode] = useState(false);

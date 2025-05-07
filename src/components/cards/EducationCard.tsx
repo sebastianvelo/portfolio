@@ -1,7 +1,7 @@
-import EducationItem from "../../../model/EducationItem";
+import EducationItem from "../../model/EducationItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
-import Badge from "../utils/badge/Badge";
+import Badge from "../../ui/badge/Badge";
 
 export interface EducationCardProps extends EducationItem { }
 

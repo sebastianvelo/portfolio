@@ -1,4 +1,4 @@
-import Title from "../../screens/components/utils/text/Title";
+import Title from "../../ui/text/Title";
 
 export interface HeaderProps {
     header: {

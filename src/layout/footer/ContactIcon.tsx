@@ -1,7 +1,7 @@
 import { ContactItemProps } from "../../model/ContactSectionProps";
-import GithubSVG from "../../screens/components/utils/svg/GithubSVG";
-import LinkedInSVG from "../../screens/components/utils/svg/LinkedInSVG";
-import MailSVG from "../../screens/components/utils/svg/MailSVG";
+import GithubSVG from "../../ui/svg/GithubSVG";
+import LinkedInSVG from "../../ui/svg/LinkedInSVG";
+import MailSVG from "../../ui/svg/MailSVG";
 
 const getSocialIcon = (icon: string) => {
     switch (icon) {

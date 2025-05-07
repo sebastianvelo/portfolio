@@ -1,15 +1,15 @@
 import { useRef, useState } from "react";
 import getHomeScreenModel from "../../data/screen/home/getHomeScreenModel";
 import { LanguageProps } from "../../types/Language";
-import EducationSection from "../components/sections/EducationSection";
-import ExperienceSection from "../components/sections/ExperienceSection";
-import ProjectSection from "../components/sections/ProjectSection";
-import TabButton from "../components/common/tab/TabButton";
+import EducationSection from "../../components/sections/EducationSection";
+import ExperienceSection from "../../components/sections/ExperienceSection";
+import ProjectSection from "../../components/sections/ProjectSection";
+import TabButton from "../../components/common/tab/TabButton";
 import GenericSection from "../../model/GenericSection";
 
-interface HomeScreenProps extends LanguageProps { }
-
 type TabType = "experience" | "projects" | "education";
+
+interface HomeScreenProps extends LanguageProps { }
 
 const HomeScreen = ({ lang }: HomeScreenProps) => {
     const model = getHomeScreenModel(lang);

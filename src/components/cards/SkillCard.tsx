@@ -1,4 +1,4 @@
-import { SkillItem } from "../../../../model/SkillSectionProps";
+import { SkillItem } from "../../model/SkillItem";
 
 interface TooltipProps {
     children: React.ReactNode;
@@ -17,12 +17,12 @@ interface SkillCardProps extends SkillItem {
 }
 
 const SkillCard = (props: SkillCardProps) => {
-    const width = `${props.w ? `w-${props.w}` : "w-full"}`;
+    const width = `${props.w ? "w-${props.w}" : "w-full"}`;
 
     return (
         <div className="relative group w-full">
             <div className={`${props.color} secondaryscale-75 hover:filter-none rounded-lg ${width} h-14 shadow-lg flex flex-col justify-evenly items-center transition duration-300 transform z-0 hover:z-30`}>
-                <img src={props.image} className="rounded-full h-8 w-8" />
+                <img alt={props.name} src={props.image} className="rounded-full h-8 w-8" />
             </div>
             <Tooltip>{props.name}</Tooltip>
         </div>

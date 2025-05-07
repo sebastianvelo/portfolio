@@ -1,6 +1,6 @@
-import { EducationSectionProps } from "../../../screens/components/sections/EducationSection";
-import { ExperienceSectionProps } from "../../../screens/components/sections/ExperienceSection";
-import { ProjectSectionProps } from "../../../screens/components/sections/ProjectSection";
+import { EducationSectionProps } from "../../../components/sections/EducationSection";
+import { ExperienceSectionProps } from "../../../components/sections/ExperienceSection";
+import { ProjectSectionProps } from "../../../components/sections/ProjectSection";
 import Language from "../../../types/Language";
 import getEducationSectionModel from "./getEducationSectionModel";
 import getExperienceSectionModel from "./getExperienceSectionModel";

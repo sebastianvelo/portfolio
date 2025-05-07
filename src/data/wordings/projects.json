@@ -42,7 +42,7 @@
       },
       {
         "id": "8",
-        "title": "Chat",
+        "title": "00s Chat",
         "description": "A chat application developed with React and TypeScript, styled with Tailwind, and deployed on Firebase, featuring a nostalgic 2000s aesthetic."
       },
       {
@@ -76,22 +76,22 @@
       {
         "id": "1",
         "title": "Particle Life",
-        "description": "Un juego en el que podés personalizar interacciones entre partículas: elige si se atraen o se repelen entre sí. ¡Disfrutá de los patrones que se forman!"
+        "description": "Un juego en el que podés personalizar interacciones entre partículas: elegí si se atraen o se repelen entre sí. ¡Disfrutá de los patrones que se forman!"
       },
       {
         "id": "2",
         "title": "Wikirdle",
-        "description": "Un juego divertido cuyo objetivo es navegar de un artículo de Wikipedia a otro en la menor cantidad de clics posible. Desarrollado con React, TypeScript y estilizado con Tailwind CSS."
+        "description": "El objetivo de este juego es navegar de un artículo de Wikipedia a otro en la menor cantidad de clics posible. Desarrollado con React, TypeScript y estilizado con Tailwind CSS."
       },
       {
         "id": "3",
         "title": "Filmaholiks",
-        "description": "Busca tus películas y series favoritas en Filmaholiks! Este proyecto, construido con React y TypeScript, está alojado en Firebase. Cuenta con una librería y un backend."
+        "description": "Busca tus películas y series favoritas en Filmaholiks! Este proyecto, construido con React y TypeScript. Cuenta con una librería que funciona de API wrapper de TMDB y un backend."
       },
       {
         "id": "4",
         "title": "Hiringroom",
-        "description": "Un sitio web ficticio de empleo, desarrollado con Svelte y TypeScript, y alojado en Firebase."
+        "description": "Un sitio web ficticio de empleo, desarrollado con Svelte y TypeScript, y hosteado en Firebase."
       },
       {
         "id": "5",
@@ -100,8 +100,8 @@
       },
       {
         "id": "6",
-        "title": "PixelArt",
-        "description": "Una aplicación web de pixel art creada con React y CSS puro, deployada en GitHub Pages."
+        "title": "pixartsx",
+        "description": "Una aplicación web para hacer pixel art creada con React, TypeScript y Tailwind."
       },
       {
         "id": "7",
@@ -110,8 +110,8 @@
       },
       {
         "id": "8",
-        "title": "Chat",
-        "description": "Una chat desarrollado con React y TypeScript, estilizado con Tailwind y deployado en Firebase, con una estética nostálgica de los años 2000."
+        "title": "00s Chat",
+        "description": "Una chat desarrollado con React y TypeScript usando Tailwind para los estilos y deployado en Firebase, con una estética nostálgica de los años 2000."
       },
       {
         "id": "9",
@@ -121,7 +121,7 @@
       {
         "id": "10",
         "title": "Ideal Resume",
-        "description": "Crea tu currículum de manera sencilla con esta herramienta fácil de usar. Hecho con TypeScript, React y Tailwind"
+        "description": "  "
       },
       {
         "id": "11",

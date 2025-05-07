@@ -1,8 +1,8 @@
-import ExperienceItem from "../../../model/ExperienceItem";
-import GenericSection from "../../../model/GenericSection";
+import ExperienceItem from "../../model/ExperienceItem";
+import GenericSection from "../../model/GenericSection";
 import ExperienceCard from "../cards/ExperienceCard";
 import Section from "../common/section/Section";
-import Title from "../utils/text/Title";
+import Title from "../../ui/text/Title";
 
 export interface ExperienceSectionProps extends GenericSection<ExperienceItem> { }
 

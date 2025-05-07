@@ -1,4 +1,4 @@
-import LanguageSelector, { LanguageSelectorProps } from "../../screens/components/utils/button/LanguageSelector";
+import LanguageSelector, { LanguageSelectorProps } from "../../ui/button/LanguageSelector";
 import NavLinks, { NavLinksProps } from "./NavLinks";
 
 interface DesktopMenuProps extends LanguageSelectorProps, NavLinksProps { }

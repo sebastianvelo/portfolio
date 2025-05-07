@@ -1,8 +1,8 @@
-import GenericSection from "../../../model/GenericSection";
-import ProjectItem from "../../../model/ProjectItem";
+import GenericSection from "../../model/GenericSection";
+import ProjectItem from "../../model/ProjectItem";
 import ProjectCard from "../cards/ProjectCard";
 import Section from "../common/section/Section";
-import Title from "../utils/text/Title";
+import Title from "../../ui/text/Title";
 
 export interface ProjectSectionProps extends GenericSection<ProjectItem> { }
 

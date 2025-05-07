@@ -1,8 +1,8 @@
-import EducationItem from "../../../model/EducationItem";
-import GenericSection from "../../../model/GenericSection";
+import EducationItem from "../../model/EducationItem";
+import GenericSection from "../../model/GenericSection";
 import EducationCard from "../cards/EducationCard";
 import Section from "../common/section/Section";
-import Title from "../utils/text/Title";
+import Title from "../../ui/text/Title";
 
 export interface EducationSectionProps extends GenericSection<EducationItem> { }
 

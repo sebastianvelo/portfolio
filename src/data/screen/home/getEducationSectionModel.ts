@@ -1,4 +1,4 @@
-import { EducationSectionProps } from '../../../screens/components/sections/EducationSection';
+import { EducationSectionProps } from '../../../components/sections/EducationSection';
 import Language from '../../../types/Language';
 import data from '../../db/education.json';
 import wordings from '../../wordings/education.json';

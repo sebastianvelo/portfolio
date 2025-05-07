@@ -1,10 +1,10 @@
-import ProjectItem from "../../../model/ProjectItem";
+import ProjectItem from "../../model/ProjectItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
-import Badge from "../utils/badge/Badge";
-import LinkButton from "../utils/button/LinkButton";
-import GithubSVG from "../utils/svg/GithubSVG";
-import GlobeSVG from "../utils/svg/GlobeSVG";
+import Badge from "../../ui/badge/Badge";
+import LinkButton from "../../ui/button/LinkButton";
+import GithubSVG from "../../ui/svg/GithubSVG";
+import GlobeSVG from "../../ui/svg/GlobeSVG";
 
 export interface ProjectCardProps extends ProjectItem { }
 

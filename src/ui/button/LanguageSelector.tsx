@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Language, { LanguageProps } from "../../../../types/Language";
+import Language, { LanguageProps } from "../../types/Language";
 import { ChevronDownSVG, ChevronUpSVG } from "../svg/ChevronSVGs";
 
 export interface LanguageSelectorProps extends LanguageProps {

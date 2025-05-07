@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import ExperienceItem from "../../../model/ExperienceItem";
+import ExperienceItem from "../../model/ExperienceItem";
 import FlipCard from "../common/flip-card/FlipCard";
 import FlipCardSide from "../common/flip-card/FlipCardSide";
-import Badge from "../utils/badge/Badge";
-import ExpandCardButton from "../utils/button/ExpandCardButton";
-import RichText from "../utils/text/RichText";
+import Badge from "../../ui/badge/Badge";
+import ExpandCardButton from "../../ui/button/ExpandCardButton";
+import RichText from "../../ui/text/RichText";
 
 export interface ExperienceCardProps extends ExperienceItem { }
 

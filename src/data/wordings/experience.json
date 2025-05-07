@@ -13,7 +13,7 @@
             {
                 "id": "2",
                 "company": "Despegar",
-                "description": "As a Software Developer III at Despegar, one of Latin America's premier travel agencies, I developed robust solutions using Java and Angular technologies.",
+                "description": "As a Software Developer III at Despegar, one of Latin America's premier travel agencies, utilizing Java and Angular.",
                 "fullDescription": "I worked as a Software Developer III at Despegar, one of Latin America's leading travel agencies, utilizing Java and Angular. \n♦ Responsibilities \n • Maintenance of Angular components \n • Contribution to the development of a new component library \n • Deployment in a production environment \n|\n"
             },
             {
@@ -39,25 +39,25 @@
                 "id": "1",
                 "company": "Outlier",
                 "description": "Creo interfaces de usuario con TypeScript, HTML, CSS y Tailwind que sirven para entrenar modelos de IA.",
-                "fullDescription": "Entreno y optimizo modelos de IA para el desarrollo frontend, implementando tareas en TypeScript, HTML, CSS y Tailwind para crear interfaces de usuario intuitivas y responsivas."
+                "fullDescription": "Entreno y optimizo modelos de IA para el desarrollo frontend, implementando tareas en TypeScript, HTML, CSS y Tailwind para crear interfaces de usuario intuitivas y útiles."
             },
             {
                 "id": "2",
                 "company": "Despegar",
-                "description": "Trabajé como Software Developer III en Despegar, una de las principales agencias de viajes de América Latina, desarrollando soluciones robustas utilizando Java y Angular.",
+                "description": "Trabajé como Software Developer III en Despegar, una de las principales agencias de viajes de América Latina, utilizando Java y Angular.",
                 "fullDescription": "Trabajé como Software Developer III en Despegar, una de las principales agencias de viajes de América Latina, utilizando Java y Angular. \n♦ Responsabilidades \n • Mantenimiento de componentes en Angular \n • Colaboración en el desarrollo de una nueva librería de componentes \n • Implementación en ambiente de producción \n|\n"
             },
             {
                 "id": "3",
                 "company": "MercadoLibre",
                 "description": "Como Software Developer en Mercado Libre, desarrollé soluciones full-stack integrales, aplicando prácticas avanzadas de ingeniería de software y técnicas innovadoras de UI.",
-                "fullDescription": "♦ Responsabilidades \n • Diseño e implementación de APIs REST utilizando Java 11 \n • Desarrollo de componentes con ReactJS \n • Implementación de mapeo de componentes mediante la técnica Server Driven UI \n • Participación en la planificación ágil y gestión de tareas \n|\n ♦ Proyectos \n • Inbound Invoice Creator \n API REST sofisticada en Java para procesar y analizar de manera eficiente hojas de cálculo con información de envíos y facturas. \n • Complementary Invoices \n API que permite a los vendedores cargar y gestionar facturas pendientes para evitar inconvenientes fiscales."
+                "fullDescription": "♦ Responsabilidades \n • Diseño e implementación de APIs REST utilizando Java 11 \n • Desarrollo de componentes con ReactJS \n • Implementación de mapeo de componentes mediante la técnica Server Driven UI \n • Participación en la planificación ágil y gestión de tareas \n|\n ♦ Proyectos \n • Inbound Invoice Creator \n API REST en Java para procesar y analizar de manera eficiente hojas de cálculo con información de envíos y facturas. \n • Complementary Invoices \n API que permite a los vendedores cargar y gestionar facturas pendientes para evitar inconvenientes fiscales."
             },
             {
                 "id": "4",
                 "company": "ICBC",
-                "description": "En mi primer rol profesional, desarrollé soluciones de software integrales para la plataforma de Banca Corporativa de ICBC utilizando tecnologías Java, JSP, Struts y JavaScript.",
-                "fullDescription": "Durante mi primera experiencia profesional en ICBC, fui mentoreado por desarrolladores senior y de nivel intermedio, lo que me permitió ampliar mis habilidades en desarrollo web y aprender prácticas colaborativas de ingeniería de software. \n♦ Responsabilidades \n • Desarrollo de proyectos completos desde su concepción hasta su implementación utilizando Java y JSP \n • Resolución de problemas a nivel de producción \n • Uso de PLSQL para el análisis de incidencias en producción \n • Mantenimiento del sitio web institucional mediante HTML, CSS y JavaScript \n|\n ♦ Proyectos \n • Débito Inmediato \n Integración de una API de transacciones de débito inmediato de terceros en el sistema de banca electrónica, permitiendo transferencias de fondos entre cuentas. Mis responsabilidades incluyeron: \n- Integración de la API backend \n- Desarrollo de interfaces de usuario con JSP y JavaScript \n- Planificación colaborativa de tareas"
+                "description": "En mi primer rol profesional, fui Fullstack Developer en la Banca Corporativa de ICBC utilizando tecnologías Java, JSP, Struts y JavaScript.",
+                "fullDescription": "Durante mi primera experiencia profesional en ICBC, fui mentoreado por desarrolladores senior y semisenior, lo que me permitió ampliar mis habilidades en desarrollo web y aprender prácticas colaborativas de ingeniería de software. \n♦ Responsabilidades \n • Desarrollo de proyectos completos desde su concepción hasta su implementación utilizando Java y JSP \n • Resolución de problemas en producción \n • Uso de PLSQL para el análisis de incidencias en producción \n • Mantenimiento del sitio web institucional mediante HTML, CSS y JavaScript \n|\n ♦ Proyectos \n • Débito Inmediato \n Integración de una API de transacciones de débito inmediato de terceros en el sistema de banca electrónica, permitiendo transferencias de fondos entre cuentas. Mis responsabilidades incluyeron: \n- Integración de la API backend \n- Desarrollo de interfaces de usuario con JSP y JavaScript \n- Planificación colaborativa de tareas"
             }
         ]
     }
