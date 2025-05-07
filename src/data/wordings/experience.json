@@ -1,0 +1,64 @@
+{
+    "en": {
+        "title": "My experience",
+        "tab": "Experience",
+        "description": "With over seven years of professional experience, I have specialized in full-stack development using a wide variety of technologies. I have worked at leading companies such as Mercado Libre and ICBC, using various languages ​​such as Java, TypeScript, and JavaScript.",
+        "items": [
+            {
+                "id": "1",
+                "company": "Outlier",
+                "description": "I create user interfaces with TypeScript, HTML, CSS, and Tailwind that serve to train AI models.",
+                "fullDescription": "I train and optimize AI models for frontend development, implementing tasks in TypeScript, HTML, CSS, and Tailwind to create intuitive and responsive user interfaces."
+            },
+            {
+                "id": "2",
+                "company": "Despegar",
+                "description": "As a Software Developer III at Despegar, one of Latin America's premier travel agencies, utilizing Java and Angular.",
+                "fullDescription": "I worked as a Software Developer III at Despegar, one of Latin America's leading travel agencies, utilizing Java and Angular. \n♦ Responsibilities \n • Maintenance of Angular components \n • Contribution to the development of a new component library \n • Deployment in a production environment \n|\n"
+            },
+            {
+                "id": "3",
+                "company": "MercadoLibre",
+                "description": "As a Software Developer at MercadoLibre, I developed comprehensive full-stack solutions, applying advanced software engineering practices and innovative UI techniques.",
+                "fullDescription": "♦ Responsibilities \n • Designed and implemented REST APIs using Java 11 \n • Developed components using ReactJS \n • Implemented component mapping through a Server Driven UI approach \n • Participated in agile planning and task management \n|\n ♦ Projects \n • Inbound Invoice Creator \n Developed a sophisticated REST API in Java to efficiently process and analyze spreadsheets containing shipment and invoice data. \n • Complementary Invoices \n Created an API that enables vendors to upload and manage pending invoices to prevent fiscal issues."
+            },
+            {
+                "id": "4",
+                "company": "ICBC",
+                "description": "In my first professional role, I developed comprehensive software solutions for ICBC's Corporate Banking platform using Java, JSP, Struts, and JavaScript technologies.",
+                "fullDescription": "During my first professional experience at ICBC, I was mentored by senior and mid-level developers, which expanded my web development skills and introduced me to collaborative software engineering practices. \n♦ Responsibilities \n • Developed complete projects from conception to implementation using Java and JSP \n • Resolved production-level issues \n • Utilized PLSQL for analyzing production issues \n • Maintained the institutional website using HTML, CSS, and JavaScript \n|\n ♦ Projects \n • Immediate Debit \n Integrated a third-party API for immediate debit transactions into the electronic banking system, enabling fund transfers between accounts. My responsibilities included: \n- Backend API integration \n- Development of user interfaces with JSP and JavaScript \n- Collaborative task planning"
+            }
+        ]
+    },
+    "es": {
+        "title": "Mi experiencia",
+        "tab": "Experiencia",
+        "description": "Con más de 7 años de experiencia profesional, me he especializado en el desarrollo fullstack utilizando una amplia variedad de tecnologías. He trabajado en empresas líderes como Mercado Libre e ICBC, utilizando diversos lenguajes como Java, TypeScript y JavaScript.",
+        "items": [
+            {
+                "id": "1",
+                "company": "Outlier",
+                "description": "Creo interfaces de usuario con TypeScript, HTML, CSS y Tailwind que sirven para entrenar modelos de IA.",
+                "fullDescription": "Entreno y optimizo modelos de IA para el desarrollo frontend, implementando tareas en TypeScript, HTML, CSS y Tailwind para crear interfaces de usuario intuitivas y útiles."
+            },
+            {
+                "id": "2",
+                "company": "Despegar",
+                "description": "Trabajé como Software Developer III en Despegar, una de las principales agencias de viajes de América Latina, utilizando Java y Angular.",
+                "fullDescription": "Trabajé como Software Developer III en Despegar, una de las principales agencias de viajes de América Latina, utilizando Java y Angular. \n♦ Responsabilidades \n • Mantenimiento de componentes en Angular \n • Colaboración en el desarrollo de una nueva librería de componentes \n • Implementación en ambiente de producción \n|\n"
+            },
+            {
+                "id": "3",
+                "company": "MercadoLibre",
+                "description": "Como Software Developer en Mercado Libre, desarrollé soluciones full-stack integrales, aplicando prácticas avanzadas de ingeniería de software y técnicas innovadoras de UI.",
+                "fullDescription": "♦ Responsabilidades \n • Diseño e implementación de APIs REST utilizando Java 11 \n • Desarrollo de componentes con ReactJS \n • Implementación de mapeo de componentes mediante la técnica Server Driven UI \n • Participación en la planificación ágil y gestión de tareas \n|\n ♦ Proyectos \n • Inbound Invoice Creator \n API REST en Java para procesar y analizar de manera eficiente hojas de cálculo con información de envíos y facturas. \n • Complementary Invoices \n API que permite a los vendedores cargar y gestionar facturas pendientes para evitar inconvenientes fiscales."
+            },
+            {
+                "id": "4",
+                "company": "ICBC",
+                "description": "En mi primer rol profesional, fui Fullstack Developer en la Banca Corporativa de ICBC utilizando tecnologías Java, JSP, Struts y JavaScript.",
+                "fullDescription": "Durante mi primera experiencia profesional en ICBC, fui mentoreado por desarrolladores senior y semisenior, lo que me permitió ampliar mis habilidades en desarrollo web y aprender prácticas colaborativas de ingeniería de software. \n♦ Responsabilidades \n • Desarrollo de proyectos completos desde su concepción hasta su implementación utilizando Java y JSP \n • Resolución de problemas en producción \n • Uso de PLSQL para el análisis de incidencias en producción \n • Mantenimiento del sitio web institucional mediante HTML, CSS y JavaScript \n|\n ♦ Proyectos \n • Débito Inmediato \n Integración de una API de transacciones de débito inmediato de terceros en el sistema de banca electrónica, permitiendo transferencias de fondos entre cuentas. Mis responsabilidades incluyeron: \n- Integración de la API backend \n- Desarrollo de interfaces de usuario con JSP y JavaScript \n- Planificación colaborativa de tareas"
+            }
+        ]
+    }
+}

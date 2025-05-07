@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Typescript",
+    "color": "bg-gradient-to-t text-light from-blue-50 to-blue-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/typescript.png",
+    "types": [
+      "frontend",
+      ""
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "color": "bg-gradient-to-t from-yellow-50 to-yellow-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/js.png",
+    "types": [
+      "frontend",
+      ""
+    ]
+  },
+  {
+    "name": "jQuery",
+    "color": "bg-gradient-to-t text-light from-sky-50 to-sky-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/jquery.png",
+    "types": [
+      ""
+    ]
+  },
+  {
+    "name": "React",
+    "color": "bg-gradient-to-t text-light from-sky-50 to-sky-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/react.png",
+    "types": [
+      "framework-frontend"
+    ]
+  },
+  {
+    "name": "Svelte",
+    "color": "bg-gradient-to-t text-light from-orange-50 to-red-100",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1702px-Svelte_Logo.svg.png",
+    "types": [
+      "framework-frontend"
+    ]
+  },
+  {
+    "name": "Angular",
+    "color": "bg-gradient-to-t text-light from-red-50 to-red-100",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
+    "types": [
+      "framework-frontend"
+    ]
+  },
+  {
+    "name": "Tailwind",
+    "color": "bg-gradient-to-t from-sky-50 to-sky-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/tailwind.png",
+    "types": [
+      "frontend",
+      "styles"
+    ]
+  },
+  {
+    "name": "SASS",
+    "color": "bg-gradient-to-b text-light from-pink-50 to-pink-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/sass.png",
+    "types": [
+      "frontend",
+      "styles"
+    ]
+  },
+  {
+    "name": "Java",
+    "color": "bg-gradient-to-t from-red-50 via-blue-50 to-blue-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/java.png",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "Spring",
+    "color": "bg-gradient-to-t from-green-50 via-emerald-50 to-emerald-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/spring.png",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "Spark",
+    "color": "bg-gradient-to-t from-orange-200 via-orange-100 to-orange-50",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/spark.png",
+    "types": [
+      ""
+    ]
+  },
+  {
+    "name": "Struts",
+    "color": "bg-gradient-to-t from-blue-50 via-blue-50 to-blue-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/struts.png",
+    "types": [
+      ""
+    ]
+  },
+  {
+    "name": "Hibernate",
+    "color": "bg-gradient-to-t from-green-50 via-emerald-50 to-emerald-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/hibernate.svg",
+    "types": [
+      ""
+    ]
+  },
+  {
+    "name": "GIT",
+    "color": "bg-gradient-to-t from-green-50 via-emerald-50 to-emerald-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/git.png",
+    "types": [
+      "scv"
+    ]
+  },
+  {
+    "name": "MySQL",
+    "color": "bg-gradient-to-t from-orange-50 via-sky-50 to-blue-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/mysql.png",
+    "types": [
+      "bbdd"
+    ]
+  },
+  {
+    "name": "PLSQL",
+    "color": "bg-gradient-to-t from-red-50 via-red-50 to-red-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/PLSQL.png",
+    "types": [
+      "bbdd"
+    ]
+  },
+  {
+    "name": "Firebase Hosting",
+    "color": "bg-gradient-to-t from-orange-50 via-sky-50 to-blue-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/firebase-hosting.png",
+    "types": [
+      "cloud"
+    ]
+  },
+  {
+    "name": "Firebase Functions",
+    "color": "bg-gradient-to-t from-orange-50 via-sky-50 to-blue-100",
+    "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/skills/firebase-cloud-function.png",
+    "types": [
+      "cloud"
+    ]
+  }
+]

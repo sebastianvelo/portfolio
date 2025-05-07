@@ -1,0 +1,60 @@
+[
+    {
+        "id": "1",
+        "company": "Outlier",
+        "position": "Frontend AI Trainer",
+        "start": 2024,
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/experience/outlier.png",
+        "color": "from-gray-50 to-cyan-200 hover:from-cyan-400 hover:via-cyan-200 hover:to-cyan-400 bg-gradient-to-tl",
+        "stack": [
+            "JavaScript",
+            "Typescript"
+        ]
+    },
+    {
+        "id": "2",
+        "company": "Despegar",
+        "position": "Fullstack Developer",
+        "start": 2022,
+        "end": 2024,
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/experience/despegar.png",
+        "color": "from-gray-50 to-violet-200 hover:from-violet-400 hover:via-violet-200 hover:to-violet-400 bg-gradient-to-tl",
+        "stack": [
+            "Java",
+            "Angular",
+            "Typescript"
+        ]
+    },
+    {
+        "id": "3",
+        "company": "MercadoLibre",
+        "position": "Fullstack Developer",
+        "start": 2021,
+        "end": 2021,
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/experience/meli.png",
+        "color": "from-gray-50 to-yellow-200 hover:from-yellow-400 hover:via-yellow-200 hover:to-yellow-400 bg-gradient-to-tl",
+        "stack": [
+            "Java",
+            "React",
+            "JavaScript",
+            "Spark"
+        ]
+    },
+    {
+        "id": "4",
+        "company": "ICBC",
+        "position": "Fullstack Developer",
+        "start": 2017,
+        "end": 2020,
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/experience/icbc.png",
+        "color": "from-gray-50 to-red-200 hover:from-red-400 hover:via-red-200 hover:to-red-400 bg-gradient-to-tl",
+        "stack": [
+            "Java",
+            "Spring",
+            "Struts",
+            "PLSQL",
+            "JavaScript",
+            "jQuery"
+        ]
+    }
+]

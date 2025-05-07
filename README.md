@@ -1,17 +1,14 @@
 # Portfolio
 
-## ¡Hola! 
+## Hi there! 
 
-_Mi nombre es Sebastián Velo, soy Desarrollador Ssr y este es mi portfolio!_
-
-
-_Gracias por ver mi GitHub :grin:_
+_I'm Sebastián, a full-stack developer based in Argentina_
 
 ## 🔗
-https://sebastianvelo.github.io/portfolio/#/
+https://sebastian-velo.web.app/
 
 ## 🛠️
 
 * [ReactJS](https://es.reactjs.org/)  
-* [NodeJS](https://nodejs.org/es/)
-* [CSS](https://developer.mozilla.org/es/docs/Web/CSS) 
+* [TypeScript](https://www.typescriptlang.org/) 
+* [Tailwind](https://tailwindcss.com/docs/installation/play-cdn) 

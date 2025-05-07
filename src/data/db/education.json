@@ -1,0 +1,42 @@
+[
+    {
+        "id": "coursera",
+        "color": "from-gray-50 to-blue-200 hover:from-blue-400 hover:via-blue-200 hover:to-blue-400 bg-gradient-to-tl",
+        "title": "Coursera",
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/education/coursera.png",
+        "start": 2022,
+        "end": 2022
+    },
+    {
+        "id": "platzi",
+        "color": "from-gray-50 to-green-200 hover:from-green-400 hover:via-green-200 hover:to-green-400 bg-gradient-to-tl",
+        "title": "Platzi",
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/education/platzi.png",
+        "start": 2021,
+        "end": 2022
+    },
+    {
+        "id": "exo",
+        "color": "from-gray-50 to-red-200 hover:from-red-400 hover:via-red-200 hover:to-red-400 bg-gradient-to-tl",
+        "title": "EXO",
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/education/exo.png",
+        "start": 2017,
+        "end": 2017
+    },
+    {
+        "id": "utn",
+        "color": "from-gray-50 to-gray-200 hover:from-gray-400 hover:via-gray-200 hover:to-gray-400 bg-gradient-to-tl",
+        "title": "UTN",
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/education/utn.png",
+        "start": 2016,
+        "end": 2016
+    },
+    {
+        "id": "jh",
+        "color": "from-gray-50 to-blue-200 hover:from-blue-400 hover:via-blue-200 hover:to-blue-400 bg-gradient-to-tl",
+        "title": "José Hernández",
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/education/jh.png",
+        "start": 2009,
+        "end": 2015
+    }
+]

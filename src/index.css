@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.preserve-3d {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.perspective {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.rotate-x-180 {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.card-container {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.card-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+}
+
+.laptop-screen {
+  transform: rotateX(-86deg);
+  transform-origin: 32px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.laptop-container .laptop-screen {
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.5);
+  fill: black;
+}
+
+.laptop-container:hover .laptop-screen {
+  transform: rotateX(0deg);
+  transition: all 0.5s ease-in-out;
+  fill: rgb(255, 255, 255);
+}
+
+#rocket {
+  fill: #d1d5db;
+  transform: rotateZ(90deg);
+}
+
+#rocket #fire {
+  fill: rgb(255, 68, 0);
+}
+
+#rocket:hover {
+  transform: translateX(-5px) rotateZ(40deg);
+  transition: all 0.3s ease-in-out;
+  fill: rgb(12, 18, 27);
+}
+
+#rocket:hover #fire {
+  fill: rgb(255, 68, 0);
+  transition: all 0.1s ease-in-out;
+}
+
+.book-cover {
+  transform: rotateY(0deg);
+  transform-origin: left center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.book-container:hover .book-cover {
+  transform: rotateY(60deg) translateX(20px);
+}
+
+@-webkit-keyframes view-anim {
+  from {
+    opacity: 0.3;
+    filter: blur(40px);
+  }
+}
+
+@keyframes view-anim {
+  from {
+    opacity: 0.3;
+    filter: blur(40px);
+  }
+}
+
+.view {
+  -webkit-animation: view-anim 0.75s cubic-bezier(0.17, 0.74, 0.17, 1);
+  animation: view-anim 0.75s cubic-bezier(0.17, 0.74, 0.17, 1);
+}
