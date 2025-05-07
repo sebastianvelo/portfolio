@@ -7,7 +7,7 @@ interface RichTextProps {
 const RichText: React.FC<RichTextProps> = ({ children }) => (
     <>
         {children?.split("\n").map((line, index) => (
-            <RichLine key={line.slice(0, 4)}>{line}</RichLine>
+            <RichLine key={`line-${index}-${line}`}>{line}</RichLine>
         ))}
     </>
 );

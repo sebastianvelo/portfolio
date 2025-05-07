@@ -57,19 +57,15 @@ const CardBack = (props: ExperienceCardBackProps) => {
       window.removeEventListener('resize', checkOverflow);
       clearTimeout(timeoutId);
     };
-  }, [props.fullDescription]);
+  }, []);
 
   return (
     <FlipCardSide>
       <div className="p-5 h-full flex flex-col relative">
         <h3 className="font-bold text-lg mb-2">{props.company}</h3>
         <Badge>{props.start} - {props.end}</Badge>
-        <div
-          ref={contentRef}
-          className="cursor-text mt-4 text-secondary-700 dark:text-secondary-300 flex-grow overflow-y-auto pb-8"
-        >
+        <div ref={contentRef} className="cursor-text mt-4 text-secondary-700 dark:text-secondary-300 flex-grow overflow-y-auto pb-8">
           <RichText>{props.fullDescription}</RichText>
-
           {hasOverflow && !props.isExpanded && (
             <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white hover:from-primary-50  dark:from-black dark:hover:from-primary-900 to-transparent pointer-events-none" />
           )}
