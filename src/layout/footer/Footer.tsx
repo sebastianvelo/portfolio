@@ -3,13 +3,13 @@ import ContactIcon from './ContactIcon';
 
 const Footer = (props: ContactSectionProps) => {
   return (
-    <footer className="backdrop-blur-md sticky bottom-0 bg-white/60 dark:bg-black/60 py-4 sm:py-6">
+    <footer className="sticky bottom-0 bg-primary-100/80 dark:bg-secondary-950/80 backdrop-blur-xl py-4">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-secondary-700 dark:text-secondary-300 mb-4 md:mb-0">
+        <div className="flex flex-row justify-between items-center">
+          <p className="text-secondary-700 dark:text-secondary-300 font-jetbrains">
             Sebastián Velo
           </p>
-          <div className="flex space-x-6">
+          <div className="flex space-x-6 items-center">
             {props.items.map((link) => (
               <a
                 key={link.name}

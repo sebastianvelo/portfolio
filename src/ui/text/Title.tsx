@@ -13,7 +13,7 @@ const Title = ({ children, size = "md", className = "" }: TitleProps) => {
     };
 
     return (
-        <h2 className={`font-bold ${sizeClasses[size]} ${className} mb-6`}>
+        <h2 className={`font-bold font-jetbrains ${sizeClasses[size]} ${className} mb-6`}>
             {children}
         </h2>
     );

@@ -1,8 +1,8 @@
 import ExperienceItem from "../../model/ExperienceItem";
 import GenericSection from "../../model/GenericSection";
+import Title from "../../ui/text/Title";
 import ExperienceCard from "../cards/ExperienceCard";
 import Section from "../common/section/Section";
-import Title from "../../ui/text/Title";
 
 export interface ExperienceSectionProps extends GenericSection<ExperienceItem> { }
 
@@ -16,8 +16,8 @@ const ExperienceSection = (props: ExperienceSectionProps) => {
         {props.description}
       </p>
       <div className="grid grid-cols-1 gap-6">
-        {props.items.map((exp) => (
-          <ExperienceCard {...exp} />
+        {props.items.map((experience) => (
+          <ExperienceCard key={experience.id} {...experience} />
         ))}
       </div>
     </Section>

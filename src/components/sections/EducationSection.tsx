@@ -1,8 +1,8 @@
 import EducationItem from "../../model/EducationItem";
 import GenericSection from "../../model/GenericSection";
+import Title from "../../ui/text/Title";
 import EducationCard from "../cards/EducationCard";
 import Section from "../common/section/Section";
-import Title from "../../ui/text/Title";
 
 export interface EducationSectionProps extends GenericSection<EducationItem> { }
 
@@ -16,8 +16,8 @@ const EducationSection = (props: EducationSectionProps) => {
         {props.description}
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {props.items.map((ed) => (
-          <EducationCard {...ed} />
+        {props.items.map((education) => (
+          <EducationCard key={education.id} {...education} />
         ))}
       </div>
     </Section>

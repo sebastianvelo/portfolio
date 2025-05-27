@@ -9,7 +9,7 @@ export interface LanguageSelectorProps extends LanguageProps {
 const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  
+
   const languages = {
     en: { label: "English", flag: "🇺🇸" },
     es: { label: "Español", flag: "🇪🇸" }
@@ -35,25 +35,39 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
     <div className="relative" ref={dropdownRef}>
       <button
         type="button"
-        className="flex items-center justify-between w-28 px-3 py-2 text-sm font-medium text-secondary-700 bg-white border border-secondary-300 rounded-md shadow-sm hover:bg-secondary-50 focus:outline-none focus:ring-2 focus:ring-primary-500"
+        className="flex items-center justify-between w-28 px-3 py-2 text-sm font-medium 
+                   text-secondary-700 dark:text-secondary-300 
+                   bg-white dark:bg-secondary-800 
+                   border border-secondary-300 dark:border-secondary-600 
+                   rounded-md shadow-sm 
+                   hover:bg-secondary-50 dark:hover:bg-secondary-700 
+                   focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400
+                   transition-colors duration-200"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="flex items-center">
           <span className="mr-2">{languages[lang].flag}</span>
           <span>{languages[lang].label}</span>
         </span>
-        {!isOpen ? <ChevronDownSVG />: <ChevronUpSVG />}
+        <span className="text-secondary-500 dark:text-secondary-400">
+          {!isOpen ? <ChevronDownSVG /> : <ChevronUpSVG />}
+        </span>
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 z-10 mt-1 w-full bg-white border border-secondary-200 rounded-md shadow-lg">
+        <div className="absolute right-0 z-10 mt-1 w-full 
+                        bg-white dark:bg-secondary-800 
+                        border border-secondary-200 dark:border-secondary-600 
+                        rounded-md shadow-lg dark:shadow-secondary-900/20
+                        animate-in fade-in-0 zoom-in-95 duration-100">
           <div className="py-1">
             {Object.entries(languages).map(([code, { label, flag }]) => (
               <button
                 key={code}
-                className={`flex items-center w-full px-4 py-2 text-sm ${
-                  lang === code ? "bg-secondary-100 text-secondary-900" : "text-secondary-700 hover:bg-secondary-50"
-                }`}
+                className={`flex items-center w-full px-4 py-2 text-sm transition-colors duration-150 ${lang === code
+                    ? "bg-secondary-100 dark:bg-secondary-700 text-secondary-900 dark:text-secondary-100"
+                    : "text-secondary-700 dark:text-secondary-300 hover:bg-secondary-50 dark:hover:bg-secondary-700/50"
+                  }`}
                 onClick={() => handleLanguageChange(code as Language)}
               >
                 <span className="mr-2">{flag}</span>

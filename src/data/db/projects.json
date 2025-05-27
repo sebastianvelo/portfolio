@@ -15,37 +15,6 @@
         "category": 3
     },
     {
-        "id": "6",
-        "title": "pixartsx",
-        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/projects/pixelart.png",
-        "githubUrl": "https://github.com/sebastianvelo/pixel-art",
-        "liveUrl": "https://pixartsx.web.app/",
-        "color": "hover:bg-purple-100 dark:hover:bg-indigo-900",
-        "stack": [
-            "Typescript",
-            "React",
-            "Tailwind"
-        ],
-        "showInHome": true,
-        "category": 1
-    },
-    {
-        "id": "1",
-        "title": "Particle Life",
-        "image": "https://cdn-icons-png.flaticon.com/512/8232/8232934.png",
-        "githubUrl": "https://github.com/sebastianvelo/particle-life",
-        "liveUrl": "https://particle-life.web.app/",
-        "color": "hover:bg-pink-100 dark:hover:bg-pink-900",
-        "stack": [
-            "React",
-            "Typescript",
-            "Tailwind",
-            "Firebase Hosting"
-        ],
-        "showInHome": true,
-        "category": 1
-    },
-    {
         "id": "2",
         "title": "Wikirdle",
         "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/projects/wikirdle.png",
@@ -77,6 +46,37 @@
         ],
         "showInHome": true,
         "category": 2
+    },
+    {
+        "id": "6",
+        "title": "pixartsx",
+        "image": "https://cdn.jsdelivr.net/gh/SebastianVelo/portfolio-static@main/img/projects/pixelart.png",
+        "githubUrl": "https://github.com/sebastianvelo/pixel-art",
+        "liveUrl": "https://pixartsx.web.app/",
+        "color": "hover:bg-purple-100 dark:hover:bg-indigo-900",
+        "stack": [
+            "Typescript",
+            "React",
+            "Tailwind"
+        ],
+        "showInHome": true,
+        "category": 1
+    },
+    {
+        "id": "1",
+        "title": "Particle Life",
+        "image": "https://cdn-icons-png.flaticon.com/512/8232/8232934.png",
+        "githubUrl": "https://github.com/sebastianvelo/particle-life",
+        "liveUrl": "https://particle-life.web.app/",
+        "color": "hover:bg-pink-100 dark:hover:bg-pink-900",
+        "stack": [
+            "React",
+            "Typescript",
+            "Tailwind",
+            "Firebase Hosting"
+        ],
+        "showInHome": true,
+        "category": 1
     },
     {
         "id": "4",
