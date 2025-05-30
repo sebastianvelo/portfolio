@@ -86,7 +86,7 @@
       {
         "id": "3",
         "title": "Filmaholiks",
-        "description": "Busca tus películas y series favoritas en Filmaholiks! Este proyecto, construido con React y TypeScript. Cuenta con una librería que funciona de API wrapper de TMDB y un backend."
+        "description": "Busca tus películas y series favoritas en Filmaholiks! Este proyecto, construido con React y TypeScript, cuenta con una librería que funciona de API wrapper de TMDB y un backend."
       },
       {
         "id": "4",
@@ -121,7 +121,7 @@
       {
         "id": "10",
         "title": "Ideal Resume",
-        "description": "  "
+        "description": "Crea tu currículum de forma fácil y rápida con esta herramienta intuitiva, desarrollada con React y TypeScript."
       },
       {
         "id": "11",

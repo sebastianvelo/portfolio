@@ -6,9 +6,7 @@ const Footer = (props: ContactSectionProps) => {
     <footer className="sticky bottom-0 bg-primary-100/80 dark:bg-secondary-950/80 backdrop-blur-xl py-4">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-row justify-between items-center">
-          <p className="text-secondary-700 dark:text-secondary-300 font-jetbrains">
-            Sebastián Velo
-          </p>
+          <a className="font-bold mb-4 md:mb-0 text-primary-900 dark:text-primary-100" href="https://sebastian-velo.web.app/">Made with 🧉, ☕️, and ❤️</a>
           <div className="flex space-x-6 items-center">
             {props.items.map((link) => (
               <a

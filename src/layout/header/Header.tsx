@@ -9,7 +9,7 @@ export interface HeaderProps {
 }
 
 const Header = (props: HeaderProps) => (
-    <header className="font-jetbrains pt-24 pb-12 sm:pt-32 sm:pb-16 px-4 bg-gradient-to-tr from-primary-100 to-zinc-100 dark:from-primary-950 dark:to-secondary-900">
+    <header className="font-jetbrains pt-24 pb-12 sm:pt-32 sm:pb-16 px-4 bg-gradient-to-bl from-primary-200 to-zinc-100 dark:from-primary-950 dark:to-secondary-900">
         <div className="max-w-4xl mx-auto text-center">
             <Title size="xl" className="mb-4">
                 {props.header.title}

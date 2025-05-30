@@ -4,10 +4,6 @@
         "message": "Let's talk!",
         "items": [
             {
-                "name": "sebastianvelo.it@gmail.com",
-                "label": "sebastianvelo.it@gmail.com"
-            },
-            {
                 "name": "Github",
                 "label": "Go to GitHub"
             },
@@ -21,10 +17,6 @@
         "title": "Contacto",
         "message": "Hablemos!",
         "items": [
-            {
-                "name": "sebastianvelo.it@gmail.com",
-                "label": "sebastianvelo.it@gmail.com"
-            },
             {
                 "name": "Github",
                 "label": "Ir a GitHub"
