@@ -5,7 +5,7 @@ interface TabButtonProps {
 }
 
 const TabButton = (props: TabButtonProps) => {
-    const baseClasses = "px-6 py-2 flex flex-col items-center font-medium text-sm md:text-xl transition-all duration-300 relative";
+    const baseClasses = "font-jetbrains px-6 py-2 flex flex-col items-center font-medium text-sm md:text-xl transition-all duration-300 relative";
 
     const stateClasses = props.active
         ? "text-primary-600 dark:text-primary-400 font-semibold"
