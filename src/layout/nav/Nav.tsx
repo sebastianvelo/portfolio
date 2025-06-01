@@ -1,7 +1,7 @@
-import { LanguageSelectorProps } from "../../ui/button/LanguageSelector";
-import DesktopMenu from "./DesktopMenu";
-import { NavLinksProps } from "./NavLinks";
-import ThemeToggle from "./ThemeToggle";
+import { LanguageSelectorProps } from "./common/LanguageSelector";
+import { NavLinksProps } from "./common/NavLinks";
+import ThemeToggle from "./common/ThemeToggle";
+import DesktopMenu from "./desktop/DesktopMenu";
 
 interface NavProps extends LanguageSelectorProps, NavLinksProps { }
 

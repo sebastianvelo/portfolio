@@ -10,7 +10,7 @@ module.exports = {
         extend: {
             colors: {
                 primary: defaultColors.indigo,
-                secondary: defaultColors.slate
+                secondary: defaultColors.slate,
             },
             fontFamily: {
                 jetbrains: ['JetBrains Mono', 'monospace'],

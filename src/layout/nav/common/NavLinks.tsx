@@ -1,4 +1,4 @@
-import NavLink from "../../model/NavLink";
+import NavLink from "../../../model/NavLink";
 
 export interface NavLinksProps {
     nav: NavLink[];

@@ -1,5 +1,5 @@
-import LanguageSelector, { LanguageSelectorProps } from "../../ui/button/LanguageSelector";
-import NavLinks, { NavLinksProps } from "./NavLinks";
+import LanguageSelector, { LanguageSelectorProps } from "../common/LanguageSelector";
+import NavLinks, { NavLinksProps } from "../common/NavLinks";
 
 interface MobileMenuProps extends LanguageSelectorProps, NavLinksProps {
     menuOpen: boolean;

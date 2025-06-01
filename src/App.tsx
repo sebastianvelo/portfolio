@@ -14,14 +14,14 @@ const App = (props: AppProps) => {
   const { nav, contacts, header } = getAppModel(lang);
 
   return (
-    <Router>
-      <div className={`min-h-screen bg-zinc-100 dark:bg-secondary-900 text-secondary-900 dark:text-white font-sans`}>
+    <div className={`min-h-screen bg-zinc-100 dark:bg-secondary-900 text-secondary-900 dark:text-white font-sans`}>
+      <Router>
         <Nav nav={nav} lang={lang} setLang={setLang} />
         <Header {...header} />
         <Body lang={lang} />
         <Footer {...contacts} />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 };
 
