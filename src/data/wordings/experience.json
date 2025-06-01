@@ -8,7 +8,8 @@
                 "id": "1",
                 "company": "Outlier",
                 "description": "I create user interfaces with TypeScript, HTML, CSS, and Tailwind that serve to train AI models.",
-                "fullDescription": "I train and optimize AI models for frontend development, implementing tasks in TypeScript, HTML, CSS, and Tailwind to create intuitive and responsive user interfaces."
+                "fullDescription": "I train and optimize AI models for frontend development, implementing tasks in TypeScript, HTML, CSS, and Tailwind to create intuitive and responsive user interfaces.",
+                "end": "Now"
             },
             {
                 "id": "2",
@@ -39,7 +40,8 @@
                 "id": "1",
                 "company": "Outlier",
                 "description": "Creo interfaces de usuario con TypeScript, HTML, CSS y Tailwind que sirven para entrenar modelos de IA.",
-                "fullDescription": "Entreno y optimizo modelos de IA para el desarrollo frontend, implementando tareas en TypeScript, HTML, CSS y Tailwind para crear interfaces de usuario intuitivas y útiles."
+                "fullDescription": "Entreno y optimizo modelos de IA para el desarrollo frontend, implementando tareas en TypeScript, HTML, CSS y Tailwind para crear interfaces de usuario intuitivas y útiles.",
+                "end": "Actualidad"
             },
             {
                 "id": "2",

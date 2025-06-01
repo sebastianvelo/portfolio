@@ -29,7 +29,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build && firebase deploy",
-    "build:tailwind": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch",
+    "tw:watch": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch",
     "start": "react-scripts start"
   },
   "browserslist": [

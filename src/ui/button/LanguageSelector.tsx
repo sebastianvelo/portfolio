@@ -35,27 +35,27 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
     <div className="relative" ref={dropdownRef}>
       <button
         type="button"
-        className="flex items-center justify-between w-28 px-3 py-2 text-sm font-medium 
+        className="flex items-center justify-between px-3 py-2 text-sm font-medium 
                    text-secondary-700 dark:text-secondary-300 
                    bg-white dark:bg-secondary-800 
-                   border border-secondary-300 dark:border-secondary-600 
+                   dark:border-primary-100 border border-blue-300 
                    rounded-md shadow-sm 
                    hover:bg-secondary-50 dark:hover:bg-secondary-700 
-                   focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400
+                   focus:outline-none
                    transition-colors duration-200"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="flex items-center">
           <span className="mr-2">{languages[lang].flag}</span>
-          <span>{languages[lang].label}</span>
+          <span className="hidden md:block">{languages[lang].label}</span>
         </span>
-        <span className="text-secondary-500 dark:text-secondary-400">
-          {!isOpen ? <ChevronDownSVG /> : <ChevronUpSVG />}
+        <span className="text-secondary-500 dark:text-secondary-400 ml-2">
+          {isOpen ? <ChevronDownSVG /> : <ChevronUpSVG />}
         </span>
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 z-10 mt-1 w-full 
+        <div className="absolute right-0 z-10 mt-1 w-28 
                         bg-white dark:bg-secondary-800 
                         border border-secondary-200 dark:border-secondary-600 
                         rounded-md shadow-lg dark:shadow-secondary-900/20

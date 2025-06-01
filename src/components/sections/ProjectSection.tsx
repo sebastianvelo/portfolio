@@ -15,7 +15,7 @@ const ProjectSection = (props: ProjectSectionProps) => {
       <p className="text-center text-secondary-600 dark:text-secondary-400 mb-12 max-w-2xl mx-auto">
         {props.description}
       </p>
-      <div className="grid gap-6">
+      <div className="grid md:grid-cols-2 gap-6">
         {props.items.map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}

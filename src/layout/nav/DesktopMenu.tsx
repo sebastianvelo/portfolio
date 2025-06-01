@@ -5,7 +5,7 @@ interface DesktopMenuProps extends LanguageSelectorProps, NavLinksProps { }
 
 const DesktopMenu = (props: DesktopMenuProps) => {
     return (
-        <div className="hidden md:flex space-x-4 items-center">
+        <div className="flex space-x-4 items-center">
             <NavLinks {...props} />
             <LanguageSelector {...props} />
         </div>

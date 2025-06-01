@@ -3,7 +3,7 @@ interface ExperienceItem {
     company: string;
     position: string;
     start: number;
-    end?: number;
+    end?: number | string;
     image: string;
     description: string;
     fullDescription?: string;

@@ -1,9 +1,9 @@
-import { ContactItemProps } from "../../model/ContactSectionProps";
 import GithubSVG from "../../ui/svg/GithubSVG";
+import GlobeSVG from "../../ui/svg/GlobeSVG";
 import LinkedInSVG from "../../ui/svg/LinkedInSVG";
 import MailSVG from "../../ui/svg/MailSVG";
 
-const ContactIcon = (props: ContactItemProps) => {
+const SocialIcon = (props: { id: string }) => {
     switch (props.id) {
         case "linkedin":
             return <LinkedInSVG />;
@@ -11,9 +11,11 @@ const ContactIcon = (props: ContactItemProps) => {
             return <GithubSVG />;
         case "mail":
             return <MailSVG />;
+        case "portfolio":
+            return <GlobeSVG />;
         default:
             return null;
     }
 };
 
-export default ContactIcon;
+export default SocialIcon;

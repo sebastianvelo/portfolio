@@ -17,11 +17,7 @@ const CardFront = (props: ExperienceCardProps) => (
   <FlipCardSide>
     <div className="p-5 h-full flex flex-col">
       <div className="flex items-center mb-4">
-        <img
-          src={props.image}
-          alt={props.company}
-          className="w-12 h-12 rounded-md mr-4 object-contain"
-        />
+        <img src={props.image} alt={props.company} className="w-12 h-12 rounded-md mr-4 object-contain" />
         <div>
           <h3 className="font-bold text-lg">{props.company}</h3>
           <p className="text-secondary-600 dark:text-secondary-300">{props.position}</p>

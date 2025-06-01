@@ -13,6 +13,13 @@
             "color": "bg-gradient-to-r hover:from-gray-100 hover:via-gray-200 hover:to-gray-100",
             "image": "https://github.com/SebastianVelo/portfolio-static/blob/main/img/contact/github.png?raw=true",
             "url": "https://github.com/sebastianvelo"
+        },
+        {
+            "id": "portfolio",
+            "name": "portfolio",
+            "url": "https://sebastian-velo.web.app/",
+            "color": "",
+            "image": ""
         }
     ]
 }

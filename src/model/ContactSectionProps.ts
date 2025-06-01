@@ -2,9 +2,9 @@ export interface ContactItemProps {
     id: string;
     name: string;
     label: string;
+    url: string;
     color: string;
     image: string;
-    url: string;
 }
 
 interface ContactSectionProps {

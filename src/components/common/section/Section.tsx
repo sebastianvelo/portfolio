@@ -7,7 +7,7 @@ interface SectionProps {
 
 const Section = (props: SectionProps) => {
     return (
-        <section id={props.id} className="py-8 px-4 md:px-8 max-w-6xl mx-auto">
+        <section id={props.id} className="py-8 px-4 md:px-8 max-w-6xl mx-auto mb-16">
             {props.children}
         </section>
     );

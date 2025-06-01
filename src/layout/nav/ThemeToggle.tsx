@@ -16,7 +16,7 @@ const ThemeToggle = () => {
         <button
             onClick={toggleDarkMode}
             aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
-            className="p-2 rounded-lg bg-secondary-200 dark:bg-secondary-800 hover:bg-secondary-300 dark:hover:bg-secondary-700 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500"
+            className="p-2 rounded-full dark:ring-primary-100 ring ring-blue-300 bg-secondary-100/80 text-blue-400 dark:bg-secondary-700/80 dark:text-primary-100 hover:bg-secondary-100 dark:hover:bg-secondary-700 transition-colors focus:outline-none"
         >
             {darkMode ? <SunSVG /> : <MoonSVG />}
         </button>
