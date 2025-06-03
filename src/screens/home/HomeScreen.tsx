@@ -1,4 +1,3 @@
-import { useRef, useState } from "react";
 import TabContainer from "../../components/common/tab/TabContainer";
 import EducationSection from "../../components/sections/EducationSection";
 import ExperienceSection from "../../components/sections/ExperienceSection";
