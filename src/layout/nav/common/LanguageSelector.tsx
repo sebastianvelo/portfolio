@@ -33,7 +33,7 @@ const LanguageSelector = ({ lang, setLang }: LanguageSelectorProps) => {
 
   return (
     <div className="relative" ref={dropdownRef}>
-      <button type="button" className="flex items-center justify-between px-3 py-2 text-sm font-medium text-secondary-700 dark:text-secondary-300 bg-white dark:bg-secondary-900 dark:border-primary-200 border border-primary-300 rounded-md shadow-sm hover:bg-secondary-50 dark:hover:bg-secondary-700 focus:outline-nonetransition-colors duration-200" onClick={() => setIsOpen(!isOpen)}>
+      <button type="button" className="flex items-center justify-between px-3 py-2 text-sm font-medium text-secondary-700 dark:text-secondary-300 bg-white dark:bg-secondary-900 rounded-md shadow-sm hover:bg-secondary-50 dark:hover:bg-secondary-700 focus:outline-nonetransition-colors duration-200" onClick={() => setIsOpen(!isOpen)}>
         <span className="flex items-center">
           <span className="mr-2">{languages[lang].flag}</span>
           <span className="hidden md:block">{languages[lang].label}</span>

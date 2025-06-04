@@ -1,14 +1,5 @@
 const SunSVG = () => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="20"
-        height="20"
-        fill="currentColor"
-        className="sun-svg"
-        viewBox="0 0 16 16"
-    >
-        <path d="M8 4.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zM8 0a.5.5 0 0 1 .5.5V2a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 8 0zm0 14a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V14.5a.5.5 0 0 1 .5-.5zm8-6a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1 0-1H15.5a.5.5 0 0 1 .5.5zm-14 0a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1 0-1H1.5a.5.5 0 0 1 .5.5zm11.364-5.364a.5.5 0 0 1 0 .707l-1.06 1.06a.5.5 0 1 1-.707-.707l1.06-1.06a.5.5 0 0 1 .707 0zm-8.485 8.485a.5.5 0 0 1 0 .707L3.22 13.222a.5.5 0 1 1-.707-.707l1.06-1.06a.5.5 0 0 1 .707 0zm8.485 1.06a.5.5 0 0 1-.707 0l-1.06-1.06a.5.5 0 1 1 .707-.707l1.06 1.06a.5.5 0 0 1 0 .707zm-8.485-8.485a.5.5 0 0 1-.707 0L2.22 3.22a.5.5 0 0 1 .707-.707l1.06 1.06a.5.5 0 0 1 0 .707z" />
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-sun" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
 );
 
 export default SunSVG;
