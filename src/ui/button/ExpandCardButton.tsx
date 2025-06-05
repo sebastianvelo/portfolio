@@ -1,4 +1,4 @@
-import ExpandSVG from "../svg/ExpandIcon";
+import ExpandSVG from "../svg/ExpandSVG";
 
 interface ExpandButtonProps {
     hasOverflow: boolean;

@@ -14,7 +14,7 @@ const App = (props: AppProps) => {
   const { nav, contacts, header } = getAppModel(lang);
 
   return (
-    <div className={`min-h-screen bg-zinc-100 dark:bg-secondary-900 text-secondary-900 dark:text-white font-sans`}>
+    <div className={`min-h-screen bg-gradient-to-b from-secondary-200 via-secondary-100 to-white dark:from-black dark:via-secondary-950 dark:to-black text-secondary-900 dark:text-white font-sans`}>
       <Router>
         <Nav nav={nav} lang={lang} setLang={setLang} />
         <Header {...header} />

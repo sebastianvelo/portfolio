@@ -11,6 +11,7 @@ module.exports = {
             colors: {
                 primary: defaultColors.indigo,
                 secondary: defaultColors.slate,
+                accent: defaultColors.blue
             },
             fontFamily: {
                 jetbrains: ['JetBrains Mono', 'monospace'],
